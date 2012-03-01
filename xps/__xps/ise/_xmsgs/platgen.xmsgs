@@ -83,7 +83,7 @@
 <msg type="warning" file="EDK" num="2099" delta="old" >PORT:<arg fmt="%s" index="1">bscan_drck1</arg> CONNECTOR:<arg fmt="%s" index="2">bscan_drck1</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm_v2_1_0.mpd line 229</arg> - floating connection!
 </msg>
 
-<msg type="warning" file="EDK" num="2099" delta="old" >PORT:<arg fmt="%s" index="1">Peripheral_Reset</arg> CONNECTOR:<arg fmt="%s" index="2">sys_periph_reset</arg> - <arg fmt="%s" index="3">C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 129</arg> - floating connection!
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">Peripheral_Reset</arg> CONNECTOR:<arg fmt="%s" index="2">sys_periph_reset</arg> - <arg fmt="%s" index="3">C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 130</arg> - floating connection!
 </msg>
 
 <msg type="info" file="EDK" num="1560" delta="old" >IPNAME:<arg fmt="%s" index="1">microblaze</arg> INSTANCE:<arg fmt="%s" index="2">microblaze_0</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\data\microblaze_v2_1_0.mpd line 217</arg> - <arg fmt="%s" index="4">tcl</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_D_PLB</arg> value to <arg fmt="%s" index="7">1</arg>

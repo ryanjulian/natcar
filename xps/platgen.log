@@ -5,7 +5,7 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Command Line: platgen -p xc6slx45csg324-2 -lang vhdl -toplevel no -ti system_i
 -msg __xps/ise/xmsgprops.lst system.mhs 
 
-Parse C:/Users/Ryan/Desktop/ee192/team10/trunk/mb/mb-ee192/system.mhs ...
+Parse C:/Users/Ryan/Desktop/ee192/natcar/xps/system.mhs ...
 
 Read MPD definitions ...
 
@@ -75,14 +75,12 @@ Checking platform address map ...
 
 Checking platform configuration ...
 IPNAME:plb_v46 INSTANCE:mb_plb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 42 - 2
-master(s) : 3 slave(s)
-IPNAME:lmb_v10 INSTANCE:ilmb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 49 - 1
-master(s) : 1 slave(s)
-IPNAME:lmb_v10 INSTANCE:dlmb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 56 - 1
-master(s) : 1 slave(s)
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 42 - 2 master(s) : 3
+slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 49 - 1 master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 56 - 1 master(s) : 1 slave(s)
 
 Checking port drivers...
 WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
@@ -134,8 +132,8 @@ WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
    _v2_1_0.mpd line 229 - floating connection!
 WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
-   C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 129 -
-   floating connection!
+   C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 130 - floating
+   connection!
 
 Performing Clock DRCs...
 
@@ -212,56 +210,51 @@ Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
 IPNAME:microblaze INSTANCE:microblaze_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 28 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 28 - Copying cache
+implementation netlist
 IPNAME:plb_v46 INSTANCE:mb_plb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 42 -
-Copying cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:ilmb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 49 -
-Copying cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:dlmb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 56 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 42 - Copying cache
+implementation netlist
+IPNAME:lmb_v10 INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 49 - Copying cache implementation netlist
+IPNAME:lmb_v10 INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 56 - Copying cache implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 63 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 63 - Copying cache
+implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 72 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 72 - Copying cache
+implementation netlist
 IPNAME:bram_block INSTANCE:lmb_bram -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 81 -
-Copying cache implementation netlist
-IPNAME:mdm INSTANCE:mdm_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 103 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 81 - Copying cache
+implementation netlist
+IPNAME:mdm INSTANCE:mdm_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 103 - Copying cache implementation netlist
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 119 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 120 - Copying cache
+implementation netlist
 IPNAME:xps_gpio INSTANCE:xps_gpio_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 132 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 133 - Copying cache
+implementation netlist
 IPNAME:xps_timer INSTANCE:xps_timer_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 141 -
-Copying cache implementation netlist
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 142 - Copying cache
+implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 81 -
-elaborating IP
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 81 - elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 88 -
-elaborating IP
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 88 - elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -274,15 +267,13 @@ Running XST synthesis ...
 INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:clock_generator_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 88 -
-Running XST synthesis
+INSTANCE:clock_generator_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 88 - Running XST synthesis
 
 Running NGCBUILD ...
 IPNAME:clock_generator_0_wrapper INSTANCE:clock_generator_0 -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\system.mhs line 88 -
-Running NGCBUILD
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 88 - Running NGCBUILD
 
 Rebuilding cache ...
 
-Total run time: 21.00 seconds
+Total run time: 25.00 seconds

@@ -4,8 +4,8 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe
 ./system.ngc ../implementation/system.ngc -sd ../implementation -i
 
-Reading NGO file
-"C:/Users/Ryan/Desktop/ee192/team10/trunk/mb/mb-ee192/synthesis/system.ngc" ...
+Reading NGO file "C:/Users/Ryan/Desktop/ee192/natcar/xps/synthesis/system.ngc"
+...
 Loading design module "../implementation/clock_generator_0_wrapper.ngc"...
 Loading design module "../implementation/proc_sys_reset_0_wrapper.ngc"...
 Loading design module "../implementation/mdm_0_wrapper.ngc"...
@@ -30,10 +30,10 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 120136 kilobytes
+Total memory usage is 119944 kilobytes
 
 Writing NGC file "../implementation/system.ngc" ...
-Total REAL time to NGCBUILD completion:  4 sec
+Total REAL time to NGCBUILD completion:  3 sec
 Total CPU time to NGCBUILD completion:   3 sec
 
 Writing NGCBUILD log file "../implementation/system.blc"...

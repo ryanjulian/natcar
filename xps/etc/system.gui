@@ -71,7 +71,9 @@
       <SET ID="gpio_0" IS_EXPANDED="TRUE"/>
     </SET>
     <STATUS>
-      <SELECTIONS/>
+      <SELECTIONS>
+        <VARIABLE ID="reset" PARENT="ExternalPorts"/>
+      </SELECTIONS>
     </STATUS>
     <SEQUENCES IS_DEF_SEQUENCES="FALSE">
       <VARIABLE ID="ExternalPorts" IS_EXPANDED="TRUE" ROW_INDEX="0"/>

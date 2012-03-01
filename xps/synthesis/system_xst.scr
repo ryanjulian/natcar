@@ -11,4 +11,4 @@ run
 -iobuf NO
 -max_fanout 10000
 -sd {../implementation}
--vlgincdir {"C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+-vlgincdir {"C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

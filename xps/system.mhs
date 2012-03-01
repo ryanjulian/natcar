@@ -114,6 +114,7 @@ BEGIN mdm
  PORT TMS = mdm_0_TMS
  PORT extTDI = mdm_0_extTDI
  PORT extTDO = mdm_0_extTDO
+ PORT Clk = clk_50_0000MHz
 END
 
 BEGIN proc_sys_reset

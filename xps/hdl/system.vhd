@@ -2292,7 +2292,7 @@ begin
       Ext_JTAG_UPDATE => open,
       Ext_JTAG_TDI => open,
       Ext_JTAG_TDO => net_gnd0,
-      Clk => net_gnd0,
+      Clk => clk_50_0000MHz,
       TCK => mdm_0_TCK,
       TMS => mdm_0_TMS,
       extTDI => mdm_0_extTDI,

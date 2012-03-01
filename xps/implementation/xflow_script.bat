@@ -6,5 +6,5 @@
 @REM #
 @REM # Command line for ngdbuild
 @REM #
-ngdbuild -p xc6slx45csg324-2 -nt timestamp -bm system.bmm "C:/Users/Ryan/Desktop/ee192/team10/trunk/xps/implementation/system.ngc" -uc system.ucf system.ngd 
+ngdbuild -p xc6slx45csg324-2 -nt timestamp -bm system.bmm "C:/Users/Ryan/Desktop/ee192/natcar/xps/implementation/system.ngc" -uc system.ucf system.ngd 
 
