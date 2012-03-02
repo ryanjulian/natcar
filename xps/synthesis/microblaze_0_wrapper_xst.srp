@@ -29,7 +29,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "microblaze_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-2
@@ -335,7 +335,7 @@ Parsing architecture <IMP> of entity <mmu>.
 Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_00_b/hdl/vhdl/microblaze.vhd" into library microblaze_v8_00_b
 Parsing entity <MicroBlaze>.
 Parsing architecture <IMP> of entity <microblaze>.
-Parsing VHDL file "\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\synthesis\../hdl/microblaze_0_wrapper.vhd" into library work
+Parsing VHDL file "\Users\Ryan\Desktop\ee192\natcar\xps\synthesis\../hdl/microblaze_0_wrapper.vhd" into library work
 Parsing entity <microblaze_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <microblaze_0_wrapper>.
 
@@ -469,7 +469,7 @@ Elaborating entity <MMU> (architecture <IMP>) with generics from library <microb
 =========================================================================
 
 Synthesizing Unit <microblaze_0_wrapper>.
-    Related source file is "/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/microblaze_0_wrapper.vhd".
+    Related source file is "/users/ryan/desktop/ee192/natcar/xps/hdl/microblaze_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <microblaze_0_wrapper> synthesized.
@@ -477,7 +477,7 @@ Unit <microblaze_0_wrapper> synthesized.
 Synthesizing Unit <MicroBlaze>.
     Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/microblaze_v8_00_b/hdl/vhdl/microblaze.vhd".
         C_SCO = 0
-        C_FREQ = 50000000
+        C_FREQ = 40000000
         C_FAULT_TOLERANT = 0
         C_ECC_USE_CE_EXCEPTION = 0
         C_ENDIANNESS = 0
@@ -3558,12 +3558,12 @@ DCACHE_FSL_OUT_CLK|    9.004|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 62.00 secs
-Total CPU time to Xst completion: 62.04 secs
+Total REAL time to Xst completion: 55.00 secs
+Total CPU time to Xst completion: 55.19 secs
  
 --> 
 
-Total memory usage is 291184 kilobytes
+Total memory usage is 289392 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  831 (   0 filtered)

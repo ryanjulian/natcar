@@ -81,7 +81,7 @@
 			<Property Name="crio.Type" Type="Str">sbRIO-9606</Property>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{17DED467-1C30-4E6A-9A91-FC6093255ADF}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{17EAB0C9-7A44-4FD6-BF5C-234E873F2E08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=bool{1F8797BD-99E3-4E9C-AC14-5E6EE94853EA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=bool{2868BEE0-D9D6-49E9-B96B-3CB18E2CE9E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=bool{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3622792B-CF32-4943-B11B-3D73BE0A4CD7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=bool{3DF90D19-49A6-450E-961A-308AB5A19CB3}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32{4269C7EB-A94F-47D3-9ED1-18FE96F3AA17}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=bool{55C6705B-DD32-4E3C-A949-D63EF3AB4565}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=bool{64BFBE0D-FBC0-4590-AEC5-3200F8B38EDE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=bool{6A131468-955D-42E1-80C5-7C8EA684745F}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{8792B59D-4180-4FDF-B3A1-75DC6202AB71}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=bool{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{8B8AEB96-A467-4F1A-AFF9-506E23CECFD0}Multiplier=5.000000;Divisor=4.000000{A05E98F6-BECB-418E-B9E7-B652B507B250}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{A83927E6-A1C6-46B7-BA2D-469CABE47C53}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool{AECF18E6-5CB0-419D-AFED-6156863EDB35}resource=/Chassis Temperature;0;ReadMethodType=i16{C854FF8F-12F0-4120-B550-EFBEBD1B1316}56c3809fe518c3e9c5990db4b63bda747111fd6b533ff690844b9cb1938545e282890cc18c8ce08bb5380fab20f679a68505655ca0f04f0bc93b8845b43b165487cbf2dd1ae26049a3e30b377f06d6458b976fc3290d4af2ad466152dba9c655a27b2e74f37f1a9e16363dff6bf71a57b0e320f5e2053f723e7afaebf22eacb9bf0cd8d8d990d0392125b879f00e5830c396f2a30c85c088d99dc553dde298a2c82d6ccefb1ef0a2fc0446225d98d4eed3580ddc4e46ac01502c53f93030aab1da52a9a439c4156e0d312766142ba302fe33801c3eca67c2048adc411d8dbfa8&lt;Array&gt;
+				<Property Name="configString.guid" Type="Str">{17DED467-1C30-4E6A-9A91-FC6093255ADF}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{17EAB0C9-7A44-4FD6-BF5C-234E873F2E08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=bool{1F8797BD-99E3-4E9C-AC14-5E6EE94853EA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=bool{2868BEE0-D9D6-49E9-B96B-3CB18E2CE9E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=bool{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3622792B-CF32-4943-B11B-3D73BE0A4CD7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=bool{3DF90D19-49A6-450E-961A-308AB5A19CB3}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32{4269C7EB-A94F-47D3-9ED1-18FE96F3AA17}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=bool{55C6705B-DD32-4E3C-A949-D63EF3AB4565}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=bool{64BFBE0D-FBC0-4590-AEC5-3200F8B38EDE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=bool{6A131468-955D-42E1-80C5-7C8EA684745F}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{8792B59D-4180-4FDF-B3A1-75DC6202AB71}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=bool{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{A05E98F6-BECB-418E-B9E7-B652B507B250}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{A83927E6-A1C6-46B7-BA2D-469CABE47C53}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool{AECF18E6-5CB0-419D-AFED-6156863EDB35}resource=/Chassis Temperature;0;ReadMethodType=i16{C854FF8F-12F0-4120-B550-EFBEBD1B1316}40e4768e95c10d464875135721f9e290463beaecb90905d14b4ab9322b4f12045bd4302bc48bb668f6f8995fd17f5e856ffe4c9125fdc0fbc7321802625205f771d36ca1cdee6b62b6ed9662e0ca16858f8b223172edea94dcdd53e6a1476aef97f11792d275b81e01afc06e3f37f2779c285bf30d387cdfefcb28d006d1cb05a27b2e74f37f1a9e16363dff6bf71a57a793dd03204a94d2db33e16894e5efadc396f2a30c85c088d99dc553dde298a2da52a9a439c4156e0d312766142ba302dda09cf8fcae78e174c73242a92762e2ed85c57df3342b53c9ddce8dc62b7180&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -110,7 +110,7 @@
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 {D7532765-79A7-43F2-A791-515C70577DCC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{DDC8CD1E-74B0-4917-8E26-E90467B0AA96}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{DF226E99-8EE3-4A41-B10F-DA3B2B08441A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{EA8153E5-BAA7-489F-9FAF-D9EB80650CF4}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=bool{EFF580F7-DD4D-4C9F-8320-48E2AA2F3928}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO1;0;ReadMethodType=bool;WriteMethodType=boolsbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E50MHzMultiplier=5.000000;Divisor=4.000000BRAKEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16ENABLEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolGOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolmdm_0_extTDI_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=boolmdm_0_extTDO_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=boolmdm_0_TCK_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=boolmdm_0_TMS_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=boolmicroblaze56c3809fe518c3e9c5990db4b63bda747111fd6b533ff690844b9cb1938545e282890cc18c8ce08bb5380fab20f679a68505655ca0f04f0bc93b8845b43b165487cbf2dd1ae26049a3e30b377f06d6458b976fc3290d4af2ad466152dba9c655a27b2e74f37f1a9e16363dff6bf71a57b0e320f5e2053f723e7afaebf22eacb9bf0cd8d8d990d0392125b879f00e5830c396f2a30c85c088d99dc553dde298a2c82d6ccefb1ef0a2fc0446225d98d4eed3580ddc4e46ac01502c53f93030aab1da52a9a439c4156e0d312766142ba302fe33801c3eca67c2048adc411d8dbfa8&lt;Array&gt;
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EBRAKEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16ENABLEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolGOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolmdm_0_extTDI_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=boolmdm_0_extTDO_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=boolmdm_0_TCK_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=boolmdm_0_TMS_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=boolmicroblaze40e4768e95c10d464875135721f9e290463beaecb90905d14b4ab9322b4f12045bd4302bc48bb668f6f8995fd17f5e856ffe4c9125fdc0fbc7321802625205f771d36ca1cdee6b62b6ed9662e0ca16858f8b223172edea94dcdd53e6a1476aef97f11792d275b81e01afc06e3f37f2779c285bf30d387cdfefcb28d006d1cb05a27b2e74f37f1a9e16363dff6bf71a57a793dd03204a94d2db33e16894e5efadc396f2a30c85c088d99dc553dde298a2da52a9a439c4156e0d312766142ba302dda09cf8fcae78e174c73242a92762e2ed85c57df3342b53c9ddce8dc62b7180&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -149,105 +149,105 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <CLIPDeclarationCategory name="User Defined">
       <CLIPDeclaration name="MicroBlaze">
          <DeclarationPaths>
-            <Absolute>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</Absolute>
-            <MD5>d3580ddc4e46ac01502c53f93030aab1</MD5>
-            <RelativeToLabVIEW>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToNiPubDocs>
-            <RelativeToNiSharedDir>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToNiSharedDir>
+            <Absolute>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</Absolute>
+            <MD5>40e4768e95c10d464875135721f9e290</MD5>
+            <RelativeToLabVIEW>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</RelativeToNiPubDocs>
+            <RelativeToNiSharedDir>..\..\..\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</RelativeToNiSharedDir>
             <RelativeToProject>CLIP\ublaze.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <FormatVersion>1.0</FormatVersion>
          <HDLName>system</HDLName>
          <ImplementationList>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_timer_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\system.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\proc_sys_reset_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\microblaze_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mdm_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mb_plb_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\lmb_bram_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_cntlr_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_cntlr_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\clock_generator_0_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_timer_0_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\system.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\proc_sys_reset_0_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\microblaze_0_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mdm_0_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mb_plb_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\lmb_bram_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_cntlr_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_cntlr_wrapper.ngc</Path>
+            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\clock_generator_0_wrapper.ngc</Path>
             <VerifiedImplementationList>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\clock_generator_0_wrapper.ngc">
-                  <MD5>bf0cd8d8d990d0392125b879f00e5830</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\clock_generator_0_wrapper.ngc">
+                  <MD5>8f8b223172edea94dcdd53e6a1476aef</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_timer_0_wrapper.ngc">
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_timer_0_wrapper.ngc">
                   <MD5>da52a9a439c4156e0d312766142ba302</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_gpio_0_wrapper.ngc">
-                  <MD5>87cbf2dd1ae26049a3e30b377f06d645</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_0_wrapper.ngc">
+                  <MD5>5bd4302bc48bb668f6f8995fd17f5e85</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\system.ngc">
-                  <MD5>82890cc18c8ce08bb5380fab20f679a6</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\system.ngc">
+                  <MD5>ed85c57df3342b53c9ddce8dc62b7180</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\proc_sys_reset_0_wrapper.ngc">
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\proc_sys_reset_0_wrapper.ngc">
                   <MD5>a27b2e74f37f1a9e16363dff6bf71a57</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\microblaze_0_wrapper.ngc">
-                  <MD5>fe33801c3eca67c2048adc411d8dbfa8</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\microblaze_0_wrapper.ngc">
+                  <MD5>dda09cf8fcae78e174c73242a92762e2</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mdm_0_wrapper.ngc">
-                  <MD5>8b976fc3290d4af2ad466152dba9c655</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mdm_0_wrapper.ngc">
+                  <MD5>6ffe4c9125fdc0fbc7321802625205f7</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mb_plb_wrapper.ngc">
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mb_plb_wrapper.ngc">
                   <MD5>c396f2a30c85c088d99dc553dde298a2</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\lmb_bram_wrapper.ngc">
-                  <MD5>c82d6ccefb1ef0a2fc0446225d98d4ee</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\lmb_bram_wrapper.ngc">
+                  <MD5>97f11792d275b81e01afc06e3f37f277</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_wrapper.ngc">
-                  <MD5>b0e320f5e2053f723e7afaebf22eacb9</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_wrapper.ngc">
+                  <MD5>463beaecb90905d14b4ab9322b4f1204</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_cntlr_wrapper.ngc">
-                  <MD5>8505655ca0f04f0bc93b8845b43b1654</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_cntlr_wrapper.ngc">
+                  <MD5>9c285bf30d387cdfefcb28d006d1cb05</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_wrapper.ngc">
-                  <MD5>7111fd6b533ff690844b9cb1938545e2</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_wrapper.ngc">
+                  <MD5>71d36ca1cdee6b62b6ed9662e0ca1685</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_cntlr_wrapper.ngc">
-                  <MD5>56c3809fe518c3e9c5990db4b63bda74</MD5>
+               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_cntlr_wrapper.ngc">
+                  <MD5>a793dd03204a94d2db33e16894e5efad</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
@@ -660,16 +660,6 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
-					<Item Name="50MHz" Type="FPGA Derived Clock">
-						<Property Name="FPGA.PersistentID" Type="Str">{8B8AEB96-A467-4F1A-AFF9-506E23CECFD0}</Property>
-						<Property Name="NI.LV.FPGA.DerivedConfig" Type="Str">Multiplier=5.000000;Divisor=4.000000</Property>
-						<Property Name="NI.LV.FPGA.DerivedConfig.Divisor" Type="Dbl">4</Property>
-						<Property Name="NI.LV.FPGA.DerivedConfig.FromExternalClock" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.DerivedConfig.Multiplier" Type="Dbl">5</Property>
-						<Property Name="NI.LV.FPGA.DerivedConfig.ParentFrequencyInHertz" Type="Dbl">40000000</Property>
-						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-						<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
-					</Item>
 				</Item>
 				<Item Name="MezzanineCard" Type="RIO Mezzanine Card">
 					<Property Name="crio.Type" Type="Str">Digital</Property>
@@ -682,7 +672,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
       <ClockFromCLIP>false</ClockFromCLIP>
       <Direction>ToCLIP</Direction>
       <HDLName>clk</HDLName>
-      <LinkToFPGAClock>50MHz</LinkToFPGAClock>
+      <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
       <MaxFreq>125000000.0000</MaxFreq>
       <MinFreq>1000000.000000</MinFreq>
       <UseTopClock>false</UseTopClock>
@@ -694,7 +684,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str"></Property>
 					<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
 					<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
-					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">56c3809fe518c3e9c5990db4b63bda747111fd6b533ff690844b9cb1938545e282890cc18c8ce08bb5380fab20f679a68505655ca0f04f0bc93b8845b43b165487cbf2dd1ae26049a3e30b377f06d6458b976fc3290d4af2ad466152dba9c655a27b2e74f37f1a9e16363dff6bf71a57b0e320f5e2053f723e7afaebf22eacb9bf0cd8d8d990d0392125b879f00e5830c396f2a30c85c088d99dc553dde298a2c82d6ccefb1ef0a2fc0446225d98d4eed3580ddc4e46ac01502c53f93030aab1da52a9a439c4156e0d312766142ba302fe33801c3eca67c2048adc411d8dbfa8&lt;Array&gt;
+					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">40e4768e95c10d464875135721f9e290463beaecb90905d14b4ab9322b4f12045bd4302bc48bb668f6f8995fd17f5e856ffe4c9125fdc0fbc7321802625205f771d36ca1cdee6b62b6ed9662e0ca16858f8b223172edea94dcdd53e6a1476aef97f11792d275b81e01afc06e3f37f2779c285bf30d387cdfefcb28d006d1cb05a27b2e74f37f1a9e16363dff6bf71a57a793dd03204a94d2db33e16894e5efadc396f2a30c85c088d99dc553dde298a2da52a9a439c4156e0d312766142ba302dda09cf8fcae78e174c73242a92762e2ed85c57df3342b53c9ddce8dc62b7180&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -829,17 +819,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
-					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-					<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
-					<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-					<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-					<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-					<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
-					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Top-Level" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>

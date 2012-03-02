@@ -1337,7 +1337,7 @@ begin
   microblaze_0 : microblaze
     generic map (
       C_SCO => 0,
-      C_FREQ => 50000000,
+      C_FREQ => 40000000,
       C_DATA_SIZE => 32,
       C_DYNAMIC_BUS_SIZING => 1,
       C_FAMILY => "spartan6",
