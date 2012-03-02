@@ -149,105 +149,105 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <CLIPDeclarationCategory name="User Defined">
       <CLIPDeclaration name="MicroBlaze">
          <DeclarationPaths>
-            <Absolute>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</Absolute>
-            <MD5>40e4768e95c10d464875135721f9e290</MD5>
-            <RelativeToLabVIEW>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</RelativeToNiPubDocs>
-            <RelativeToNiSharedDir>..\..\..\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\ublaze.xml</RelativeToNiSharedDir>
+            <Absolute>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</Absolute>
+            <MD5>d3580ddc4e46ac01502c53f93030aab1</MD5>
+            <RelativeToLabVIEW>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToNiPubDocs>
+            <RelativeToNiSharedDir>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToNiSharedDir>
             <RelativeToProject>CLIP\ublaze.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <FormatVersion>1.0</FormatVersion>
          <HDLName>system</HDLName>
          <ImplementationList>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_timer_0_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\system.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\proc_sys_reset_0_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\microblaze_0_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mdm_0_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mb_plb_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\lmb_bram_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_cntlr_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_cntlr_wrapper.ngc</Path>
-            <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\clock_generator_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_timer_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\system.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\proc_sys_reset_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\microblaze_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mdm_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mb_plb_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\lmb_bram_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_cntlr_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_cntlr_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\clock_generator_0_wrapper.ngc</Path>
             <VerifiedImplementationList>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\clock_generator_0_wrapper.ngc">
-                  <MD5>8f8b223172edea94dcdd53e6a1476aef</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\clock_generator_0_wrapper.ngc">
+                  <MD5>0f923dcca88717218a02d44f5920efca</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_timer_0_wrapper.ngc">
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_timer_0_wrapper.ngc">
                   <MD5>da52a9a439c4156e0d312766142ba302</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_0_wrapper.ngc">
-                  <MD5>5bd4302bc48bb668f6f8995fd17f5e85</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_gpio_0_wrapper.ngc">
+                  <MD5>87cbf2dd1ae26049a3e30b377f06d645</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\system.ngc">
-                  <MD5>ed85c57df3342b53c9ddce8dc62b7180</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\system.ngc">
+                  <MD5>673dfb3654c02a2c89fe705b72a4ce21</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\proc_sys_reset_0_wrapper.ngc">
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\proc_sys_reset_0_wrapper.ngc">
                   <MD5>a27b2e74f37f1a9e16363dff6bf71a57</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\microblaze_0_wrapper.ngc">
-                  <MD5>dda09cf8fcae78e174c73242a92762e2</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\microblaze_0_wrapper.ngc">
+                  <MD5>d890940550aab9c9eb2c031123859943</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mdm_0_wrapper.ngc">
-                  <MD5>6ffe4c9125fdc0fbc7321802625205f7</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mdm_0_wrapper.ngc">
+                  <MD5>8b976fc3290d4af2ad466152dba9c655</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mb_plb_wrapper.ngc">
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mb_plb_wrapper.ngc">
                   <MD5>c396f2a30c85c088d99dc553dde298a2</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\lmb_bram_wrapper.ngc">
-                  <MD5>97f11792d275b81e01afc06e3f37f277</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\lmb_bram_wrapper.ngc">
+                  <MD5>c82d6ccefb1ef0a2fc0446225d98d4ee</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_wrapper.ngc">
-                  <MD5>463beaecb90905d14b4ab9322b4f1204</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_wrapper.ngc">
+                  <MD5>b0e320f5e2053f723e7afaebf22eacb9</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_cntlr_wrapper.ngc">
-                  <MD5>9c285bf30d387cdfefcb28d006d1cb05</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_cntlr_wrapper.ngc">
+                  <MD5>8505655ca0f04f0bc93b8845b43b1654</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_wrapper.ngc">
-                  <MD5>71d36ca1cdee6b62b6ed9662e0ca1685</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_wrapper.ngc">
+                  <MD5>7111fd6b533ff690844b9cb1938545e2</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_cntlr_wrapper.ngc">
-                  <MD5>a793dd03204a94d2db33e16894e5efad</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_cntlr_wrapper.ngc">
+                  <MD5>56c3809fe518c3e9c5990db4b63bda74</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
@@ -819,7 +819,17 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="Dependencies" Type="Dependencies">
+					<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
+					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
+					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
+					<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
+					<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
+					<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
+					<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
+					<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
+					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Top-Level" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
