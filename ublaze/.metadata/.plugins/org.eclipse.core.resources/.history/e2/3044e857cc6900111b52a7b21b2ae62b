@@ -60,15 +60,15 @@ int main()
 
 	while( 1 ) {
 
-		A = LvFpga_ReadControl_U32( &Top_Level, AI0 );
-		B = LvFpga_ReadControl_U32( &Top_Level, AI1 );
-		C = LvFpga_ReadControl_U32( &Top_Level, AI2 );
-		D = LvFpga_ReadControl_U32( &Top_Level, AI3 );
+		A = LvFpga_ReadControl_U32( &Top_Level, Control_A );
+		B = LvFpga_ReadControl_U32( &Top_Level, Control_B );
+		C = LvFpga_ReadControl_U32( &Top_Level, Control_C );
+		D = LvFpga_ReadControl_U32( &Top_Level, Control_D );
 
-		xil_printf("AI0: %d\n", A);
-		xil_printf("AI1: %d\n", B);
-		xil_printf("AI2: %d\n", C);
-		xil_printf("AI3: %d\n", D);
+		xil_printf("Control A: %d\n", A);
+		xil_printf("Control B: %d\n", B);
+		xil_printf("Control C: %d\n", C);
+		xil_printf("Control D: %d\n", D);
 
 		xil_printf("Indicator A: %d\n", 1);
 		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_A, 1 );

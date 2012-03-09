@@ -17,7 +17,7 @@ C_DEPS += \
 src/lvfpga/%.o: ../src/lvfpga/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MicroBlaze gcc compiler'
-	mb-gcc -Wall -O0 -g3 -I../../microblaze_bsp/microblaze_0/include -I"C:\Users\Ryan\Desktop\ee192\natcar\ublaze\natcar\src\lvfpga" -c -fmessage-length=0 -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b -mno-xl-soft-mul -mhard-float -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	mb-gcc -Wall -O0 -g3 -I../../microblaze_bsp/microblaze_0/include -c -fmessage-length=0 -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b -mno-xl-soft-mul -mhard-float -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
