@@ -22,6 +22,7 @@ Address Map for Processor microblaze_0
   (0x81400000-0x8140ffff) xps_gpio_0	mb_plb
   (0x83c00000-0x83c0ffff) xps_timer_0	mb_plb
   (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc0400000-0xc040ffff) ipic_test_0	mb_plb
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
@@ -29,7 +30,7 @@ INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
-   C_PLBV46_NUM_SLAVES value to 3
+   C_PLBV46_NUM_SLAVES value to 4
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
@@ -70,17 +71,28 @@ INFO:EDK:1560 - IPNAME:xps_timer INSTANCE:xps_timer_0 -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_timer_v1_02_a\da
    ta\xps_timer_v2_1_0.mpd line 78 - tool is overriding PARAMETER
    C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:ipic_test INSTANCE:ipic_test_0 -
+   C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\ipic_test_v1_00_a\data\ipic_tes
+   t_v2_1_0.mpd line 25 - tool is overriding PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:ipic_test INSTANCE:ipic_test_0 -
+   C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\ipic_test_v1_00_a\data\ipic_tes
+   t_v2_1_0.mpd line 26 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
+   to 2
+INFO:EDK:1560 - IPNAME:ipic_test INSTANCE:ipic_test_0 -
+   C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\ipic_test_v1_00_a\data\ipic_tes
+   t_v2_1_0.mpd line 27 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to
+   1
 
 Checking platform address map ...
 
 Checking platform configuration ...
 IPNAME:plb_v46 INSTANCE:mb_plb -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 42 - 2 master(s) : 3
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 53 - 2 master(s) : 4
 slave(s)
 IPNAME:lmb_v10 INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 49 - 1 master(s) : 1 slave(s)
+line 60 - 1 master(s) : 1 slave(s)
 IPNAME:lmb_v10 INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 56 - 1 master(s) : 1 slave(s)
+line 67 - 1 master(s) : 1 slave(s)
 
 Checking port drivers...
 WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
@@ -132,7 +144,7 @@ WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
    _v2_1_0.mpd line 229 - floating connection!
 WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
-   C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 130 - floating
+   C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 141 - floating
    connection!
 
 Performing Clock DRCs...
@@ -209,39 +221,45 @@ Creating hardware output directories ...
 Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
+IPNAME:microblaze INSTANCE:microblaze_0 -
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 39 - Copying cache
+implementation netlist
 IPNAME:plb_v46 INSTANCE:mb_plb -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 42 - Copying cache
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 53 - Copying cache
 implementation netlist
 IPNAME:lmb_v10 INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 49 - Copying cache implementation netlist
+line 60 - Copying cache implementation netlist
 IPNAME:lmb_v10 INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 56 - Copying cache implementation netlist
+line 67 - Copying cache implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 63 - Copying cache
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 74 - Copying cache
 implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 72 - Copying cache
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 83 - Copying cache
 implementation netlist
 IPNAME:bram_block INSTANCE:lmb_bram -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 81 - Copying cache
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 92 - Copying cache
 implementation netlist
 IPNAME:mdm INSTANCE:mdm_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 103 - Copying cache implementation netlist
+line 114 - Copying cache implementation netlist
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 120 - Copying cache
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 131 - Copying cache
 implementation netlist
 IPNAME:xps_gpio INSTANCE:xps_gpio_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 133 - Copying cache
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 144 - Copying cache
 implementation netlist
 IPNAME:xps_timer INSTANCE:xps_timer_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 142 - Copying cache
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 153 - Copying cache
+implementation netlist
+IPNAME:ipic_test INSTANCE:ipic_test_0 -
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 162 - Copying cache
 implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 81 - elaborating IP
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 92 - elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 88 - elaborating IP
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 99 - elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 
@@ -251,7 +269,7 @@ Inserting wrapper level ...
 Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -264,17 +282,15 @@ Running XST synthesis ...
 INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:microblaze_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line
-28 - Running XST synthesis
 INSTANCE:clock_generator_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 88 - Running XST synthesis
+line 99 - Running XST synthesis
+INSTANCE:ipic_test_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line
+162 - Running XST synthesis
 
 Running NGCBUILD ...
-IPNAME:microblaze_0_wrapper INSTANCE:microblaze_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 28 - Running NGCBUILD
 IPNAME:clock_generator_0_wrapper INSTANCE:clock_generator_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 88 - Running NGCBUILD
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 99 - Running NGCBUILD
 
 Rebuilding cache ...
 
-Total run time: 80.00 seconds
+Total run time: 22.00 seconds

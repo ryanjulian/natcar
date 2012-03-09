@@ -245,14 +245,11 @@ $(CYG_SYSTEM_HW_HANDOFF): $(MHSFILE) __xps/platgen.opt
 	mkdir -p $(SDK_EXPORT_DIR)
 	psf2Edward.exe -inp $(SYSTEM).xmp -edwver 1.2 -xml $(SDK_EXPORT_DIR)/$(SYSTEM).xml $(GLOBAL_SEARCHPATHOPT)
 	xdsgen.exe -inp $(SYSTEM).xmp -report $(SDK_EXPORT_DIR)/$(SYSTEM).html $(GLOBAL_SEARCHPATHOPT) -make_docs_local
-
-$(CYG_SYSTEM_HW_HANDOFF_BIT): $(SYSTEM_BIT)
+	@echo ""
+	@echo "WARNING: The option to export bit and bmm files to SDK is set to false. Existing bit and bmm files in the $(SDK_EXPORT_DIR) directory (if any) will be deleted."
 	@rm -rf $(SYSTEM_HW_HANDOFF_BIT)
-	@cp -f $(SYSTEM_BIT) $(SDK_EXPORT_DIR)/
-
-$(CYG_SYSTEM_HW_HANDOFF_BMM): implementation/$(SYSTEM)_bd.bmm
 	@rm -rf $(SYSTEM_HW_HANDOFF_BMM)
-	@cp -f implementation/$(SYSTEM)_bd.bmm $(SDK_EXPORT_DIR)/
+	@echo ""
 
 #################################################################
 # SIMULATION FLOW

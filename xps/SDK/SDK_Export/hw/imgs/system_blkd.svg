@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/svg11-tiny.dtd">
 
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="928" height="1385">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1032" height="1385">
   <defs>
     <g id="G_IOPort">
       <rect x="0" y="0" width="16" height="16" fill="#CCCCFF" stroke="#000088" stroke-width="1"/>
@@ -570,23 +570,23 @@
     </g>
     <g id="AXI_SharedBus">
       <use x="0" y="0" xlink:href="#AXI_BusArrowWest"/>
-      <use x="702" y="0" xlink:href="#AXI_BusArrowEast"/>
-      <rect x="8" y="2" width="694" height="8" style="stroke:none; fill:#0084AB"/>
+      <use x="806" y="0" xlink:href="#AXI_BusArrowEast"/>
+      <rect x="8" y="2" width="798" height="8" style="stroke:none; fill:#0084AB"/>
     </g>
     <g id="OPB_SharedBus">
       <use x="0" y="0" xlink:href="#OPB_BusArrowWest"/>
-      <use x="702" y="0" xlink:href="#OPB_BusArrowEast"/>
-      <rect x="8" y="2" width="694" height="8" style="stroke:none; fill:#339900"/>
+      <use x="806" y="0" xlink:href="#OPB_BusArrowEast"/>
+      <rect x="8" y="2" width="798" height="8" style="stroke:none; fill:#339900"/>
     </g>
     <g id="PLB_SharedBus">
       <use x="0" y="0" xlink:href="#PLB_BusArrowWest"/>
-      <use x="702" y="0" xlink:href="#PLB_BusArrowEast"/>
-      <rect x="8" y="2" width="694" height="8" style="stroke:none; fill:#FF5500"/>
+      <use x="806" y="0" xlink:href="#PLB_BusArrowEast"/>
+      <rect x="8" y="2" width="798" height="8" style="stroke:none; fill:#FF5500"/>
     </g>
     <g id="PLBV46_SharedBus">
       <use x="0" y="0" xlink:href="#PLBV46_BusArrowWest"/>
-      <use x="702" y="0" xlink:href="#PLBV46_BusArrowEast"/>
-      <rect x="8" y="2" width="694" height="8" style="stroke:none; fill:#BB9955"/>
+      <use x="806" y="0" xlink:href="#PLBV46_BusArrowEast"/>
+      <rect x="8" y="2" width="798" height="8" style="stroke:none; fill:#BB9955"/>
     </g>
     <g id="group_sharedBusses">
       <use x="0" y="0" xlink:href="#PLBV46_SharedBus"/>
@@ -596,6 +596,15 @@
       <use x="0" y="0" xlink:href="#KEY_BusArrowWest"/>
       <use x="30" y="0" xlink:href="#KEY_BusArrowEast"/>
       <rect x="8" y="2" width="22" height="8" style="stroke:none; fill:#444444"/>
+    </g>
+    <g id="sbsbktmodule_ipic_test_0">
+      <rect x="0" y="24" rx="6" ry="6" width="90" height="74" style="fill:#CCCCCC; stroke:#FFFFFF; stroke-width:2"/>
+      <rect x="11" y="56" rx="3" ry="3" width="68" height="38" style="fill:#FFFFFF; stroke:none;"/>
+      <text x="45" y="64" fill="#AA0017" stroke="none" font-size="10pt" font-style="italic" font-weight="900" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">ipic_test</text>
+      <text x="45" y="74" fill="#000000" stroke="none" font-size="10pt" font-style="italic" font-weight="900" text-anchor="middle" font-family="Courier Arial Helvetica san-serif">ipic_test_0</text>
+      <use x="29" y="28" xlink:href="#PLBV46_BifLabel"/>
+      <use x="33" y="0" xlink:href="#PLBV46_busconn_SLAVE"/>
+      <text x="45" y="39" fill="#000000" stroke="none" font-size="10pt" font-style="italic" font-weight="900" text-anchor="middle" font-family="Verdana Courier Arial Helvetica san-serif">SPLB</text>
     </g>
     <g id="sbsbktmodule_xps_gpio_0">
       <rect x="0" y="24" rx="6" ry="6" width="90" height="74" style="fill:#CCCCCC; stroke:#FFFFFF; stroke-width:2"/>
@@ -616,11 +625,13 @@
       <text x="45" y="39" fill="#000000" stroke="none" font-size="10pt" font-style="italic" font-weight="900" text-anchor="middle" font-family="Verdana Courier Arial Helvetica san-serif">SPLB</text>
     </g>
     <g id="sbsbucket_mb_plb">
-      <rect x="0" y="0" rx="4" ry="4" width="228" height="130" style="stroke-width:2; stroke:#BB9955; fill:#FFFFDD"/>
-      <use x="16" y="16" xlink:href="#sbsbktmodule_xps_gpio_0"/>
+      <rect x="0" y="0" rx="4" ry="4" width="334" height="130" style="stroke-width:2; stroke:#BB9955; fill:#FFFFDD"/>
+      <use x="16" y="16" xlink:href="#sbsbktmodule_ipic_test_0"/>
       <rect x="0" y="24" width="61" height="8" style="fill:#BB9955"/>
-      <use x="122" y="16" xlink:href="#sbsbktmodule_xps_timer_0"/>
+      <use x="122" y="16" xlink:href="#sbsbktmodule_xps_gpio_0"/>
       <rect x="61" y="24" width="106" height="8" style="fill:#BB9955"/>
+      <use x="228" y="16" xlink:href="#sbsbktmodule_xps_timer_0"/>
+      <rect x="167" y="24" width="106" height="8" style="fill:#BB9955"/>
     </g>
     <g id="ipbktmodule_clock_generator_0">
       <rect x="0" y="0" rx="6" ry="6" width="90" height="74" style="fill:#CCCCCC; stroke:#000000; stroke-width:2"/>
@@ -711,53 +722,53 @@
       <text x="27" y="93" fill="#000000" stroke="none" font-size="10pt" font-style="italic" font-weight="900" text-anchor="middle" font-family="Verdana Courier Arial Helvetica san-serif">DEBUG</text>
     </g>
     <g id="symbol_STACK_0">
-      <rect x="0" y="0" rx="6" ry="6" width="228" height="562" style="fill:#CCCCCC; stroke:none;"/>
-      <use x="24" y="0" xlink:href="#symbol_STACK_0_SHAPE_0"/>
-      <use x="69" y="448" xlink:href="#symbol_STACK_0_SHAPE_2"/>
+      <rect x="0" y="0" rx="6" ry="6" width="334" height="562" style="fill:#CCCCCC; stroke:none;"/>
+      <use x="77" y="0" xlink:href="#symbol_STACK_0_SHAPE_0"/>
+      <use x="122" y="448" xlink:href="#symbol_STACK_0_SHAPE_2"/>
       <use x="0" y="538" xlink:href="#sbsbucket_mb_plb"/>
       <text x="0" y="534" fill="#000000" stroke="none" font-size="9pt" font-style="normal" font-weight="900" text-anchor="start" font-family="Arial Helvetica san-serif">SLAVES OF mb_plb</text>
-      <use x="69" y="164" xlink:href="#symbol_STACK_0_SHAPE_1"/>
-      <text x="69" y="160" fill="#000000" stroke="none" font-size="9pt" font-style="normal" font-weight="900" text-anchor="start" font-family="Arial Helvetica san-serif">PROCESSOR</text>
+      <use x="122" y="164" xlink:href="#symbol_STACK_0_SHAPE_1"/>
+      <text x="122" y="160" fill="#000000" stroke="none" font-size="9pt" font-style="normal" font-weight="900" text-anchor="start" font-family="Arial Helvetica san-serif">PROCESSOR</text>
     </g>
     <g id="symbol_SPACE_WEST_NONE_EAST_0">
-      <use x="205" y="214" xlink:href="#LMB_busconn_MASTER"/>
-      <use x="197" y="220" xlink:href="#LMB_BusArrowEast"/>
-      <rect x="36" y="222" width="161" height="8" style="stroke:none; fill:#7777FF"/>
-      <use x="160" y="74" xlink:href="#LMB_busconn_SLAVE"/>
-      <use x="152" y="80" xlink:href="#LMB_BusArrowEast"/>
-      <rect x="36" y="82" width="116" height="8" style="stroke:none; fill:#7777FF"/>
+      <use x="258" y="214" xlink:href="#LMB_busconn_MASTER"/>
+      <use x="250" y="220" xlink:href="#LMB_BusArrowEast"/>
+      <rect x="36" y="222" width="214" height="8" style="stroke:none; fill:#7777FF"/>
+      <use x="213" y="74" xlink:href="#LMB_busconn_SLAVE"/>
+      <use x="205" y="80" xlink:href="#LMB_BusArrowEast"/>
+      <rect x="36" y="82" width="169" height="8" style="stroke:none; fill:#7777FF"/>
       <rect x="32" y="82" width="8" height="148" style="stroke:none; fill:#7777FF"/>
       <rect x="32" y="222" width="16" height="8" style="stroke:none; fill:#7777FF"/>
       <text x="44" y="110" fill="#000000" stroke="none" font-size="8pt" font-style="italic" font-weight="900" text-anchor="start" font-family="Verdana Courier Arial Helvetica san-serif">dlmb</text>
-      <use x="205" y="270" xlink:href="#PLBV46_busconn_MASTER"/>
+      <use x="258" y="270" xlink:href="#PLBV46_busconn_MASTER"/>
       <rect x="112" y="284" width="8" height="64" style="stroke:none; fill:#BB9955"/>
-      <rect x="112" y="278" width="99" height="8" style="stroke:none; fill:#BB9955"/>
+      <rect x="112" y="278" width="152" height="8" style="stroke:none; fill:#BB9955"/>
       <rect x="80" y="250" width="8" height="264" style="stroke:none;fill:#990066"/>
       <text x="92" y="278" fill="#000000" stroke="none" font-size="8pt" font-style="italic" font-weight="900" text-anchor="start" font-family="Verdana Courier Arial Helvetica san-serif">microblaze_0_mdm_bus</text>
-      <use x="205" y="242" xlink:href="#XIL_busconn_TARGET"/>
-      <use x="197" y="248" xlink:href="#XIL_BusArrowEast"/>
-      <rect x="84" y="250" width="113" height="8" style="stroke:none; fill:#990066"/>
-      <use x="205" y="498" xlink:href="#XIL_busconn_INITIATOR"/>
-      <use x="197" y="504" xlink:href="#XIL_BusArrowEast"/>
-      <rect x="84" y="506" width="113" height="8" style="stroke:none; fill:#990066"/>
+      <use x="258" y="242" xlink:href="#XIL_busconn_TARGET"/>
+      <use x="250" y="248" xlink:href="#XIL_BusArrowEast"/>
+      <rect x="84" y="250" width="166" height="8" style="stroke:none; fill:#990066"/>
+      <use x="258" y="498" xlink:href="#XIL_busconn_INITIATOR"/>
+      <use x="250" y="504" xlink:href="#XIL_BusArrowEast"/>
+      <rect x="84" y="506" width="166" height="8" style="stroke:none; fill:#990066"/>
       <rect x="36" y="352" width="8" height="217" style="stroke:none; fill:#BB9955"/>
-      <rect x="36" y="562" width="194" height="8" style="stroke:none; fill:#BB9955"/>
+      <rect x="36" y="562" width="247" height="8" style="stroke:none; fill:#BB9955"/>
     </g>
     <g id="symbol_SPACE_WEST_0_EAST_NONE">
       <use x="45" y="214" xlink:href="#LMB_busconn_MASTER"/>
       <use x="69" y="220" xlink:href="#LMB_BusArrowWest"/>
-      <rect x="77" y="222" width="129" height="8" style="stroke:none; fill:#7777FF"/>
+      <rect x="77" y="222" width="182" height="8" style="stroke:none; fill:#7777FF"/>
       <use x="90" y="74" xlink:href="#LMB_busconn_SLAVE"/>
       <use x="114" y="80" xlink:href="#LMB_BusArrowWest"/>
-      <rect x="122" y="82" width="84" height="8" style="stroke:none; fill:#7777FF"/>
-      <rect x="202" y="82" width="8" height="148" style="stroke:none; fill:#7777FF"/>
-      <text x="214" y="110" fill="#000000" stroke="none" font-size="8pt" font-style="italic" font-weight="900" text-anchor="start" font-family="Verdana Courier Arial Helvetica san-serif">ilmb</text>
+      <rect x="122" y="82" width="137" height="8" style="stroke:none; fill:#7777FF"/>
+      <rect x="255" y="82" width="8" height="148" style="stroke:none; fill:#7777FF"/>
+      <text x="267" y="110" fill="#000000" stroke="none" font-size="8pt" font-style="italic" font-weight="900" text-anchor="start" font-family="Verdana Courier Arial Helvetica san-serif">ilmb</text>
       <use x="45" y="270" xlink:href="#PLBV46_busconn_MASTER"/>
-      <rect x="170" y="284" width="8" height="64" style="stroke:none; fill:#BB9955"/>
-      <rect x="64" y="278" width="114" height="8" style="stroke:none; fill:#BB9955"/>
+      <rect x="223" y="284" width="8" height="64" style="stroke:none; fill:#BB9955"/>
+      <rect x="64" y="278" width="167" height="8" style="stroke:none; fill:#BB9955"/>
       <use x="45" y="498" xlink:href="#PLBV46_busconn_SLAVE"/>
-      <rect x="250" y="352" width="8" height="156" style="stroke:none; fill:#BB9955"/>
-      <rect x="64" y="506" width="194" height="8" style="stroke:none; fill:#BB9955"/>
+      <rect x="303" y="352" width="8" height="156" style="stroke:none; fill:#BB9955"/>
+      <rect x="64" y="506" width="247" height="8" style="stroke:none; fill:#BB9955"/>
     </g>
     <g id="KEY_IntrCntrl">
       <rect x="0" y="0" rx="3" ry="3" width="9" height="18" style="fill:#888888; stroke:none; stroke-width:1"/>
@@ -851,18 +862,18 @@
       <text x="241" y="72" fill="#000000" stroke="none" font-size="10pt" font-style="italic" font-weight="bold" text-anchor="middle" font-family="Courier Arial Helvetica san-serif">xc6slx45csg324-2</text>
       <rect x="0" y="80" width="300" height="16" style="fill:#EEEEEE; stroke:none;"/>
       <text x="4" y="92" fill="#000000" stroke="none" font-size="10pt" font-weight="bold" text-anchor="start" font-family="Arial Helvetica san-serif">GENERATED</text>
-      <text x="217" y="92" fill="#000000" stroke="none" font-size="10pt" font-style="italic" font-weight="bold" text-anchor="middle" font-family="Courier Arial Helvetica san-serif">Thu Feb 09 15:47:25 2012</text>
+      <text x="217" y="92" fill="#000000" stroke="none" font-size="10pt" font-style="italic" font-weight="bold" text-anchor="middle" font-family="Courier Arial Helvetica san-serif">Thu Mar 08 16:26:27 2012</text>
     </g>
   </defs>
-  <rect x="0" y="0" width="928" height="1385" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
-  <rect x="48" y="40" width="832" height="1044" style="fill:#000088"/>
-  <rect x="64" y="56" rx="8" ry="8" width="800" height="1012" fill="#CCCCCC"/>
+  <rect x="0" y="0" width="1032" height="1385" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <rect x="48" y="40" width="936" height="1044" style="fill:#000088"/>
+  <rect x="64" y="56" rx="8" ry="8" width="904" height="1012" fill="#CCCCCC"/>
   <use x="429" y="101" xlink:href="#symbol_STACK_0"/>
   <use x="269" y="101" xlink:href="#symbol_SPACE_WEST_NONE_EAST_0"/>
-  <use x="543" y="101" xlink:href="#symbol_SPACE_WEST_0_EAST_NONE"/>
+  <use x="596" y="101" xlink:href="#symbol_SPACE_WEST_0_EAST_NONE"/>
   <use x="109" y="443" xlink:href="#group_sharedBusses"/>
-  <text x="350" y="855" fill="#000000" stroke="none" font-size="9pt" font-style="normal" font-weight="900" text-anchor="start" font-family="Arial Helvetica san-serif">IP</text>
-  <use x="350" y="859" xlink:href="#ipbucket"/>
-  <use x="412" y="1127" xlink:href="#BlkDiagram_Key"/>
+  <text x="402" y="855" fill="#000000" stroke="none" font-size="9pt" font-style="normal" font-weight="900" text-anchor="start" font-family="Arial Helvetica san-serif">IP</text>
+  <use x="402" y="859" xlink:href="#ipbucket"/>
+  <use x="516" y="1127" xlink:href="#BlkDiagram_Key"/>
   <use x="48" y="1127" xlink:href="#BlkDiagram_Specs"/>
 </svg>

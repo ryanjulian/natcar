@@ -155,6 +155,18 @@
 <msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[0].TCSR0_FF_I</arg>&apos; has unconnected output pin
 </msg>
 
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ipic_test_0_ipif_Bus2IP_BE_pin&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ipic_test_0_ipif_Bus2IP_BE_pin&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ipic_test_0_ipif_Bus2IP_BE_pin&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ipic_test_0_ipif_Bus2IP_BE_pin&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
 <msg type="warning" file="NgdBuild" num="478" delta="old" >clock net <arg fmt="%s" index="1">mdm_0/bscan_drck1</arg> with clock driver <arg fmt="%s" index="2">mdm_0/mdm_0/BUFG_DRCK1</arg> drives no clock pins
 </msg>
 

@@ -1,0 +1,115 @@
+/*
+ * Copyright (c) 2009 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
+
+/*
+ * helloworld.c: simple test application
+ */
+
+#include <stdio.h>
+#include "platform.h"
+//#include "xgpio_l.h"
+#include "xgpio.h"
+#include "xparameters.h"
+#include "xtmrctr.h"
+
+#include <lvfpga/lvfpga.h>
+#include <lvfpga/lvfpga_controls.h>
+#include <lvfpga/lvfpga_indicators.h>
+
+XGpio GpioOutput;
+XTmrCtr Xtimer;
+static LvFpgaVi* uBlaze_VIVM;
+
+int main()
+{
+    init_platform();
+
+    // Initialize XGpio
+    Xuint32 gpio_status;
+    gpio_status = XGpio_Initialize(&GpioOutput, XPAR_XPS_GPIO_0_DEVICE_ID);
+    print("Hello World\n\r");
+    if(gpio_status == XST_SUCCESS){print("gpio success!\n\r");}
+    else if(gpio_status == XST_FAILURE){print("gpio failed!\n\r");}
+    else{print("wtf gpio\n\r");}
+    XGpio_SetDataDirection(&GpioOutput, 1, 0xFFFFFFFF);
+    // Initialize XTmrCtr
+    Xuint32 xtimer_status;
+    xtimer_status = XTmrCtr_Initialize(&Xtimer,XPAR_TMRCTR_0_DEVICE_ID);
+    if(xtimer_status == XST_SUCCESS){print("timer success!\n\r");}
+    else if(xtimer_status == XST_DEVICE_IS_STARTED){print("timer already started!\n\r");}
+    else if(xtimer_status == XST_DEVICE_NOT_FOUND){print("timer not found!\n\r");}
+    else{print("wtf timer\n\r");}
+	#define TIMER_RESET_TO_TIME 0
+	#define TMR_NUM_0 0
+    XTmrCtr_SetResetValue(&Xtimer,TMR_NUM_0,TIMER_RESET_TO_TIME);
+//-----------------------------------
+	#define  ENABLE_STARTBIT (1)
+	#define  REVERSE_STARTBIT (1+1)
+	#define  BRAKE_STARTBIT (1+1+1)
+	#define  GOFREQ_STARTBIT (1+1+1+1)
+	#define  GODUTY_STARTBIT (1+1+1+1+4)
+	#define  SERVOPWM_STARBIT (1+1+1+1+4+7)
+    u32 gofreq = 10 << (GOFREQ_STARTBIT-1); //hz
+    u32 enable = 1 << (ENABLE_STARTBIT-1);
+    u32 reverse = 0 << (REVERSE_STARTBIT-1);
+    u32 brake = 0 << (BRAKE_STARTBIT-1);
+    u32 goduty = 0;
+    u32 servopwm = 0;
+
+    #define INITIAL_DELAY 10
+	#define SWITCH_TIME 5
+    #define END_TIME 20
+	#define STEERING_CENTER 8
+	#define TURNING 2
+    u32 current_time = 0;
+    u32 encoded_number;
+    XTmrCtr_Start(&Xtimer,TMR_NUM_0);
+
+//    while(current_time <= INITIAL_DELAY){
+//    	current_time = XTmrCtr_GetValue(&Xtimer,TMR_NUM_0);
+//    }
+    while(current_time <= END_TIME){
+//    	if(current_time <= SWITCH_TIME){
+    		//do first half
+//			goduty = 10 << (GODUTY_STARTBIT-1);  //%
+//			servopwm = (STEERING_CENTER + TURNING) << (SERVOPWM_STARBIT-1);  //%
+//			encoded_number = enable|reverse|brake|gofreq|goduty|servopwm;
+//			XGpio_DiscreteWrite(&GpioOutput, 1, encoded_number);
+//    	}
+//    	else{
+    		//do second half
+			goduty = 10 << (GODUTY_STARTBIT-1);  //%
+			servopwm = (STEERING_CENTER - TURNING) << (SERVOPWM_STARBIT-1);  //%
+			encoded_number = enable|reverse|brake|gofreq|goduty|servopwm;
+			XGpio_DiscreteWrite(&GpioOutput, 1, encoded_number);
+//    	}
+//*    	current_time = XTmrCtr_GetValue(&Xtimer,TMR_NUM_0);
+//*    	printf("%u\n\r",(unsigned int)current_time);
+    }
+
+    // End things
+    enable = 0 << (ENABLE_STARTBIT-1);
+    goduty = 0 << (GODUTY_STARTBIT-1);  //%
+    servopwm = STEERING_CENTER << (SERVOPWM_STARBIT-1);  //%
+
+
+
+    cleanup_platform();
+
+    return 0;
+}

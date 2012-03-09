@@ -10,6 +10,7 @@
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mdm_0_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mb_plb_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\lmb_bram_wrapper.ngc</Path>
+    <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ipic_test_0_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_cntlr_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_wrapper.ngc</Path>
@@ -68,6 +69,72 @@
        <HDLName>xps_gpio_0_GPIO_IO_O_pin </HDLName>  
        <DataType><I32/></DataType>
        <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_Addr_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_Addr_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_IP2Bus_Data_pin">
+       <HDLName>ipic_test_0_ipif_IP2Bus_Data_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_BE_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_BE_pin </HDLName>  
+       <DataType><I8/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_Clk_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_Clk_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_CS_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_CS_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_Reset_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_Reset_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_RNW_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_RNW_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_Data_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_Data_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_IP2Bus_Error_pin">
+       <HDLName>ipic_test_0_ipif_IP2Bus_Error_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_IP2Bus_WrAck_pin">
+       <HDLName>ipic_test_0_ipif_IP2Bus_WrAck_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_IP2Bus_RdAck_pin">
+       <HDLName>ipic_test_0_ipif_IP2Bus_RdAck_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>ToCLIP</Direction>
         <SignalType>data</SignalType>
 </Signal>
 </SignalList> 

@@ -1,14 +1,12 @@
 
 Checking platform configuration ...
 IPNAME:plb_v46 INSTANCE:mb_plb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\xps\system.mhs line 42 - 2 master(s) :
-3 slave(s)
-IPNAME:lmb_v10 INSTANCE:ilmb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\xps\system.mhs line 49 - 1 master(s) :
-1 slave(s)
-IPNAME:lmb_v10 INSTANCE:dlmb -
-C:\Users\Ryan\Desktop\ee192\team10\trunk\xps\system.mhs line 56 - 1 master(s) :
-1 slave(s)
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 53 - 2 master(s) : 4
+slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 60 - 1 master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 67 - 1 master(s) : 1 slave(s)
 
 Checking port drivers...
 WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
@@ -60,7 +58,7 @@ WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
    _v2_1_0.mpd line 229 - floating connection!
 WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
-   C:\Users\Ryan\Desktop\ee192\team10\trunk\xps\system.mhs line 129 - floating
+   C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 141 - floating
    connection!
 
 Performing Clock DRCs...
