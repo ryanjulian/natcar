@@ -201,11 +201,11 @@ Synthesizing Unit <plb_slave_attachment>.
         C_INCLUDE_DPHASE_TIMER = 0
         C_FAMILY = "spartan6"
 WARNING:Xst:647 - Input <PLB_UABus<0:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Register <set_sl_busy> equivalent to <sl_addrack_i> has been removed
-    Register <sl_rdcomp_i> equivalent to <rd_clear_sl_busy> has been removed
-    Register <sl_rddack_i> equivalent to <rd_clear_sl_busy> has been removed
     Register <wr_clear_sl_busy> equivalent to <sl_wrdack_i> has been removed
     Register <sl_wrcomp_i> equivalent to <sl_wrdack_i> has been removed
+    Register <sl_rdcomp_i> equivalent to <rd_clear_sl_busy> has been removed
+    Register <sl_rddack_i> equivalent to <rd_clear_sl_busy> has been removed
+    Register <set_sl_busy> equivalent to <sl_addrack_i> has been removed
     Found 32-bit register for signal <plb_wrdbus_reg>.
     Found 1-bit register for signal <plb_masterid_reg>.
     Found 1-bit register for signal <plb_rnw_reg>.
@@ -563,12 +563,12 @@ ipif_Bus2IP_Clk|    4.131|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.00 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.10 secs
  
 --> 
 
-Total memory usage is 194608 kilobytes
+Total memory usage is 199600 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   61 (   0 filtered)

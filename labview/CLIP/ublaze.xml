@@ -71,32 +71,8 @@
        <Direction>FromCLIP</Direction>
         <SignalType>data</SignalType>
 </Signal>
-<Signal Name="ipic_test_0_ipif_Bus2IP_Addr_pin">
-       <HDLName>ipic_test_0_ipif_Bus2IP_Addr_pin </HDLName>  
-       <DataType><I32/></DataType>
-       <Direction>FromCLIP</Direction>
-        <SignalType>data</SignalType>
-</Signal>
-<Signal Name="ipic_test_0_ipif_IP2Bus_Data_pin">
-       <HDLName>ipic_test_0_ipif_IP2Bus_Data_pin </HDLName>  
-       <DataType><I32/></DataType>
-       <Direction>ToCLIP</Direction>
-        <SignalType>data</SignalType>
-</Signal>
-<Signal Name="ipic_test_0_ipif_Bus2IP_BE_pin">
-       <HDLName>ipic_test_0_ipif_Bus2IP_BE_pin </HDLName>  
-       <DataType><I8/></DataType>
-       <Direction>FromCLIP</Direction>
-        <SignalType>data</SignalType>
-</Signal>
 <Signal Name="ipic_test_0_ipif_Bus2IP_Clk_pin">
        <HDLName>ipic_test_0_ipif_Bus2IP_Clk_pin </HDLName>  
-       <DataType><Boolean/></DataType>
-       <Direction>FromCLIP</Direction>
-        <SignalType>data</SignalType>
-</Signal>
-<Signal Name="ipic_test_0_ipif_Bus2IP_CS_pin">
-       <HDLName>ipic_test_0_ipif_Bus2IP_CS_pin </HDLName>  
        <DataType><Boolean/></DataType>
        <Direction>FromCLIP</Direction>
         <SignalType>data</SignalType>
@@ -107,21 +83,9 @@
        <Direction>FromCLIP</Direction>
         <SignalType>data</SignalType>
 </Signal>
-<Signal Name="ipic_test_0_ipif_Bus2IP_RNW_pin">
-       <HDLName>ipic_test_0_ipif_Bus2IP_RNW_pin </HDLName>  
-       <DataType><Boolean/></DataType>
-       <Direction>FromCLIP</Direction>
-        <SignalType>data</SignalType>
-</Signal>
-<Signal Name="ipic_test_0_ipif_Bus2IP_Data_pin">
-       <HDLName>ipic_test_0_ipif_Bus2IP_Data_pin </HDLName>  
+<Signal Name="ipic_test_0_ipif_IP2Bus_Data_pin">
+       <HDLName>ipic_test_0_ipif_IP2Bus_Data_pin </HDLName>  
        <DataType><I32/></DataType>
-       <Direction>FromCLIP</Direction>
-        <SignalType>data</SignalType>
-</Signal>
-<Signal Name="ipic_test_0_ipif_IP2Bus_Error_pin">
-       <HDLName>ipic_test_0_ipif_IP2Bus_Error_pin </HDLName>  
-       <DataType><Boolean/></DataType>
        <Direction>ToCLIP</Direction>
         <SignalType>data</SignalType>
 </Signal>
@@ -135,6 +99,42 @@
        <HDLName>ipic_test_0_ipif_IP2Bus_RdAck_pin </HDLName>  
        <DataType><Boolean/></DataType>
        <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_IP2Bus_Error_pin">
+       <HDLName>ipic_test_0_ipif_IP2Bus_Error_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_Addr_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_Addr_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_Data_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_Data_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_RNW_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_RNW_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_BE_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_BE_pin </HDLName>  
+       <DataType><I8/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="ipic_test_0_ipif_Bus2IP_CS_pin">
+       <HDLName>ipic_test_0_ipif_Bus2IP_CS_pin </HDLName>  
+       <DataType><Boolean/></DataType>
+       <Direction>FromCLIP</Direction>
         <SignalType>data</SignalType>
 </Signal>
 </SignalList> 

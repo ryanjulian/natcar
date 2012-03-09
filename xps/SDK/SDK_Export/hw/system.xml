@@ -1,5 +1,5 @@
 
-<EDKSYSTEM EDKVERSION="12.4" EDWVERSION="1.2" TIMESTAMP="Thu Mar 08 16:26:21 2012">
+<EDKSYSTEM EDKVERSION="12.4" EDWVERSION="1.2" TIMESTAMP="Thu Mar 08 23:47:11 2012">
 
   <SYSTEMINFO ARCH="spartan6" DEVICE="xc6slx45" PACKAGE="csg324" PART="xc6slx45csg324-2" SOURCE="C:/Users/Ryan/Desktop/ee192/natcar/xps/system.xmp" SPEEDGRADE="-2"/>
 
@@ -12,17 +12,17 @@
     <PORT DIR="I" MHS_INDEX="5" NAME="mdm_0_extTDI_pin" SIGNAME="mdm_0_extTDI"/>
     <PORT DIR="O" MHS_INDEX="6" NAME="mdm_0_extTDO_pin" SIGNAME="mdm_0_extTDO"/>
     <PORT DIR="O" ENDIAN="LITTLE" LEFT="31" LSB="0" MHS_INDEX="7" MSB="31" NAME="xps_gpio_0_GPIO_IO_O_pin" RIGHT="0" SIGNAME="xps_gpio_0_GPIO_IO_O"/>
-    <PORT DIR="O" ENDIAN="LITTLE" LEFT="31" LSB="0" MHS_INDEX="8" MSB="31" NAME="ipic_test_0_ipif_Bus2IP_Addr_pin" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_Addr"/>
-    <PORT DIR="I" ENDIAN="LITTLE" LEFT="31" LSB="0" MHS_INDEX="9" MSB="31" NAME="ipic_test_0_ipif_IP2Bus_Data_pin" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_Data"/>
-    <PORT DIR="O" ENDIAN="LITTLE" LEFT="7" LSB="0" MHS_INDEX="10" MSB="7" NAME="ipic_test_0_ipif_Bus2IP_BE_pin" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_BE"/>
-    <PORT DIR="O" MHS_INDEX="11" NAME="ipic_test_0_ipif_Bus2IP_Clk_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_Clk"/>
-    <PORT DIR="O" MHS_INDEX="12" NAME="ipic_test_0_ipif_Bus2IP_CS_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_CS"/>
-    <PORT DIR="O" MHS_INDEX="13" NAME="ipic_test_0_ipif_Bus2IP_Reset_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_Reset"/>
-    <PORT DIR="O" MHS_INDEX="14" NAME="ipic_test_0_ipif_Bus2IP_RNW_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_RNW"/>
+    <PORT DIR="O" MHS_INDEX="8" NAME="ipic_test_0_ipif_Bus2IP_Clk_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_Clk"/>
+    <PORT DIR="O" MHS_INDEX="9" NAME="ipic_test_0_ipif_Bus2IP_Reset_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_Reset"/>
+    <PORT DIR="I" ENDIAN="LITTLE" LEFT="31" LSB="0" MHS_INDEX="10" MSB="31" NAME="ipic_test_0_ipif_IP2Bus_Data_pin" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_Data"/>
+    <PORT DIR="I" MHS_INDEX="11" NAME="ipic_test_0_ipif_IP2Bus_WrAck_pin" SIGNAME="ipic_test_0_ipif_IP2Bus_WrAck"/>
+    <PORT DIR="I" MHS_INDEX="12" NAME="ipic_test_0_ipif_IP2Bus_RdAck_pin" SIGNAME="ipic_test_0_ipif_IP2Bus_RdAck"/>
+    <PORT DIR="I" MHS_INDEX="13" NAME="ipic_test_0_ipif_IP2Bus_Error_pin" SIGNAME="ipic_test_0_ipif_IP2Bus_Error"/>
+    <PORT DIR="O" ENDIAN="LITTLE" LEFT="31" LSB="0" MHS_INDEX="14" MSB="31" NAME="ipic_test_0_ipif_Bus2IP_Addr_pin" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_Addr"/>
     <PORT DIR="O" ENDIAN="LITTLE" LEFT="31" LSB="0" MHS_INDEX="15" MSB="31" NAME="ipic_test_0_ipif_Bus2IP_Data_pin" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_Data"/>
-    <PORT DIR="I" MHS_INDEX="16" NAME="ipic_test_0_ipif_IP2Bus_Error_pin" SIGNAME="ipic_test_0_ipif_IP2Bus_Error"/>
-    <PORT DIR="I" MHS_INDEX="17" NAME="ipic_test_0_ipif_IP2Bus_WrAck_pin" SIGNAME="ipic_test_0_ipif_IP2Bus_WrAck"/>
-    <PORT DIR="I" MHS_INDEX="18" NAME="ipic_test_0_ipif_IP2Bus_RdAck_pin" SIGNAME="ipic_test_0_ipif_IP2Bus_RdAck"/>
+    <PORT DIR="O" MHS_INDEX="16" NAME="ipic_test_0_ipif_Bus2IP_RNW_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_RNW"/>
+    <PORT DIR="O" ENDIAN="LITTLE" LEFT="7" LSB="0" MHS_INDEX="17" MSB="7" NAME="ipic_test_0_ipif_Bus2IP_BE_pin" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_BE"/>
+    <PORT DIR="O" MHS_INDEX="18" NAME="ipic_test_0_ipif_Bus2IP_CS_pin" SIGNAME="ipic_test_0_ipif_Bus2IP_CS"/>
   </EXTERNALPORTS>
 
   <MODULES>
@@ -3658,17 +3658,17 @@
         <PARAMETER ADDRESS="HIGH" ADDR_TYPE="REGISTER" CHANGEDBY="USER" IS_INSTANTIATED="TRUE" MHS_INDEX="3" MPD_INDEX="12" NAME="C_MEM0_HIGHADDR" TYPE="std_logic_vector" VALUE="0xc040ffff"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="31" MHS_INDEX="0" MPD_INDEX="48" MSB="0" NAME="ipif_Bus2IP_Addr" RIGHT="31" SIGNAME="ipic_test_0_ipif_Bus2IP_Addr" VECFORMULA="[0:31]"/>
-        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="31" MHS_INDEX="1" MPD_INDEX="44" MSB="0" NAME="ipif_IP2Bus_Data" RIGHT="31" SIGNAME="ipic_test_0_ipif_IP2Bus_Data" VECFORMULA="[0:31]"/>
-        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="7" MHS_INDEX="2" MPD_INDEX="51" MSB="0" NAME="ipif_Bus2IP_BE" RIGHT="7" SIGNAME="ipic_test_0_ipif_Bus2IP_BE" VECFORMULA="[0:7]"/>
-        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="3" MPD_INDEX="42" MSB="0" NAME="ipif_Bus2IP_Clk" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_Clk"/>
-        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="4" MPD_INDEX="52" MSB="0" NAME="ipif_Bus2IP_CS" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_CS"/>
-        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="5" MPD_INDEX="43" MSB="0" NAME="ipif_Bus2IP_Reset" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_Reset"/>
-        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="6" MPD_INDEX="50" MSB="0" NAME="ipif_Bus2IP_RNW" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_RNW"/>
+        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="0" MPD_INDEX="42" MSB="0" NAME="ipif_Bus2IP_Clk" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_Clk"/>
+        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="1" MPD_INDEX="43" MSB="0" NAME="ipif_Bus2IP_Reset" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_Reset"/>
+        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="31" MHS_INDEX="2" MPD_INDEX="44" MSB="0" NAME="ipif_IP2Bus_Data" RIGHT="31" SIGNAME="ipic_test_0_ipif_IP2Bus_Data" VECFORMULA="[0:31]"/>
+        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="3" MPD_INDEX="45" MSB="0" NAME="ipif_IP2Bus_WrAck" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_WrAck"/>
+        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="4" MPD_INDEX="46" MSB="0" NAME="ipif_IP2Bus_RdAck" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_RdAck"/>
+        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="5" MPD_INDEX="47" MSB="0" NAME="ipif_IP2Bus_Error" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_Error"/>
+        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="31" MHS_INDEX="6" MPD_INDEX="48" MSB="0" NAME="ipif_Bus2IP_Addr" RIGHT="31" SIGNAME="ipic_test_0_ipif_Bus2IP_Addr" VECFORMULA="[0:31]"/>
         <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="31" MHS_INDEX="7" MPD_INDEX="49" MSB="0" NAME="ipif_Bus2IP_Data" RIGHT="31" SIGNAME="ipic_test_0_ipif_Bus2IP_Data" VECFORMULA="[0:31]"/>
-        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="8" MPD_INDEX="47" MSB="0" NAME="ipif_IP2Bus_Error" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_Error"/>
-        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="9" MPD_INDEX="45" MSB="0" NAME="ipif_IP2Bus_WrAck" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_WrAck"/>
-        <PORT DIR="I" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="10" MPD_INDEX="46" MSB="0" NAME="ipif_IP2Bus_RdAck" RIGHT="0" SIGNAME="ipic_test_0_ipif_IP2Bus_RdAck"/>
+        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="8" MPD_INDEX="50" MSB="0" NAME="ipif_Bus2IP_RNW" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_RNW"/>
+        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="7" MHS_INDEX="9" MPD_INDEX="51" MSB="0" NAME="ipif_Bus2IP_BE" RIGHT="7" SIGNAME="ipic_test_0_ipif_Bus2IP_BE" VECFORMULA="[0:7]"/>
+        <PORT DIR="O" ENDIAN="BIG" IS_INSTANTIATED="TRUE" LEFT="0" LSB="0" MHS_INDEX="10" MPD_INDEX="52" MSB="0" NAME="ipif_Bus2IP_CS" RIGHT="0" SIGNAME="ipic_test_0_ipif_Bus2IP_CS"/>
         <PORT BUS="SPLB" CLKFREQUENCY="40000000" DEF_SIGNAME="clk_40_0000MHz" DIR="I" MPD_INDEX="0" NAME="SPLB_Clk" SIGIS="CLK" SIGNAME="clk_40_0000MHz"/>
         <PORT BUS="SPLB" DEF_SIGNAME="mb_plb_SPLB_Rst" DIR="I" MPD_INDEX="1" NAME="SPLB_Rst" SIGIS="RST" SIGNAME="mb_plb_SPLB_Rst"/>
         <PORT BUS="SPLB" DEF_SIGNAME="mb_plb_PLB_ABus" DIR="I" ENDIAN="BIG" LEFT="0" LSB="31" MPD_INDEX="2" MSB="0" NAME="PLB_ABus" RIGHT="31" SIGNAME="mb_plb_PLB_ABus" VECFORMULA="[0:31]"/>

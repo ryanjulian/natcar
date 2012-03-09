@@ -989,12 +989,12 @@ mdm_0/mdm_0/update                             |         |    6.461|   10.661|  
 =========================================================================
 
 
-Total REAL time to Xst completion: 33.00 secs
-Total CPU time to Xst completion: 33.06 secs
+Total REAL time to Xst completion: 35.00 secs
+Total CPU time to Xst completion: 35.11 secs
  
 --> 
 
-Total memory usage is 258288 kilobytes
+Total memory usage is 257264 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

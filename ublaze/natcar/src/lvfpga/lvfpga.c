@@ -4,7 +4,7 @@
  * LVFPGA MITE Emulation Driver (IPIC/MMIO-based interface)
  *
  *  Created on: Jul 21, 2011
- *      Author: Ryan Julian
+ *      Author: Ryan Julian <ryan.julian@ni.com> <ryanjulian@gmail.com>
  *
  * (c) Copyright 2011 National Instruments
  */

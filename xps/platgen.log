@@ -221,39 +221,6 @@ Creating hardware output directories ...
 Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
-IPNAME:microblaze INSTANCE:microblaze_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 39 - Copying cache
-implementation netlist
-IPNAME:plb_v46 INSTANCE:mb_plb -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 53 - Copying cache
-implementation netlist
-IPNAME:lmb_v10 INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 60 - Copying cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 67 - Copying cache implementation netlist
-IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 74 - Copying cache
-implementation netlist
-IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 83 - Copying cache
-implementation netlist
-IPNAME:bram_block INSTANCE:lmb_bram -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 92 - Copying cache
-implementation netlist
-IPNAME:mdm INSTANCE:mdm_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
-line 114 - Copying cache implementation netlist
-IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 131 - Copying cache
-implementation netlist
-IPNAME:xps_gpio INSTANCE:xps_gpio_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 144 - Copying cache
-implementation netlist
-IPNAME:xps_timer INSTANCE:xps_timer_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 153 - Copying cache
-implementation netlist
-IPNAME:ipic_test INSTANCE:ipic_test_0 -
-C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 162 - Copying cache
-implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
@@ -266,10 +233,10 @@ ClkGen elaborate status: PASSED
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -282,15 +249,43 @@ Running XST synthesis ...
 INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:microblaze_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line
+39 - Running XST synthesis
+INSTANCE:mb_plb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 53 -
+Running XST synthesis
+INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 60 -
+Running XST synthesis
+INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 67 -
+Running XST synthesis
+INSTANCE:dlmb_cntlr - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 74
+- Running XST synthesis
+INSTANCE:ilmb_cntlr - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 83
+- Running XST synthesis
+INSTANCE:lmb_bram - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 92 -
+Running XST synthesis
 INSTANCE:clock_generator_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
 line 99 - Running XST synthesis
+INSTANCE:mdm_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 114 -
+Running XST synthesis
+INSTANCE:proc_sys_reset_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 131 - Running XST synthesis
+INSTANCE:xps_gpio_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 144
+- Running XST synthesis
+INSTANCE:xps_timer_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line
+153 - Running XST synthesis
 INSTANCE:ipic_test_0 - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line
 162 - Running XST synthesis
 
 Running NGCBUILD ...
+IPNAME:microblaze_0_wrapper INSTANCE:microblaze_0 -
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 39 - Running NGCBUILD
+IPNAME:ilmb_wrapper INSTANCE:ilmb -
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 60 - Running NGCBUILD
+IPNAME:dlmb_wrapper INSTANCE:dlmb -
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 67 - Running NGCBUILD
 IPNAME:clock_generator_0_wrapper INSTANCE:clock_generator_0 -
 C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 99 - Running NGCBUILD
 
 Rebuilding cache ...
 
-Total run time: 22.00 seconds
+Total run time: 215.00 seconds

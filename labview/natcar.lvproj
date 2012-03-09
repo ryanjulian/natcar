@@ -81,42 +81,14 @@
 			<Property Name="crio.Type" Type="Str">sbRIO-9606</Property>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{04B4A6F8-BA41-491F-BE31-1DC239A8B71D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO34;0;ReadMethodType=bool;WriteMethodType=bool{137DDC71-A7E2-406B-9544-737D26924B66}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=bool{17DED467-1C30-4E6A-9A91-FC6093255ADF}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{17E07BA0-C43D-4A40-9515-B379C6B87FB2}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin;0;ReadMethodType=bool{17EAB0C9-7A44-4FD6-BF5C-234E873F2E08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=bool{1C741BA8-C726-45E5-A49F-8DA29F4B9B6C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/areset;0;WriteMethodType=bool{1D759112-7C2E-4D9B-954C-8CCBAAE51469}463beaecb90905d14b4ab9322b4f120449c84153d794ccb7c75012a2685f0dfb5bd4302bc48bb668f6f8995fd17f5e856e22a0a7eab992229187892f5e4961ab6ffe4c9125fdc0fbc7321802625205f771d36ca1cdee6b62b6ed9662e0ca1685838d6dcc46072f1671d29bb47970c33c8fd88c1c7368508f0f32b2694e6af64c97f11792d275b81e01afc06e3f37f2779c285bf30d387cdfefcb28d006d1cb05a27b2e74f37f1a9e16363dff6bf71a57a793dd03204a94d2db33e16894e5efadab1f051264b299feef7ba2c37064c679da52a9a439c4156e0d312766142ba302dda09cf8fcae78e174c73242a92762e2&lt;Array&gt;
-&lt;Name&gt;Generics&lt;/Name&gt;
-&lt;Dimsize&gt;0&lt;/Dimsize&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;CLIP Generic&lt;/Name&gt;
-&lt;NumElts&gt;5&lt;/NumElts&gt;
-&lt;String&gt;
-&lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Type&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Default value&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Value&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Description&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;/Cluster&gt;
-&lt;/Array&gt;
-{1FB55588-66DF-4B81-9006-B9F76175BCA1}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispics_n;0;ReadMethodType=bool{2753F9DA-E13D-4F48-9D67-75558FFF4DF5}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin;0;ReadMethodType=I32{2868BEE0-D9D6-49E9-B96B-3CB18E2CE9E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=bool{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{2E452686-1795-447E-9519-201F08F0DF44}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin;0;ReadMethodType=bool{3622792B-CF32-4943-B11B-3D73BE0A4CD7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=bool{39235C95-086F-4380-9046-862FCB651A9E}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin;0;ReadMethodType=I8{3B7D01DD-27A5-401C-AB98-06F9D8935375}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool{3BF5DA48-097F-4C45-8220-CEF5C9A1B7DF}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispiclk;0;ReadMethodType=bool{4269C7EB-A94F-47D3-9ED1-18FE96F3AA17}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=bool{44D09BD4-0735-49E9-8C27-4E71D8431550}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=bool{4667A6EE-27DB-4956-B6BD-D23F0249BCF7}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=bool{4E595514-A153-45EA-89A5-6415CBC16A2B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO33;0;ReadMethodType=bool;WriteMethodType=bool{50CD96F5-380E-4F5A-8480-6CC5C72E8EC6}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caicurrentchannel;0;ReadMethodType=
+				<Property Name="configString.guid" Type="Str">{04B4A6F8-BA41-491F-BE31-1DC239A8B71D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO34;0;ReadMethodType=bool;WriteMethodType=bool{1071BABB-4DAE-43BE-892E-37EAE7A8E7A2}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataready;0;ReadMethodType=bool{17DED467-1C30-4E6A-9A91-FC6093255ADF}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{17EAB0C9-7A44-4FD6-BF5C-234E873F2E08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=bool{1E340E59-ADBE-4106-809F-9D4785A6FC07}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caicurrentchannel;0;ReadMethodType=
 &lt;Type&gt;
    &lt;FXP&gt;
       &lt;IntegerWordLength&gt;4&lt;/IntegerWordLength&gt;
       &lt;Unsigned&gt;true&lt;/Unsigned&gt;
       &lt;WordLength&gt;4&lt;/WordLength&gt;
    &lt;/FXP&gt;
-&lt;/Type&gt;{6A131468-955D-42E1-80C5-7C8EA684745F}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{6C2D63B4-9BF8-4E54-99E8-C55F95027F63}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin;0;WriteMethodType=bool{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{713C59D1-60F7-435C-BB22-B60CC214161F}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataready;0;ReadMethodType=bool{7563EB78-68D9-48A9-8276-6D67A877C7DF}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin;0;ReadMethodType=I32{86D25789-65C9-4EAC-BC5A-5C268DC4529B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/cairun;0;WriteMethodType=bool{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{896BDD7A-EB95-448A-8EEA-EA547FE2BD36}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin;0;ReadMethodType=bool{8D2FCD4C-70E2-4242-93C1-E42DBB15665C}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/acheckchannel;0;ReadMethodType=bool{8F9C64AD-D600-4EA4-9A58-B471D28B67C3}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin;0;WriteMethodType=bool{91F80577-2446-421A-8850-7E31EE9BCCE0}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidone;0;ReadMethodType=bool{A05E98F6-BECB-418E-B9E7-B652B507B250}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{A4213CB7-A1E1-45D4-85CF-FD2532F5227A}057c0e9747a9a25c5e6ba3609b08555c114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae03685784e5c8c02c046b5783a04b8bf0b2887ac52cc98c1de44567a6699e8bef605a88a85b9fa54b45f2a6272df90f8a7b56cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
+&lt;/Type&gt;{2868BEE0-D9D6-49E9-B96B-3CB18E2CE9E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=bool{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3622792B-CF32-4943-B11B-3D73BE0A4CD7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=bool{38B96427-9FCC-4935-BBA5-01EB2626C80B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=bool{3F82519A-0DBE-4E7F-A9BC-B9A3F42A1E57}Multiplier=5.000000;Divisor=4.000000{3F85EE01-46E6-4070-B271-65041F0803DB}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/acheckchannel;0;ReadMethodType=bool{4269C7EB-A94F-47D3-9ED1-18FE96F3AA17}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=bool{48C07554-EC3A-4EE9-9D92-893CED236534}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidone;0;ReadMethodType=bool{4E595514-A153-45EA-89A5-6415CBC16A2B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO33;0;ReadMethodType=bool;WriteMethodType=bool{4EC7CA78-5607-428D-ADC9-BA169FC1A213}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool{50E138A5-33AC-4251-B9D1-3C31D245C129}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin;0;WriteMethodType=bool{57EE6464-A678-49D6-AFF1-E872B49599C1}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin;0;ReadMethodType=I32{5A500449-B834-44F5-8B72-CAF0CBB4E692}057c0e9747a9a25c5e6ba3609b08555c114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae03687ac52cc98c1de44567a6699e8bef605a7c41cc4c2e5c3485c1b23abd21d85f3d88a85b9fa54b45f2a6272df90f8a7b56cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;7&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -288,8 +260,36 @@
 &lt;/String&gt;
 &lt;/Cluster&gt;
 &lt;/Array&gt;
-{AC018DAF-D475-4216-93F8-C83BCA653F51}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataout;0;ReadMethodType=U16{AECF18E6-5CB0-419D-AFED-6156863EDB35}resource=/Chassis Temperature;0;ReadMethodType=i16{BFE32166-59A6-4C50-A42C-D274B67C16D9}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=bool{C93A643C-DC00-46C7-A660-CFBEAEF9DDD4}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=bool{CA2574DB-438E-406B-814F-0EFEF5798D24}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispimosi;0;ReadMethodType=bool{D560CEAB-EDF6-45E3-AB2C-82B59944A8B0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO32;0;ReadMethodType=bool;WriteMethodType=bool{D6092319-BA72-4511-A72D-36E85DC03D15}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin;0;WriteMethodType=I32{D7532765-79A7-43F2-A791-515C70577DCC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{D8FC9E85-9F0D-40B8-A713-B288DA87354E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/caichannellist;0;WriteMethodType=U16{DA5E8471-FF09-4001-AE7A-BDB79EEAFB57}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/aaispimiso;0;WriteMethodType=bool{DDC8CD1E-74B0-4917-8E26-E90467B0AA96}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{DF226E99-8EE3-4A41-B10F-DA3B2B08441A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{E5D9B775-6B45-46C1-8D2C-F88D826A2A18}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO35;0;ReadMethodType=bool;WriteMethodType=bool{ECE010B0-4EA9-4EF0-B56F-48C3448E9B5C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin;0;WriteMethodType=bool{EFF580F7-DD4D-4C9F-8320-48E2AA2F3928}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{FD5BBBB5-D480-4778-B90F-8ADF708312CD}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin;0;ReadMethodType=bool{FEDAA1DE-7D93-49FE-9D13-DD8BFD30B5AC}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32sbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EaaispiclkNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispiclk;0;ReadMethodType=boolaaispics_nNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispics_n;0;ReadMethodType=boolaaispimisoArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/aaispimiso;0;WriteMethodType=boolaaispimosiNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispimosi;0;ReadMethodType=boolacheckchannelNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/acheckchannel;0;ReadMethodType=boolADC057c0e9747a9a25c5e6ba3609b08555c114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae03685784e5c8c02c046b5783a04b8bf0b2887ac52cc98c1de44567a6699e8bef605a88a85b9fa54b45f2a6272df90f8a7b56cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
+{6A131468-955D-42E1-80C5-7C8EA684745F}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{6DCA92D9-C665-44D8-BB16-47898E9F605A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=bool{7372CBE0-D2A2-4B04-BFB2-F271E97920F3}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin;0;ReadMethodType=bool{7A010C88-7C5D-425D-83A2-8913D0F13785}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/caichannellist;0;WriteMethodType=U16{7EC68FB3-A0F8-4035-92FB-2902D02A9731}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin;0;ReadMethodType=bool{86BC589F-9FBD-40D2-A7E9-913114967236}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=bool{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{8CC928D7-858E-493C-8B62-5E03ECC48F93}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispimosi;0;ReadMethodType=bool{91CBF16B-85A9-465A-8F2A-4AC5675A1BE5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=bool{93034B0F-126F-4438-B8AF-02EE177C1483}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin;0;ReadMethodType=I32{9331A13B-BD93-42A3-9ED2-261290CB839D}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispiclk;0;ReadMethodType=bool{9754ECDB-3479-4C57-9A27-004DDE8BE778}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/cairun;0;WriteMethodType=bool{A05E98F6-BECB-418E-B9E7-B652B507B250}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{AECF18E6-5CB0-419D-AFED-6156863EDB35}resource=/Chassis Temperature;0;ReadMethodType=i16{AF20A322-60A0-4731-BC3C-A307BFC03BD4}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataout;0;ReadMethodType=U16{B3A00C9A-DCE3-4382-BAC2-49266F4F994C}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin;0;ReadMethodType=bool{BA62DFD3-0222-4CA1-808F-43C0C0556530}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/aaispimiso;0;WriteMethodType=bool{BFEA2C4A-6E09-4DAF-A3E9-A0B776084134}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin;0;WriteMethodType=bool{C23987C9-404F-4460-8D66-7259E6F96992}1ae36a2fc60ae137b0ae411db25eb69c1cd01cb20ee82e3a861739ff84a942a455f626a3fc5e98a5f48d00ea7c3ba54969889c34f8ebdd65cf617e4f707ede586bbc2343e801199058d21697d37decca7e44b23fe1a936009e2026d6b93747e19263e8e2367d58bde4df51d9c84e898b950523364773a16d144afd0d8fed6423a43818c48b4bb5ba0df99138722a98a2a56eff34de65a1ef3025143535fe4876b67c482b7ca8d0fcb2c615f8402132f5b7758f99c47e94e9ec5fac39c39a8abddae38a4047a8d5b003467e9753fe9459e1cea7f5505aa9438a2899e24d4288dde85042dd76bdb576a5483d9330e56aa8&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+{C535F3F3-CB09-4815-800F-A304E3F63219}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=bool{CBA6F7F2-96CF-4B29-B365-68477A298513}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/areset;0;WriteMethodType=bool{CDDC65BA-8F28-4858-A53A-AE5B2CAF5CE5}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32{CF12E8B2-1D25-446D-89FE-EA132AF51E15}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin;0;WriteMethodType=bool{D560CEAB-EDF6-45E3-AB2C-82B59944A8B0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO32;0;ReadMethodType=bool;WriteMethodType=bool{D7532765-79A7-43F2-A791-515C70577DCC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{D9EC22A5-3C3D-450E-874A-051BA4BFBB35}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin;0;ReadMethodType=bool{DDC8CD1E-74B0-4917-8E26-E90467B0AA96}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{DF226E99-8EE3-4A41-B10F-DA3B2B08441A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{E5D9B775-6B45-46C1-8D2C-F88D826A2A18}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO35;0;ReadMethodType=bool;WriteMethodType=bool{EFF580F7-DD4D-4C9F-8320-48E2AA2F3928}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{F5F9567F-D86D-4B44-A945-8A593F79DBFF}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispics_n;0;ReadMethodType=bool{F95424FE-801D-48E1-BC4E-EF31634BD5BC}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin;0;ReadMethodType=I8{FBFB1BB1-0917-4D1E-8FC2-5425BFC96E75}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin;0;WriteMethodType=I32sbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E50MHzMultiplier=5.000000;Divisor=4.000000aaispiclkNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispiclk;0;ReadMethodType=boolaaispics_nNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispics_n;0;ReadMethodType=boolaaispimisoArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/aaispimiso;0;WriteMethodType=boolaaispimosiNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispimosi;0;ReadMethodType=boolacheckchannelNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/acheckchannel;0;ReadMethodType=boolADC057c0e9747a9a25c5e6ba3609b08555c114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae03687ac52cc98c1de44567a6699e8bef605a7c41cc4c2e5c3485c1b23abd21d85f3d88a85b9fa54b45f2a6272df90f8a7b56cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;7&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -468,7 +468,7 @@ aresetArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData
       &lt;Unsigned&gt;true&lt;/Unsigned&gt;
       &lt;WordLength&gt;4&lt;/WordLength&gt;
    &lt;/FXP&gt;
-&lt;/Type&gt;caidataoutNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataout;0;ReadMethodType=U16caidatareadyNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataready;0;ReadMethodType=boolcaidoneNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidone;0;ReadMethodType=boolcairunArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/cairun;0;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16CSArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO32;0;ReadMethodType=bool;WriteMethodType=boolENABLEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolGOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolipic_test_0_ipif_Bus2IP_Addr_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin;0;ReadMethodType=I32ipic_test_0_ipif_Bus2IP_BE_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin;0;ReadMethodType=I8ipic_test_0_ipif_Bus2IP_Clk_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_CS_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_Data_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin;0;ReadMethodType=I32ipic_test_0_ipif_Bus2IP_Reset_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_RNW_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin;0;ReadMethodType=boolipic_test_0_ipif_IP2Bus_Data_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin;0;WriteMethodType=I32ipic_test_0_ipif_IP2Bus_Error_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin;0;WriteMethodType=boolipic_test_0_ipif_IP2Bus_RdAck_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin;0;WriteMethodType=boolipic_test_0_ipif_IP2Bus_WrAck_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin;0;WriteMethodType=boolmdm_0_extTDI_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=boolmdm_0_extTDO_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=boolmdm_0_TCK_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=boolmdm_0_TMS_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=boolmicroblaze463beaecb90905d14b4ab9322b4f120449c84153d794ccb7c75012a2685f0dfb5bd4302bc48bb668f6f8995fd17f5e856e22a0a7eab992229187892f5e4961ab6ffe4c9125fdc0fbc7321802625205f771d36ca1cdee6b62b6ed9662e0ca1685838d6dcc46072f1671d29bb47970c33c8fd88c1c7368508f0f32b2694e6af64c97f11792d275b81e01afc06e3f37f2779c285bf30d387cdfefcb28d006d1cb05a27b2e74f37f1a9e16363dff6bf71a57a793dd03204a94d2db33e16894e5efadab1f051264b299feef7ba2c37064c679da52a9a439c4156e0d312766142ba302dda09cf8fcae78e174c73242a92762e2&lt;Array&gt;
+&lt;/Type&gt;caidataoutNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataout;0;ReadMethodType=U16caidatareadyNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataready;0;ReadMethodType=boolcaidoneNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidone;0;ReadMethodType=boolcairunArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/cairun;0;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16CSArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO32;0;ReadMethodType=bool;WriteMethodType=boolENABLEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolGOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolipic_test_0_ipif_Bus2IP_Addr_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin;0;ReadMethodType=I32ipic_test_0_ipif_Bus2IP_BE_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin;0;ReadMethodType=I8ipic_test_0_ipif_Bus2IP_Clk_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_CS_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_Data_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin;0;ReadMethodType=I32ipic_test_0_ipif_Bus2IP_Reset_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_RNW_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin;0;ReadMethodType=boolipic_test_0_ipif_IP2Bus_Data_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin;0;WriteMethodType=I32ipic_test_0_ipif_IP2Bus_Error_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin;0;WriteMethodType=boolipic_test_0_ipif_IP2Bus_RdAck_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin;0;WriteMethodType=boolipic_test_0_ipif_IP2Bus_WrAck_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin;0;WriteMethodType=boolmdm_0_extTDI_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=boolmdm_0_extTDO_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=boolmdm_0_TCK_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=boolmdm_0_TMS_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=boolmicroblaze1ae36a2fc60ae137b0ae411db25eb69c1cd01cb20ee82e3a861739ff84a942a455f626a3fc5e98a5f48d00ea7c3ba54969889c34f8ebdd65cf617e4f707ede586bbc2343e801199058d21697d37decca7e44b23fe1a936009e2026d6b93747e19263e8e2367d58bde4df51d9c84e898b950523364773a16d144afd0d8fed6423a43818c48b4bb5ba0df99138722a98a2a56eff34de65a1ef3025143535fe4876b67c482b7ca8d0fcb2c615f8402132f5b7758f99c47e94e9ec5fac39c39a8abddae38a4047a8d5b003467e9753fe9459e1cea7f5505aa9438a2899e24d4288dde85042dd76bdb576a5483d9330e56aa8&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -500,10 +500,10 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Category" Type="Str">User Defined</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].InvalidPath" Type="Str"></Property>
-				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Name" Type="Str">BlueMoonAiResourceCore_encrypted</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Name" Type="Str">MicroBlaze</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Category" Type="Str">User Defined</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarations[1].InvalidPath" Type="Str"></Property>
-				<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Name" Type="Str">MicroBlaze</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Name" Type="Str">BlueMoonAiResourceCore_encrypted</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">2</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml">
 <CLIPDeclarationSet>
@@ -609,7 +609,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
             </Path>
             <VerifiedImplementationList>
                <Path name="BlueMoonAiResourceCore.vhd">
-                  <MD5>5784e5c8c02c046b5783a04b8bf0b288</MD5>
+                  <MD5>7c41cc4c2e5c3485c1b23abd21d85f3d</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Same as synthesis</SimulationModelType>
                   </SimulationFileList>
@@ -847,7 +847,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
       <CLIPDeclaration name="MicroBlaze">
          <DeclarationPaths>
             <Absolute>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\uBlaze.xml</Absolute>
-            <MD5>838d6dcc46072f1671d29bb47970c33c</MD5>
+            <MD5>1cd01cb20ee82e3a861739ff84a942a4</MD5>
             <RelativeToLabVIEW>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\uBlaze.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\uBlaze.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>..\..\..\Users\Ryan\Desktop\ee192\natcar\labview\CLIP\uBlaze.xml</RelativeToNiSharedDir>
@@ -873,85 +873,85 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
             <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\clock_generator_0_wrapper.ngc</Path>
             <VerifiedImplementationList>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\clock_generator_0_wrapper.ngc">
-                  <MD5>49c84153d794ccb7c75012a2685f0dfb</MD5>
+                  <MD5>b67c482b7ca8d0fcb2c615f8402132f5</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_timer_0_wrapper.ngc">
-                  <MD5>da52a9a439c4156e0d312766142ba302</MD5>
+                  <MD5>6bbc2343e801199058d21697d37decca</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_0_wrapper.ngc">
-                  <MD5>5bd4302bc48bb668f6f8995fd17f5e85</MD5>
+                  <MD5>a56eff34de65a1ef3025143535fe4876</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\system.ngc">
-                  <MD5>8fd88c1c7368508f0f32b2694e6af64c</MD5>
+                  <MD5>9263e8e2367d58bde4df51d9c84e898b</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\proc_sys_reset_0_wrapper.ngc">
-                  <MD5>a27b2e74f37f1a9e16363dff6bf71a57</MD5>
+                  <MD5>69889c34f8ebdd65cf617e4f707ede58</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\microblaze_0_wrapper.ngc">
-                  <MD5>dda09cf8fcae78e174c73242a92762e2</MD5>
+                  <MD5>a43818c48b4bb5ba0df99138722a98a2</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mdm_0_wrapper.ngc">
-                  <MD5>6ffe4c9125fdc0fbc7321802625205f7</MD5>
+                  <MD5>1ae36a2fc60ae137b0ae411db25eb69c</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\mb_plb_wrapper.ngc">
-                  <MD5>ab1f051264b299feef7ba2c37064c679</MD5>
+                  <MD5>dae38a4047a8d5b003467e9753fe9459</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\lmb_bram_wrapper.ngc">
-                  <MD5>97f11792d275b81e01afc06e3f37f277</MD5>
+                  <MD5>950523364773a16d144afd0d8fed6423</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ipic_test_0_wrapper.ngc">
-                  <MD5>6e22a0a7eab992229187892f5e4961ab</MD5>
+                  <MD5>7e44b23fe1a936009e2026d6b93747e1</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_wrapper.ngc">
-                  <MD5>463beaecb90905d14b4ab9322b4f1204</MD5>
+                  <MD5>55f626a3fc5e98a5f48d00ea7c3ba549</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\ilmb_cntlr_wrapper.ngc">
-                  <MD5>9c285bf30d387cdfefcb28d006d1cb05</MD5>
+                  <MD5>b7758f99c47e94e9ec5fac39c39a8abd</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_wrapper.ngc">
-                  <MD5>71d36ca1cdee6b62b6ed9662e0ca1685</MD5>
+                  <MD5>e1cea7f5505aa9438a2899e24d4288dd</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
                <Path name="C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_cntlr_wrapper.ngc">
-                  <MD5>a793dd03204a94d2db33e16894e5efad</MD5>
+                  <MD5>e85042dd76bdb576a5483d9330e56aa8</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
@@ -1030,44 +1030,12 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
                      <HDLName>xps_gpio_0_GPIO_IO_O_pin</HDLName>
                      <SignalType>data</SignalType>
                   </Signal>
-                  <Signal name="ipic_test_0_ipif_Bus2IP_Addr_pin">
-                     <DataType>
-                        <I32></I32>
-                     </DataType>
-                     <Direction>FromCLIP</Direction>
-                     <HDLName>ipic_test_0_ipif_Bus2IP_Addr_pin</HDLName>
-                     <SignalType>data</SignalType>
-                  </Signal>
-                  <Signal name="ipic_test_0_ipif_IP2Bus_Data_pin">
-                     <DataType>
-                        <I32></I32>
-                     </DataType>
-                     <Direction>ToCLIP</Direction>
-                     <HDLName>ipic_test_0_ipif_IP2Bus_Data_pin</HDLName>
-                     <SignalType>data</SignalType>
-                  </Signal>
-                  <Signal name="ipic_test_0_ipif_Bus2IP_BE_pin">
-                     <DataType>
-                        <I8></I8>
-                     </DataType>
-                     <Direction>FromCLIP</Direction>
-                     <HDLName>ipic_test_0_ipif_Bus2IP_BE_pin</HDLName>
-                     <SignalType>data</SignalType>
-                  </Signal>
                   <Signal name="ipic_test_0_ipif_Bus2IP_Clk_pin">
                      <DataType>
                         <Boolean></Boolean>
                      </DataType>
                      <Direction>FromCLIP</Direction>
                      <HDLName>ipic_test_0_ipif_Bus2IP_Clk_pin</HDLName>
-                     <SignalType>data</SignalType>
-                  </Signal>
-                  <Signal name="ipic_test_0_ipif_Bus2IP_CS_pin">
-                     <DataType>
-                        <Boolean></Boolean>
-                     </DataType>
-                     <Direction>FromCLIP</Direction>
-                     <HDLName>ipic_test_0_ipif_Bus2IP_CS_pin</HDLName>
                      <SignalType>data</SignalType>
                   </Signal>
                   <Signal name="ipic_test_0_ipif_Bus2IP_Reset_pin">
@@ -1078,28 +1046,12 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
                      <HDLName>ipic_test_0_ipif_Bus2IP_Reset_pin</HDLName>
                      <SignalType>data</SignalType>
                   </Signal>
-                  <Signal name="ipic_test_0_ipif_Bus2IP_RNW_pin">
-                     <DataType>
-                        <Boolean></Boolean>
-                     </DataType>
-                     <Direction>FromCLIP</Direction>
-                     <HDLName>ipic_test_0_ipif_Bus2IP_RNW_pin</HDLName>
-                     <SignalType>data</SignalType>
-                  </Signal>
-                  <Signal name="ipic_test_0_ipif_Bus2IP_Data_pin">
+                  <Signal name="ipic_test_0_ipif_IP2Bus_Data_pin">
                      <DataType>
                         <I32></I32>
                      </DataType>
-                     <Direction>FromCLIP</Direction>
-                     <HDLName>ipic_test_0_ipif_Bus2IP_Data_pin</HDLName>
-                     <SignalType>data</SignalType>
-                  </Signal>
-                  <Signal name="ipic_test_0_ipif_IP2Bus_Error_pin">
-                     <DataType>
-                        <Boolean></Boolean>
-                     </DataType>
                      <Direction>ToCLIP</Direction>
-                     <HDLName>ipic_test_0_ipif_IP2Bus_Error_pin</HDLName>
+                     <HDLName>ipic_test_0_ipif_IP2Bus_Data_pin</HDLName>
                      <SignalType>data</SignalType>
                   </Signal>
                   <Signal name="ipic_test_0_ipif_IP2Bus_WrAck_pin">
@@ -1116,6 +1068,54 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
                      </DataType>
                      <Direction>ToCLIP</Direction>
                      <HDLName>ipic_test_0_ipif_IP2Bus_RdAck_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_IP2Bus_Error_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_IP2Bus_Error_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_Addr_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_Addr_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_Data_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_Data_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_RNW_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_RNW_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_BE_pin">
+                     <DataType>
+                        <I8></I8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_BE_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_CS_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_CS_pin</HDLName>
                      <SignalType>data</SignalType>
                   </Signal>
                </SignalList>
@@ -1550,12 +1550,22 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+					<Item Name="50MHz" Type="FPGA Derived Clock">
+						<Property Name="FPGA.PersistentID" Type="Str">{3F82519A-0DBE-4E7F-A9BC-B9A3F42A1E57}</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig" Type="Str">Multiplier=5.000000;Divisor=4.000000</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.Divisor" Type="Dbl">4</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.FromExternalClock" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.Multiplier" Type="Dbl">5</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.ParentFrequencyInHertz" Type="Dbl">40000000</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+					</Item>
 				</Item>
 				<Item Name="MezzanineCard" Type="RIO Mezzanine Card">
 					<Property Name="crio.Type" Type="Str">Digital</Property>
 				</Item>
-				<Item Name="ADC" Type="FPGA Component Level IP">
-					<Property Name="FPGA.PersistentID" Type="Str">{A4213CB7-A1E1-45D4-85CF-FD2532F5227A}</Property>
+				<Item Name="microblaze" Type="FPGA Component Level IP">
+					<Property Name="FPGA.PersistentID" Type="Str">{C23987C9-404F-4460-8D66-7259E6F96992}</Property>
 					<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
 <CLIPConnections>
    <CLIPSignal name="clk">
@@ -1563,6 +1573,316 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
       <Direction>ToCLIP</Direction>
       <HDLName>clk</HDLName>
       <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
+      <MaxFreq>125000000.0000</MaxFreq>
+      <MinFreq>1000000.000000</MinFreq>
+      <UseTopClock>false</UseTopClock>
+   </CLIPSignal>
+</CLIPConnections></Property>
+					<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str">User Defined</Property>
+					<Property Name="NI.LV.CLIP.DeclarationName" Type="Str">MicroBlaze</Property>
+					<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">false</Property>
+					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str"></Property>
+					<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
+					<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
+					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">1ae36a2fc60ae137b0ae411db25eb69c1cd01cb20ee82e3a861739ff84a942a455f626a3fc5e98a5f48d00ea7c3ba54969889c34f8ebdd65cf617e4f707ede586bbc2343e801199058d21697d37decca7e44b23fe1a936009e2026d6b93747e19263e8e2367d58bde4df51d9c84e898b950523364773a16d144afd0d8fed6423a43818c48b4bb5ba0df99138722a98a2a56eff34de65a1ef3025143535fe4876b67c482b7ca8d0fcb2c615f8402132f5b7758f99c47e94e9ec5fac39c39a8abddae38a4047a8d5b003467e9753fe9459e1cea7f5505aa9438a2899e24d4288dde85042dd76bdb576a5483d9330e56aa8&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="reset" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/reset</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{91CBF16B-85A9-465A-8F2A-4AC5675A1BE5}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="xps_timer_0_PWM0_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/xps_timer_0_PWM0_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4EC7CA78-5607-428D-ADC9-BA169FC1A213}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="mdm_0_TCK_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/mdm_0_TCK_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{6DCA92D9-C665-44D8-BB16-47898E9F605A}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="mdm_0_TMS_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/mdm_0_TMS_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{38B96427-9FCC-4935-BBA5-01EB2626C80B}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="mdm_0_extTDI_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/mdm_0_extTDI_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C535F3F3-CB09-4815-800F-A304E3F63219}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="mdm_0_extTDO_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/mdm_0_extTDO_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{86BC589F-9FBD-40D2-A7E9-913114967236}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="xps_gpio_0_GPIO_IO_O_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{CDDC65BA-8F28-4858-A53A-AE5B2CAF5CE5}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Clk_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D9EC22A5-3C3D-450E-874A-051BA4BFBB35}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Reset_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7EC68FB3-A0F8-4035-92FB-2902D02A9731}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_Data_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FBFB1BB1-0917-4D1E-8FC2-5425BFC96E75}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_WrAck_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{CF12E8B2-1D25-446D-89FE-EA132AF51E15}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_RdAck_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{BFEA2C4A-6E09-4DAF-A3E9-A0B776084134}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_Error_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{50E138A5-33AC-4251-B9D1-3C31D245C129}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Addr_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{93034B0F-126F-4438-B8AF-02EE177C1483}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Data_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{57EE6464-A678-49D6-AFF1-E872B49599C1}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_RNW_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B3A00C9A-DCE3-4382-BAC2-49266F4F994C}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_BE_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F95424FE-801D-48E1-BC4E-EF31634BD5BC}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_CS_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7372CBE0-D2A2-4B04-BFB2-F271E97920F3}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+				</Item>
+				<Item Name="ADC" Type="FPGA Component Level IP">
+					<Property Name="FPGA.PersistentID" Type="Str">{5A500449-B834-44F5-8B72-CAF0CBB4E692}</Property>
+					<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
+<CLIPConnections>
+   <CLIPSignal name="clk">
+      <ClockFromCLIP>false</ClockFromCLIP>
+      <Direction>ToCLIP</Direction>
+      <HDLName>clk</HDLName>
+      <LinkToFPGAClock>50MHz</LinkToFPGAClock>
       <MaxFreq>200000000.0000</MaxFreq>
       <MinFreq>1000000.000000</MinFreq>
       <UseTopClock>false</UseTopClock>
@@ -1598,7 +1918,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str"></Property>
 					<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
 					<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
-					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">057c0e9747a9a25c5e6ba3609b08555c114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae03685784e5c8c02c046b5783a04b8bf0b2887ac52cc98c1de44567a6699e8bef605a88a85b9fa54b45f2a6272df90f8a7b56cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
+					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">057c0e9747a9a25c5e6ba3609b08555c114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae03687ac52cc98c1de44567a6699e8bef605a7c41cc4c2e5c3485c1b23abd21d85f3d88a85b9fa54b45f2a6272df90f8a7b56cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;7&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -1786,7 +2106,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1C741BA8-C726-45E5-A49F-8DA29F4B9B6C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{CBA6F7F2-96CF-4B29-B365-68477A298513}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="cairun" Type="Elemental IO">
@@ -1802,7 +2122,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{86D25789-65C9-4EAC-BC5A-5C268DC4529B}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9754ECDB-3479-4C57-9A27-004DDE8BE778}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="caidone" Type="Elemental IO">
@@ -1815,7 +2135,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{91F80577-2446-421A-8850-7E31EE9BCCE0}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{48C07554-EC3A-4EE9-9D92-893CED236534}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="caichannellist" Type="Elemental IO">
@@ -1831,7 +2151,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{D8FC9E85-9F0D-40B8-A713-B288DA87354E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7A010C88-7C5D-425D-83A2-8913D0F13785}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="caicurrentchannel" Type="Elemental IO">
@@ -1844,7 +2164,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{50CD96F5-380E-4F5A-8480-6CC5C72E8EC6}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1E340E59-ADBE-4106-809F-9D4785A6FC07}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="caidataready" Type="Elemental IO">
@@ -1857,7 +2177,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{713C59D1-60F7-435C-BB22-B60CC214161F}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1071BABB-4DAE-43BE-892E-37EAE7A8E7A2}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="caidataout" Type="Elemental IO">
@@ -1870,7 +2190,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{AC018DAF-D475-4216-93F8-C83BCA653F51}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AF20A322-60A0-4731-BC3C-A307BFC03BD4}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="aaispics_n" Type="Elemental IO">
@@ -1883,7 +2203,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1FB55588-66DF-4B81-9006-B9F76175BCA1}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F5F9567F-D86D-4B44-A945-8A593F79DBFF}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="aaispiclk" Type="Elemental IO">
@@ -1896,7 +2216,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3BF5DA48-097F-4C45-8220-CEF5C9A1B7DF}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9331A13B-BD93-42A3-9ED2-261290CB839D}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="aaispimosi" Type="Elemental IO">
@@ -1909,7 +2229,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{CA2574DB-438E-406B-814F-0EFEF5798D24}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8CC928D7-858E-493C-8B62-5E03ECC48F93}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="aaispimiso" Type="Elemental IO">
@@ -1925,7 +2245,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{DA5E8471-FF09-4001-AE7A-BDB79EEAFB57}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{BA62DFD3-0222-4CA1-808F-43C0C0556530}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="acheckchannel" Type="Elemental IO">
@@ -1938,321 +2258,12 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{8D2FCD4C-70E2-4242-93C1-E42DBB15665C}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-				</Item>
-				<Item Name="microblaze" Type="FPGA Component Level IP">
-					<Property Name="FPGA.PersistentID" Type="Str">{1D759112-7C2E-4D9B-954C-8CCBAAE51469}</Property>
-					<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
-<CLIPConnections>
-   <CLIPSignal name="clk">
-      <ClockFromCLIP>false</ClockFromCLIP>
-      <Direction>ToCLIP</Direction>
-      <HDLName>clk</HDLName>
-      <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
-      <MaxFreq>125000000.0000</MaxFreq>
-      <MinFreq>1000000.000000</MinFreq>
-      <UseTopClock>false</UseTopClock>
-   </CLIPSignal>
-</CLIPConnections></Property>
-					<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str">User Defined</Property>
-					<Property Name="NI.LV.CLIP.DeclarationName" Type="Str">MicroBlaze</Property>
-					<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">false</Property>
-					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str"></Property>
-					<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
-					<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
-					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">463beaecb90905d14b4ab9322b4f120449c84153d794ccb7c75012a2685f0dfb5bd4302bc48bb668f6f8995fd17f5e856e22a0a7eab992229187892f5e4961ab6ffe4c9125fdc0fbc7321802625205f771d36ca1cdee6b62b6ed9662e0ca1685838d6dcc46072f1671d29bb47970c33c8fd88c1c7368508f0f32b2694e6af64c97f11792d275b81e01afc06e3f37f2779c285bf30d387cdfefcb28d006d1cb05a27b2e74f37f1a9e16363dff6bf71a57a793dd03204a94d2db33e16894e5efadab1f051264b299feef7ba2c37064c679da52a9a439c4156e0d312766142ba302dda09cf8fcae78e174c73242a92762e2&lt;Array&gt;
-&lt;Name&gt;Generics&lt;/Name&gt;
-&lt;Dimsize&gt;0&lt;/Dimsize&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;CLIP Generic&lt;/Name&gt;
-&lt;NumElts&gt;5&lt;/NumElts&gt;
-&lt;String&gt;
-&lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Type&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Default value&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Value&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Description&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;/Cluster&gt;
-&lt;/Array&gt;
-</Property>
-					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="reset" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/reset</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{4667A6EE-27DB-4956-B6BD-D23F0249BCF7}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="xps_timer_0_PWM0_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/xps_timer_0_PWM0_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3B7D01DD-27A5-401C-AB98-06F9D8935375}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="mdm_0_TCK_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/mdm_0_TCK_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{44D09BD4-0735-49E9-8C27-4E71D8431550}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="mdm_0_TMS_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/mdm_0_TMS_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C93A643C-DC00-46C7-A660-CFBEAEF9DDD4}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="mdm_0_extTDI_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/mdm_0_extTDI_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{137DDC71-A7E2-406B-9544-737D26924B66}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="mdm_0_extTDO_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/mdm_0_extTDO_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{BFE32166-59A6-4C50-A42C-D274B67C16D9}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="xps_gpio_0_GPIO_IO_O_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{FEDAA1DE-7D93-49FE-9D13-DD8BFD30B5AC}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_Bus2IP_Addr_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2753F9DA-E13D-4F48-9D67-75558FFF4DF5}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_IP2Bus_Data_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{D6092319-BA72-4511-A72D-36E85DC03D15}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_Bus2IP_BE_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{39235C95-086F-4380-9046-862FCB651A9E}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_Bus2IP_Clk_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{896BDD7A-EB95-448A-8EEA-EA547FE2BD36}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_Bus2IP_CS_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2E452686-1795-447E-9519-201F08F0DF44}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_Bus2IP_Reset_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{FD5BBBB5-D480-4778-B90F-8ADF708312CD}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_Bus2IP_RNW_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{17E07BA0-C43D-4A40-9515-B379C6B87FB2}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_Bus2IP_Data_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{7563EB78-68D9-48A9-8276-6D67A877C7DF}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_IP2Bus_Error_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{ECE010B0-4EA9-4EF0-B56F-48C3448E9B5C}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_IP2Bus_WrAck_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6C2D63B4-9BF8-4E54-99E8-C55F95027F63}</Property>
-						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
-					</Item>
-					<Item Name="ipic_test_0_ipif_IP2Bus_RdAck_pin" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{8F9C64AD-D600-4EA4-9A58-B471D28B67C3}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3F85EE01-46E6-4070-B271-65041F0803DB}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
+					<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
 					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 					<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
@@ -2261,7 +2272,6 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 					<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
 					<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
 					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-					<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Top-Level" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">

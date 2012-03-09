@@ -17,17 +17,17 @@ entity system is
     mdm_0_extTDI_pin : in std_logic;
     mdm_0_extTDO_pin : out std_logic;
     xps_gpio_0_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
-    ipic_test_0_ipif_Bus2IP_Addr_pin : out std_logic_vector(31 downto 0);
-    ipic_test_0_ipif_IP2Bus_Data_pin : in std_logic_vector(31 downto 0);
-    ipic_test_0_ipif_Bus2IP_BE_pin : out std_logic_vector(7 downto 0);
     ipic_test_0_ipif_Bus2IP_Clk_pin : out std_logic;
-    ipic_test_0_ipif_Bus2IP_CS_pin : out std_logic;
     ipic_test_0_ipif_Bus2IP_Reset_pin : out std_logic;
-    ipic_test_0_ipif_Bus2IP_RNW_pin : out std_logic;
-    ipic_test_0_ipif_Bus2IP_Data_pin : out std_logic_vector(31 downto 0);
-    ipic_test_0_ipif_IP2Bus_Error_pin : in std_logic;
+    ipic_test_0_ipif_IP2Bus_Data_pin : in std_logic_vector(31 downto 0);
     ipic_test_0_ipif_IP2Bus_WrAck_pin : in std_logic;
-    ipic_test_0_ipif_IP2Bus_RdAck_pin : in std_logic
+    ipic_test_0_ipif_IP2Bus_RdAck_pin : in std_logic;
+    ipic_test_0_ipif_IP2Bus_Error_pin : in std_logic;
+    ipic_test_0_ipif_Bus2IP_Addr_pin : out std_logic_vector(31 downto 0);
+    ipic_test_0_ipif_Bus2IP_Data_pin : out std_logic_vector(31 downto 0);
+    ipic_test_0_ipif_Bus2IP_RNW_pin : out std_logic;
+    ipic_test_0_ipif_Bus2IP_BE_pin : out std_logic_vector(7 downto 0);
+    ipic_test_0_ipif_Bus2IP_CS_pin : out std_logic
   );
 end system;
 
@@ -1397,17 +1397,17 @@ begin
   mdm_0_extTDI <= mdm_0_extTDI_pin;
   mdm_0_extTDO_pin <= mdm_0_extTDO;
   xps_gpio_0_GPIO_IO_O_pin <= xps_gpio_0_GPIO_IO_O;
-  ipic_test_0_ipif_Bus2IP_Addr_pin <= ipic_test_0_ipif_Bus2IP_Addr;
-  ipic_test_0_ipif_IP2Bus_Data(0 to 31) <= ipic_test_0_ipif_IP2Bus_Data_pin(31 downto 0);
-  ipic_test_0_ipif_Bus2IP_BE_pin <= ipic_test_0_ipif_Bus2IP_BE;
   ipic_test_0_ipif_Bus2IP_Clk_pin <= ipic_test_0_ipif_Bus2IP_Clk;
-  ipic_test_0_ipif_Bus2IP_CS_pin <= ipic_test_0_ipif_Bus2IP_CS;
   ipic_test_0_ipif_Bus2IP_Reset_pin <= ipic_test_0_ipif_Bus2IP_Reset;
-  ipic_test_0_ipif_Bus2IP_RNW_pin <= ipic_test_0_ipif_Bus2IP_RNW;
-  ipic_test_0_ipif_Bus2IP_Data_pin <= ipic_test_0_ipif_Bus2IP_Data;
-  ipic_test_0_ipif_IP2Bus_Error <= ipic_test_0_ipif_IP2Bus_Error_pin;
+  ipic_test_0_ipif_IP2Bus_Data(0 to 31) <= ipic_test_0_ipif_IP2Bus_Data_pin(31 downto 0);
   ipic_test_0_ipif_IP2Bus_WrAck <= ipic_test_0_ipif_IP2Bus_WrAck_pin;
   ipic_test_0_ipif_IP2Bus_RdAck <= ipic_test_0_ipif_IP2Bus_RdAck_pin;
+  ipic_test_0_ipif_IP2Bus_Error <= ipic_test_0_ipif_IP2Bus_Error_pin;
+  ipic_test_0_ipif_Bus2IP_Addr_pin <= ipic_test_0_ipif_Bus2IP_Addr;
+  ipic_test_0_ipif_Bus2IP_Data_pin <= ipic_test_0_ipif_Bus2IP_Data;
+  ipic_test_0_ipif_Bus2IP_RNW_pin <= ipic_test_0_ipif_Bus2IP_RNW;
+  ipic_test_0_ipif_Bus2IP_BE_pin <= ipic_test_0_ipif_Bus2IP_BE;
+  ipic_test_0_ipif_Bus2IP_CS_pin <= ipic_test_0_ipif_Bus2IP_CS;
   net_gnd0 <= '0';
   net_gnd1(0 downto 0) <= B"0";
   net_gnd10(0 to 9) <= B"0000000000";

@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Wed Feb 08 20:15:23 2012">
+  <application stringID="Xst" timeStamp="Thu Mar 08 23:22:27 2012">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="C:\Xilinx\12.4\ISE_DS\ISE\\lib\nt;C:\Xilinx\12.4\ISE_DS\EDK\lib\nt;C:\Xilinx\12.4\ISE_DS\ISE\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\cygwin\bin;C:\Xilinx\12.4\ISE_DS\EDK\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\\lib\nt;C:\Xilinx\12.4\ISE_DS\PlanAhead\bin;C:\Xilinx\12.4\ISE_DS\ISE\bin\nt;C:\Xilinx\12.4\ISE_DS\ISE\lib\nt;C:\Xilinx\12.4\ISE_DS\common\bin\nt;C:\Xilinx\12.4\ISE_DS\common\lib\nt;C:\Program Files\Microchip\mplabc30\v3.30c\bin;C:\Program Files\MiKTeX 2.9\miktex\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\SWTOOLS\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2011a\runtime\win32;C:\Program Files\MATLAB\R2011a\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\National Instruments\Shared\System\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Python27\;C:\MinGW\bin\"/>
+          <item stringID="value" value="C:\Xilinx\12.4\ISE_DS\ISE\\lib\nt;C:\Xilinx\12.4\ISE_DS\EDK\lib\nt;C:\Xilinx\12.4\ISE_DS\ISE\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\cygwin\bin;C:\Xilinx\12.4\ISE_DS\EDK\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\\lib\nt;C:\Xilinx\12.4\ISE_DS\PlanAhead\bin;C:\Xilinx\12.4\ISE_DS\ISE\bin\nt;C:\Xilinx\12.4\ISE_DS\ISE\lib\nt;C:\Xilinx\12.4\ISE_DS\common\bin\nt;C:\Xilinx\12.4\ISE_DS\common\lib\nt;C:\Program Files\Microchip\mplabc30\v3.30c\bin;C:\Program Files\MiKTeX 2.9\miktex\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\SWTOOLS\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2011a\runtime\win32;C:\Program Files\MATLAB\R2011a\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\National Instruments\Shared\System\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\Numerical Innovations\Fab3000V6\bin;C:\Program Files\Git\cmd;C:\Python27\;C:\MinGW\bin\"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -57,7 +57,7 @@
       <item DEFAULT="Speed" label="-opt_mode" stringID="XST_OPTMODE" value="speed"/>
       <item DEFAULT="As_Optimized" label="-netlist_hierarchy" stringID="XST_NETLISTHIERARCHY" value="as_optimized"/>
       <item DEFAULT="1" label="-opt_level" stringID="XST_OPTLEVEL" value="1"/>
-      <item DEFAULT="" label="-p" stringID="XST_P" value="xa6slx45csg324-2"/>
+      <item DEFAULT="" label="-p" stringID="XST_P" value="xc6slx45csg324-2"/>
       <item DEFAULT="" label="-top" stringID="XST_TOP" value="ilmb_cntlr_wrapper"/>
       <item DEFAULT="Mixed" label="-ifmt" stringID="XST_IFMT" value="MIXED"/>
       <item DEFAULT="" label="-ifn" stringID="XST_IFN" value="ilmb_cntlr_wrapper_xst.prj"/>
@@ -65,7 +65,7 @@
       <item DEFAULT="/" stringID="XST_HIERARCHYSEPARATOR" value="/"/>
       <item DEFAULT="Yes" label="-iobuf" stringID="XST_IOBUF" value="NO"/>
       <item DEFAULT="" label="-sd" stringID="XST_SD" value="{../implementation/ilmb_cntlr_wrapper}"/>
-      <item DEFAULT="" label="-vlgincdir" stringID="XST_VLGINCDIR" value="{&quot;C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\pcores\&quot; &quot;C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\&quot; }"/>
+      <item DEFAULT="" label="-vlgincdir" stringID="XST_VLGINCDIR" value="{&quot;C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\&quot; &quot;C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\&quot; }"/>
     </section>
     <section stringID="XST_HDL_SYNTHESIS_REPORT">
       <item dataType="int" stringID="XST_REGISTERS" value="2">
@@ -104,7 +104,7 @@
       </section>
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
-      <item stringID="XST_SELECTED_DEVICE" value="xa6slx45csg324-2"/>
+      <item stringID="XST_SELECTED_DEVICE" value="6slx45csg324-2"/>
       <item AVAILABLE="54576" dataType="int" label="Number of Slice Registers" stringID="XST_NUMBER_OF_SLICE_REGISTERS" value="2"/>
       <item AVAILABLE="27288" dataType="int" label="Number of Slice LUTs" stringID="XST_NUMBER_OF_SLICE_LUTS" value="6"/>
       <item AVAILABLE="27288" dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="6"/>

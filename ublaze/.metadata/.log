@@ -64,3 +64,12 @@ java.lang.IllegalArgumentException: Argument not valid
 
 !ENTRY org.eclipse.cdt.core 1 0 2012-03-08 17:50:13.654
 !MESSAGE Indexed 'natcar' (3 sources, 40 headers) in 0.30 sec: 1,127 declarations; 1,184 references; 3 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.34%)
+!SESSION 2012-03-08 23:54:54.214 -----------------------------------------------
+eclipse.buildId=Release 12.4 Build SDK_MS4.81d
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-08 23:57:09.519
+!MESSAGE Indexed 'microblaze_bsp' (0 sources, 7 headers) in 0.05 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

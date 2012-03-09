@@ -39,7 +39,7 @@
  **************************************/
 static XGpio     GpioOutput;
 static XTmrCtr   Xtimer;
-static LvFpgaVi* uBlaze_natcar;
+static LvFpgaVi  Top_Level;
 
 /**************************************
  * main()
@@ -48,32 +48,45 @@ int main()
 {
     init_platform();
 
-    /* Test LVFPGA */
-    xil_printf("Start LVFPGA test.\n");
-    // Open LVFPGA interface
-    LvFpga_OpenVi( uBlaze_natcar );
-
-    // Write Indicators
+	// Test LVFPGA
     int i = 0;
-	xil_printf("Indicator A: 1\n");
-	LvFpga_WriteIndicator_U32( uBlaze_natcar, Globals_Indicator_A___0x0010_, 1 );
-	for(i = 1; i < 2*40000000; i++); // wait
-	xil_printf("Indicator B: 2\n");
-	LvFpga_WriteIndicator_U32( uBlaze_natcar, Globals_Indicator_B___0x0014_, 2 );
-	for(i = 1; i < 2*40000000; i++); // wait
-	LvFpga_WriteIndicator_U32( uBlaze_natcar, Globals_Indicator_C___0x0018_, 3 );
-	for(i = 1; i < 2*40000000; i++); // wait
-	LvFpga_WriteIndicator_U32( uBlaze_natcar, Globals_Indicator_D___0x001C_, 4 );
-	for(i = 1; i < 2*40000000; i++); // wait
+	int A = -1;
+	int B = -1;
+	int C = -1;
+	int D = -1;
 
-	xil_printf("Control A: %u\n", LvFpga_ReadControl_U32( uBlaze_natcar, Globals_Control_A___0x0000_ ) );
-	for(i = 1; i < 2*40000000; i++); // wait
-	xil_printf("Control B: %u\n", LvFpga_ReadControl_U32( uBlaze_natcar, Globals_Control_B___0x0004_ ) );
-	for(i = 1; i < 2*40000000; i++); // wait
-	xil_printf("Control C: %u\n", LvFpga_ReadControl_U32( uBlaze_natcar, Globals_Control_C___0x0008_ ) );
-	for(i = 1; i < 2*40000000; i++); // wait
-	xil_printf("Control D: %u\n", LvFpga_ReadControl_U32( uBlaze_natcar, Globals_Control_D___0x000C_ ) );
-	/* End Test LVFPGA */
+	xil_printf("Start LVFPGA test.\n");
+	LvFpga_OpenVi( &Top_Level );
+
+	while( 1 ) {
+
+		A = LvFpga_ReadControl_U32( &Top_Level, Control_A );
+		B = LvFpga_ReadControl_U32( &Top_Level, Control_B );
+		C = LvFpga_ReadControl_U32( &Top_Level, Control_C );
+		D = LvFpga_ReadControl_U32( &Top_Level, Control_D );
+
+		xil_printf("Control A: %d\n", A);
+		xil_printf("Control B: %d\n", B);
+		xil_printf("Control C: %d\n", C);
+		xil_printf("Control D: %d\n", D);
+
+		xil_printf("Indicator A: %d\n", 1);
+		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_A, 1 );
+
+		xil_printf("Indicator B: %d\n", 2);
+		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_B, 2 );
+
+		xil_printf("Indicator C: %d\n", 3);
+		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_C, 3 );
+
+		xil_printf("Indicator D: %d\n", 4);
+		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_D, 4 );
+
+		for( i = 0; i < 10000000; i++ ) { }
+	}
+    // Close LVFPGA interface
+    LvFpga_CloseVi(&Top_Level);
+    // End test LVFPGA
 
     u32 gofreq = 10 << (GOFREQ_STARTBIT-1); //hz
     u32 enable = 1 << (ENABLE_STARTBIT-1);
@@ -140,9 +153,6 @@ int main()
     enable = 0 << (ENABLE_STARTBIT-1);
     goduty = 0 << (GODUTY_STARTBIT-1);  //%
     servopwm = STEERING_CENTER << (SERVOPWM_STARBIT-1);  //%
-
-    // Close LVFPGA interface
-    LvFpga_CloseVi(uBlaze_natcar);
 
     cleanup_platform();
     return 0;

@@ -29,7 +29,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "lmb_bram_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-2
@@ -56,10 +56,10 @@ Cores Search Directories           : {../implementation/lmb_bram_wrapper}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:/Users/Ryan/Desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" into library lmb_bram_elaborate_v1_00_a
+Parsing VHDL file "C:/Users/Ryan/Desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" into library lmb_bram_elaborate_v1_00_a
 Parsing entity <lmb_bram_elaborate>.
 Parsing architecture <STRUCTURE> of entity <lmb_bram_elaborate>.
-Parsing VHDL file "\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\synthesis\../hdl/lmb_bram_wrapper.vhd" into library work
+Parsing VHDL file "\Users\Ryan\Desktop\ee192\natcar\xps\synthesis\../hdl/lmb_bram_wrapper.vhd" into library work
 Parsing entity <lmb_bram_wrapper>.
 Parsing architecture <STRUCTURE> of entity <lmb_bram_wrapper>.
 
@@ -70,21 +70,21 @@ Parsing architecture <STRUCTURE> of entity <lmb_bram_wrapper>.
 Elaborating entity <lmb_bram_wrapper> (architecture <STRUCTURE>) from library <work>.
 
 Elaborating entity <lmb_bram_elaborate> (architecture <STRUCTURE>) with generics from library <lmb_bram_elaborate_v1_00_a>.
-WARNING:HDLCompiler:89 - "C:/Users/Ryan/Desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" Line 42: <ramb16bwer> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Ryan/Desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" Line 42: <ramb16bwer> remains a black-box since it has no binding entity.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <lmb_bram_wrapper>.
-    Related source file is "/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/lmb_bram_wrapper.vhd".
+    Related source file is "/users/ryan/desktop/ee192/natcar/xps/hdl/lmb_bram_wrapper.vhd".
     Set property "KEEP_HIERARCHY = YES".
     Summary:
 	no macro.
 Unit <lmb_bram_wrapper> synthesized.
 
 Synthesizing Unit <lmb_bram_elaborate>.
-    Related source file is "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd".
+    Related source file is "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd".
         C_MEMSIZE = 65536
         C_PORT_DWIDTH = 32
         C_PORT_AWIDTH = 32
@@ -127,70 +127,70 @@ WARNING:Xst:647 - Input <BRAM_Addr_A<0:15>> is never used. This port will be pre
 WARNING:Xst:647 - Input <BRAM_Addr_A<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <BRAM_Addr_B<0:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <BRAM_Addr_B<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 760: Output port <DOPA> of the instance <ramb16bwer_0> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 760: Output port <DOPB> of the instance <ramb16bwer_0> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 789: Output port <DOPA> of the instance <ramb16bwer_1> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 789: Output port <DOPB> of the instance <ramb16bwer_1> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 818: Output port <DOPA> of the instance <ramb16bwer_2> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 818: Output port <DOPB> of the instance <ramb16bwer_2> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 847: Output port <DOPA> of the instance <ramb16bwer_3> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 847: Output port <DOPB> of the instance <ramb16bwer_3> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 876: Output port <DOPA> of the instance <ramb16bwer_4> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 876: Output port <DOPB> of the instance <ramb16bwer_4> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 905: Output port <DOPA> of the instance <ramb16bwer_5> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 905: Output port <DOPB> of the instance <ramb16bwer_5> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 934: Output port <DOPA> of the instance <ramb16bwer_6> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 934: Output port <DOPB> of the instance <ramb16bwer_6> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 963: Output port <DOPA> of the instance <ramb16bwer_7> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 963: Output port <DOPB> of the instance <ramb16bwer_7> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 992: Output port <DOPA> of the instance <ramb16bwer_8> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 992: Output port <DOPB> of the instance <ramb16bwer_8> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1021: Output port <DOPA> of the instance <ramb16bwer_9> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1021: Output port <DOPB> of the instance <ramb16bwer_9> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1050: Output port <DOPA> of the instance <ramb16bwer_10> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1050: Output port <DOPB> of the instance <ramb16bwer_10> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1079: Output port <DOPA> of the instance <ramb16bwer_11> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1079: Output port <DOPB> of the instance <ramb16bwer_11> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1108: Output port <DOPA> of the instance <ramb16bwer_12> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1108: Output port <DOPB> of the instance <ramb16bwer_12> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1137: Output port <DOPA> of the instance <ramb16bwer_13> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1137: Output port <DOPB> of the instance <ramb16bwer_13> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1166: Output port <DOPA> of the instance <ramb16bwer_14> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1166: Output port <DOPB> of the instance <ramb16bwer_14> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1195: Output port <DOPA> of the instance <ramb16bwer_15> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1195: Output port <DOPB> of the instance <ramb16bwer_15> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1224: Output port <DOPA> of the instance <ramb16bwer_16> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1224: Output port <DOPB> of the instance <ramb16bwer_16> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1253: Output port <DOPA> of the instance <ramb16bwer_17> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1253: Output port <DOPB> of the instance <ramb16bwer_17> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1282: Output port <DOPA> of the instance <ramb16bwer_18> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1282: Output port <DOPB> of the instance <ramb16bwer_18> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1311: Output port <DOPA> of the instance <ramb16bwer_19> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1311: Output port <DOPB> of the instance <ramb16bwer_19> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1340: Output port <DOPA> of the instance <ramb16bwer_20> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1340: Output port <DOPB> of the instance <ramb16bwer_20> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1369: Output port <DOPA> of the instance <ramb16bwer_21> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1369: Output port <DOPB> of the instance <ramb16bwer_21> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1398: Output port <DOPA> of the instance <ramb16bwer_22> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1398: Output port <DOPB> of the instance <ramb16bwer_22> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1427: Output port <DOPA> of the instance <ramb16bwer_23> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1427: Output port <DOPB> of the instance <ramb16bwer_23> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1456: Output port <DOPA> of the instance <ramb16bwer_24> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1456: Output port <DOPB> of the instance <ramb16bwer_24> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1485: Output port <DOPA> of the instance <ramb16bwer_25> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1485: Output port <DOPB> of the instance <ramb16bwer_25> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1514: Output port <DOPA> of the instance <ramb16bwer_26> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1514: Output port <DOPB> of the instance <ramb16bwer_26> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1543: Output port <DOPA> of the instance <ramb16bwer_27> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1543: Output port <DOPB> of the instance <ramb16bwer_27> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1572: Output port <DOPA> of the instance <ramb16bwer_28> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1572: Output port <DOPB> of the instance <ramb16bwer_28> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1601: Output port <DOPA> of the instance <ramb16bwer_29> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1601: Output port <DOPB> of the instance <ramb16bwer_29> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1630: Output port <DOPA> of the instance <ramb16bwer_30> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1630: Output port <DOPB> of the instance <ramb16bwer_30> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1659: Output port <DOPA> of the instance <ramb16bwer_31> is unconnected or connected to loadless signal.
-INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1659: Output port <DOPB> of the instance <ramb16bwer_31> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 760: Output port <DOPA> of the instance <ramb16bwer_0> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 760: Output port <DOPB> of the instance <ramb16bwer_0> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 789: Output port <DOPA> of the instance <ramb16bwer_1> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 789: Output port <DOPB> of the instance <ramb16bwer_1> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 818: Output port <DOPA> of the instance <ramb16bwer_2> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 818: Output port <DOPB> of the instance <ramb16bwer_2> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 847: Output port <DOPA> of the instance <ramb16bwer_3> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 847: Output port <DOPB> of the instance <ramb16bwer_3> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 876: Output port <DOPA> of the instance <ramb16bwer_4> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 876: Output port <DOPB> of the instance <ramb16bwer_4> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 905: Output port <DOPA> of the instance <ramb16bwer_5> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 905: Output port <DOPB> of the instance <ramb16bwer_5> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 934: Output port <DOPA> of the instance <ramb16bwer_6> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 934: Output port <DOPB> of the instance <ramb16bwer_6> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 963: Output port <DOPA> of the instance <ramb16bwer_7> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 963: Output port <DOPB> of the instance <ramb16bwer_7> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 992: Output port <DOPA> of the instance <ramb16bwer_8> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 992: Output port <DOPB> of the instance <ramb16bwer_8> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1021: Output port <DOPA> of the instance <ramb16bwer_9> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1021: Output port <DOPB> of the instance <ramb16bwer_9> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1050: Output port <DOPA> of the instance <ramb16bwer_10> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1050: Output port <DOPB> of the instance <ramb16bwer_10> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1079: Output port <DOPA> of the instance <ramb16bwer_11> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1079: Output port <DOPB> of the instance <ramb16bwer_11> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1108: Output port <DOPA> of the instance <ramb16bwer_12> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1108: Output port <DOPB> of the instance <ramb16bwer_12> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1137: Output port <DOPA> of the instance <ramb16bwer_13> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1137: Output port <DOPB> of the instance <ramb16bwer_13> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1166: Output port <DOPA> of the instance <ramb16bwer_14> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1166: Output port <DOPB> of the instance <ramb16bwer_14> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1195: Output port <DOPA> of the instance <ramb16bwer_15> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1195: Output port <DOPB> of the instance <ramb16bwer_15> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1224: Output port <DOPA> of the instance <ramb16bwer_16> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1224: Output port <DOPB> of the instance <ramb16bwer_16> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1253: Output port <DOPA> of the instance <ramb16bwer_17> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1253: Output port <DOPB> of the instance <ramb16bwer_17> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1282: Output port <DOPA> of the instance <ramb16bwer_18> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1282: Output port <DOPB> of the instance <ramb16bwer_18> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1311: Output port <DOPA> of the instance <ramb16bwer_19> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1311: Output port <DOPB> of the instance <ramb16bwer_19> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1340: Output port <DOPA> of the instance <ramb16bwer_20> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1340: Output port <DOPB> of the instance <ramb16bwer_20> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1369: Output port <DOPA> of the instance <ramb16bwer_21> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1369: Output port <DOPB> of the instance <ramb16bwer_21> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1398: Output port <DOPA> of the instance <ramb16bwer_22> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1398: Output port <DOPB> of the instance <ramb16bwer_22> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1427: Output port <DOPA> of the instance <ramb16bwer_23> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1427: Output port <DOPB> of the instance <ramb16bwer_23> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1456: Output port <DOPA> of the instance <ramb16bwer_24> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1456: Output port <DOPB> of the instance <ramb16bwer_24> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1485: Output port <DOPA> of the instance <ramb16bwer_25> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1485: Output port <DOPB> of the instance <ramb16bwer_25> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1514: Output port <DOPA> of the instance <ramb16bwer_26> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1514: Output port <DOPB> of the instance <ramb16bwer_26> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1543: Output port <DOPA> of the instance <ramb16bwer_27> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1543: Output port <DOPB> of the instance <ramb16bwer_27> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1572: Output port <DOPA> of the instance <ramb16bwer_28> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1572: Output port <DOPB> of the instance <ramb16bwer_28> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1601: Output port <DOPA> of the instance <ramb16bwer_29> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1601: Output port <DOPB> of the instance <ramb16bwer_29> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1630: Output port <DOPA> of the instance <ramb16bwer_30> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1630: Output port <DOPB> of the instance <ramb16bwer_30> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1659: Output port <DOPA> of the instance <ramb16bwer_31> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1659: Output port <DOPB> of the instance <ramb16bwer_31> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <lmb_bram_elaborate> synthesized.
@@ -407,7 +407,7 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.50 secs
+Total CPU time to Xst completion: 9.23 secs
  
 --> 
 

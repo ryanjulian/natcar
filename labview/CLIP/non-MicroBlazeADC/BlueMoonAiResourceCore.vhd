@@ -190,6 +190,25 @@ begin
       cAiGainSel                    => "00",                     -- in  std_logic_v
       cAiConvertGain                => cAiConvertGain);                -- out std_logic_v
 
+BlueMoonAiSpiMasterx: entity work.BlueMoonAiSpiMaster (rtl)
+    generic map (
+      kClkMultiplier  => kClkMultiplier,   -- in  integer
+      kAiRawPortWidth => kAiRawPortWidth,  -- in  integer
+      kAiLowCost      => kAiLowCost)       -- in  boolean
+    port map (
+      Clk              => Clk,               -- in  std_logic
+      aReset           => aReset,            -- in  std_logic
+      cLogicEnable     => cLogicEnable,      -- in  boolean
+      cAiSpiStart      => cAiSpiStart,       -- in  boolean
+      cAiSpiStartAck   => cAiSpiStartAck,    -- out boolean
+      cAiSpiForceCsLow => cAiSpiForceCsLow,  -- in  boolean
+      cAiSpiChannelOut => cAiSpiChannelOut,  -- in  std_logic_vector(3 downto 0)
+      cAiRawData       => cAiRawData,        -- out std_logic_vector(kAiRawPortWidth-1 do
+      cAiRawDataReady  => cAiRawDataReady,   -- out boolean
+      aAiSpiCs_n       => aAiSpiCs_n,        -- out std_logic
+      aAiSpiClk        => aAiSpiClk,         -- out std_logic
+      aAiSpiMosi       => aAiSpiMosi,        -- out std_logic
+      aAiSpiMiso       => aAiSpiMiso);       -- in  std_logic
  cAiDataReady <= (to_stdLogic(cAiRawDataReady)) and (check_channel_in_list(cAiRawData(15 downto 12) ,  cAiChannelList));
  cAiDataOut<= "0000"  & cAiRawData(11 downto 0);
  cAiCurrentChannel <= cAiRawData(15 downto 12);
