@@ -38,6 +38,7 @@
  * Static allocations
  **************************************/
 static XGpio     GpioOutput;
+static XGpio     GpioInput;
 static XTmrCtr   Xtimer;
 static LvFpgaVi  Top_Level;
 
@@ -48,12 +49,52 @@ int main()
 {
     init_platform();
 
+    // Initialize GpioOutput
+    Xuint32 gpio_status;
+    gpio_status = XGpio_Initialize(&GpioOutput, XPAR_XPS_GPIO_0_DEVICE_ID);
+    if(gpio_status == XST_SUCCESS){
+    	print("gpio success!\n\r");
+    } else if(gpio_status == XST_FAILURE){
+    	print("gpio failed!\n\r");
+    } else{
+    	print("wtf gpio\n\r");
+    }
+    XGpio_SetDataDirection(&GpioOutput, 1, 0xFFFFFFFF);
+
+    // Initialize GpioInput
+    gpio_status = XGpio_Initialize(&GpioInput, XPAR_XPS_GPIO_1_DEVICE_ID);
+    if(gpio_status == XST_SUCCESS){
+    	print("gpio success!\n\r");
+    } else if(gpio_status == XST_FAILURE){
+    	print("gpio failed!\n\r");
+    } else{
+    	print("wtf gpio\n\r");
+    }
+    XGpio_SetDataDirection(&GpioInput, 1, 0x00000000);
+    XGpio_SetDataDirection(&GpioInput, 2, 0x00000000);
+
+    // Initialize XTmrCtr
+    Xuint32 xtimer_status;
+    xtimer_status = XTmrCtr_Initialize(&Xtimer,XPAR_TMRCTR_0_DEVICE_ID);
+
+    if(xtimer_status == XST_SUCCESS){
+    	print("timer success!\n\r");
+    } else if(xtimer_status == XST_DEVICE_IS_STARTED){
+    	print("timer already started!\n\r");
+    } else if(xtimer_status == XST_DEVICE_NOT_FOUND){
+    	print("timer not found!\n\r");
+    } else{print("wtf timer\n\r");
+    }
+    XTmrCtr_SetResetValue(&Xtimer,TMR_NUM_0,TIMER_RESET_TO_TIME);
+
 	// Test LVFPGA
     int i = 0;
-	int A = -1;
-	int B = -1;
-	int C = -1;
-	int D = -1;
+	u32 A = -1;
+	u32 B = -1;
+	u32 C = -1;
+	u32 D = -1;
+	u32 ch1 = 0;
+	u32 ch2 = 0;
 
 	xil_printf("Start LVFPGA test.\n");
 	LvFpga_OpenVi( &Top_Level );
@@ -82,6 +123,11 @@ int main()
 		xil_printf("Indicator D: %d\n", 4);
 		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_D, 4 );
 
+		// Read GPIO channel 1
+		ch1 = XGpio_DiscreteRead(&GpioInput, 1);
+		// Read GPIO channel 2
+		ch2 = XGpio_DiscreteRead(&GpioInput, 2);
+
 		for( i = 0; i < 10000000; i++ ) { }
 	}
     // Close LVFPGA interface
@@ -97,33 +143,6 @@ int main()
     u32 current_time = 0;
     u32 encoded_number;
 
-    // Initialize XGpio
-    Xuint32 gpio_status;
-    gpio_status = XGpio_Initialize(&GpioOutput, XPAR_XPS_GPIO_0_DEVICE_ID);
-
-    if(gpio_status == XST_SUCCESS){
-    	print("gpio success!\n\r");
-    } else if(gpio_status == XST_FAILURE){
-    	print("gpio failed!\n\r");
-    } else{
-    	print("wtf gpio\n\r");
-    }
-    XGpio_SetDataDirection(&GpioOutput, 1, 0xFFFFFFFF);
-
-    // Initialize XTmrCtr
-    Xuint32 xtimer_status;
-    xtimer_status = XTmrCtr_Initialize(&Xtimer,XPAR_TMRCTR_0_DEVICE_ID);
-
-    if(xtimer_status == XST_SUCCESS){
-    	print("timer success!\n\r");
-    } else if(xtimer_status == XST_DEVICE_IS_STARTED){
-    	print("timer already started!\n\r");
-    } else if(xtimer_status == XST_DEVICE_NOT_FOUND){
-    	print("timer not found!\n\r");
-    } else{print("wtf timer\n\r");
-    }
-
-    XTmrCtr_SetResetValue(&Xtimer,TMR_NUM_0,TIMER_RESET_TO_TIME);
 //-----------------------------------
     XTmrCtr_Start(&Xtimer,TMR_NUM_0);
 

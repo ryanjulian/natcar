@@ -73,9 +73,7 @@
       <SET ID="gpio_0" IS_EXPANDED="TRUE"/>
     </SET>
     <STATUS>
-      <SELECTIONS>
-        <VARIABLE ID="xps_gpio_1_GPIO2_IO_O_pin" PARENT="ExternalPorts"/>
-      </SELECTIONS>
+      <SELECTIONS/>
     </STATUS>
     <SEQUENCES IS_DEF_SEQUENCES="FALSE">
       <VARIABLE ID="ExternalPorts" IS_EXPANDED="TRUE" ROW_INDEX="0"/>

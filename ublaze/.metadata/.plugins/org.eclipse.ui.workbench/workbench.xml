@@ -33,17 +33,20 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="natcar.c" partName="natcar.c" path="C:/Users/Ryan/Desktop/ee192/natcar/ublaze/natcar/src/natcar.c" title="natcar.c" tooltip="natcar/src/natcar.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/natcar/src/natcar.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="1356" selectionTopPixel="446"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3477" selectionTopPixel="1956"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lvfpga_controls.h" partName="lvfpga_controls.h" path="C:/Users/Ryan/Desktop/ee192/natcar/ublaze/natcar/src/lvfpga/lvfpga_controls.h" title="lvfpga_controls.h" tooltip="natcar/src/lvfpga/lvfpga_controls.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/natcar/src/lvfpga/lvfpga_controls.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="375" selectionTopPixel="0"/>
+<editor id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" partName="system.xml" path="C:/Users/Ryan/Desktop/ee192/natcar/ublaze/microblaze/system.xml" title="system.xml" tooltip="microblaze/system.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/microblaze/system.xml"/>
+</editor>
+<editor id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" partName="system.mss" path="C:/Users/Ryan/Desktop/ee192/natcar/ublaze/microblaze_bsp/system.mss" title="system.mss" tooltip="microblaze_bsp/system.mss" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/microblaze_bsp/system.mss"/>
 </editor>
 </editors>
 <views>
@@ -72,7 +75,9 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Targets"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -165,9 +170,9 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.07417775" ratioLeft="106" ratioRight="1323" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.86835104" ratioLeft="653" ratioRight="99" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.20503849" ratioLeft="293" ratioRight="1136" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.5505319" ratioLeft="414" ratioRight="338" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -297,7 +302,6 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/natcar.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/lvfpga/lvfpga.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/natcar/Debug/src/natcar.d"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/lvfpga/lvfpga_controls.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/lvfpga/lvfpga_indicators.h"/>
@@ -310,71 +314,20 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/lvfpga/lvfpga_controls.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/lvfpga/lvfpga_indicators.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/lvfpga/lvfpga_controls.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/microblaze/system.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/standalone_bsp_0/system.mss"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/natcar/src/lvfpga/lvfpga_controls.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/standalone_bsp_0/microblaze_0/include/xparameters.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/microblaze/system.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/microblaze_bsp/system.mss"/>
 </editors>
-<item historyLabel="natcar.c" index="0">
-<position info="not_deleted" x="1115" y="0"/>
-</item>
-<item historyLabel="natcar.d" index="2">
-<position/>
-</item>
-<item historyLabel="natcar.c" index="0">
-<position info="not_deleted" x="245" y="0"/>
-</item>
-<item historyLabel="lvfpga_controls.h" index="3">
-<position info="not_deleted" x="263" y="27"/>
-</item>
-<item historyLabel="lvfpga_indicators.h" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="lvfpga.c" index="5">
-<position/>
-</item>
-<item historyLabel="natcar.c" index="0">
-<position info="not_deleted" x="2430" y="0"/>
-</item>
-<item historyLabel="lvfpga_controls.h" index="3">
-<position info="not_deleted" x="263" y="27"/>
-</item>
-<item historyLabel="lvfpga.c" index="5">
-<position/>
-</item>
-<item historyLabel="natcar.c" index="0">
-<position info="not_deleted" x="4741" y="0"/>
-</item>
-<item historyLabel="lvfpga.c" index="5">
-<position/>
-</item>
-<item historyLabel="lvfpga.h" index="1">
-<position info="not_deleted" x="269" y="0"/>
-</item>
-<item historyLabel="lvfpga.c" index="5">
-<position/>
-</item>
-<item historyLabel="lvfpga.h" index="1">
-<position info="not_deleted" x="269" y="0"/>
-</item>
-<item historyLabel="lvfpga.c" index="5">
-<position/>
-</item>
-<item historyLabel="lvfpga_controls.h" index="3">
-<position info="not_deleted" x="263" y="27"/>
-</item>
-<item historyLabel="natcar.c" index="0">
-<position info="not_deleted" x="2702" y="0"/>
-</item>
-<item historyLabel="xparameters.h" index="6">
-<position info="not_deleted" x="520" y="0"/>
-</item>
-<item historyLabel="natcar.d" index="2">
-<position/>
-</item>
-<item historyLabel="xparameters.h" index="6">
+<item historyLabel="xparameters.h" index="5">
 <position info="not_deleted" x="520" y="0"/>
 </item>
 <item historyLabel="natcar.c" index="0">
 <position info="not_deleted" x="1318" y="0"/>
 </item>
-<item historyLabel="natcar.d" index="2">
+<item historyLabel="natcar.d" index="1">
 <position info="not_deleted" x="1008" y="0"/>
 </item>
 <item historyLabel="natcar.c" index="0">
@@ -383,77 +336,116 @@
 <item historyLabel="natcar.c" index="0">
 <position info="not_deleted" x="272" y="0"/>
 </item>
-<item historyLabel="lvfpga_controls.h" index="3">
+<item historyLabel="lvfpga_controls.h" index="2">
 <position info="not_deleted" x="263" y="27"/>
 </item>
-<item historyLabel="lvfpga_indicators.h" index="4">
+<item historyLabel="lvfpga_indicators.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga.c" index="5">
+<item historyLabel="lvfpga.c" index="4">
 <position/>
 </item>
-<item historyLabel="lvfpga_indicators.h" index="4">
+<item historyLabel="lvfpga_indicators.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga_controls.h" index="3">
+<item historyLabel="lvfpga_controls.h" index="2">
 <position info="not_deleted" x="263" y="27"/>
 </item>
-<item historyLabel="lvfpga_indicators.h" index="4">
+<item historyLabel="lvfpga_indicators.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga.c" index="5">
+<item historyLabel="lvfpga.c" index="4">
 <position/>
 </item>
-<item historyLabel="lvfpga_indicators.h" index="4">
+<item historyLabel="lvfpga_indicators.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga.c" index="5">
+<item historyLabel="lvfpga.c" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga_indicators.h" index="4">
+<item historyLabel="lvfpga_indicators.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga_indicators.h" index="4">
+<item historyLabel="lvfpga_indicators.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="system.xml" index="7"/>
-<item historyLabel="system.mss" index="8"/>
-<item historyLabel="lvfpga.h" index="9">
+<item historyLabel="system.xml" index="6"/>
+<item historyLabel="system.mss" index="7"/>
+<item historyLabel="lvfpga.h" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="natcar.c" index="10">
+<item historyLabel="natcar.c" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga.h" index="9">
+<item historyLabel="lvfpga.h" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga_controls.h" index="11">
+<item historyLabel="lvfpga_controls.h" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga_indicators.h" index="12">
+<item historyLabel="lvfpga_indicators.h" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="natcar.c" index="10">
+<item historyLabel="natcar.c" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga.h" index="9">
+<item historyLabel="lvfpga.h" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lvfpga_controls.h" index="11">
+<item historyLabel="lvfpga_controls.h" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="system.mss" index="8"/>
-<item historyLabel="natcar.c" index="10">
+<item historyLabel="system.mss" index="7"/>
+<item historyLabel="natcar.c" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="natcar.c" index="10">
+<item historyLabel="natcar.c" index="9">
 <position info="not_deleted" x="1318" y="0"/>
 </item>
-<item historyLabel="lvfpga_controls.h" index="13">
+<item historyLabel="lvfpga_controls.h" index="12">
 <position info="not_deleted" x="375" y="0"/>
 </item>
-<item active="true" historyLabel="natcar.c" index="10">
+<item historyLabel="natcar.c" index="9">
 <position info="not_deleted" x="1318" y="0"/>
+</item>
+<item historyLabel="system.xml" index="13"/>
+<item historyLabel="natcar.c" index="9">
+<position/>
+</item>
+<item historyLabel="system.xml" index="13"/>
+<item historyLabel="system.mss" index="14"/>
+<item historyLabel="lvfpga_controls.h" index="15">
+<position info="not_deleted" x="375" y="0"/>
+</item>
+<item historyLabel="system.mss" index="14"/>
+<item historyLabel="natcar.c" index="9">
+<position/>
+</item>
+<item historyLabel="xparameters.h" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="natcar.c" index="9">
+<position/>
+</item>
+<item historyLabel="xparameters.h" index="16">
+<position info="not_deleted" x="2468" y="25"/>
+</item>
+<item historyLabel="natcar.c" index="9">
+<position/>
+</item>
+<item historyLabel="xparameters.h" index="16">
+<position info="not_deleted" x="2468" y="25"/>
+</item>
+<item historyLabel="natcar.c" index="9">
+<position info="not_deleted" x="3284" y="25"/>
+</item>
+<item historyLabel="system.xml" index="17"/>
+<item historyLabel="system.mss" index="18"/>
+<item historyLabel="system.xml" index="17"/>
+<item historyLabel="system.mss" index="18"/>
+<item historyLabel="system.xml" index="17"/>
+<item active="true" historyLabel="natcar.c" index="9">
+<position info="not_deleted" x="3298" y="25"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -472,6 +464,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" tooltip="microblaze_bsp/system.mss">
+<persistable path="/microblaze_bsp/system.mss"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" tooltip="microblaze/system.xml">
+<persistable path="/microblaze/system.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lvfpga_controls.h" tooltip="natcar/src/lvfpga/lvfpga_controls.h">
 <persistable path="/natcar/src/lvfpga/lvfpga_controls.h"/>
 </file>
@@ -492,12 +490,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" tooltip="microblaze_bsp/microblaze_0/include/xparameters.h">
 <persistable path="/microblaze_bsp/microblaze_0/include/xparameters.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" tooltip="microblaze_bsp/system.mss">
-<persistable path="/microblaze_bsp/system.mss"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" tooltip="microblaze/system.xml">
-<persistable path="/microblaze/system.xml"/>
 </file>
 </mruList>
 </workbench>

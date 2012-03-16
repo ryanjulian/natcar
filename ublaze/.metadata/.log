@@ -73,3 +73,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.cdt.core 1 0 2012-03-08 23:57:09.519
 !MESSAGE Indexed 'microblaze_bsp' (0 sources, 7 headers) in 0.05 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-03-16 11:20:45.065 -----------------------------------------------
+eclipse.buildId=Release 12.4 Build SDK_MS4.81d
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-16 11:24:06.808
+!MESSAGE Indexed 'standalone_bsp_0' (0 sources, 7 headers) in 0.06 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-16 11:36:55.931
+!MESSAGE Indexed 'microblaze_bsp' (0 sources, 7 headers) in 0.01 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
