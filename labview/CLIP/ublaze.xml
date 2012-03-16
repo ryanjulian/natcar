@@ -3,6 +3,7 @@
   <FormatVersion>1.0</FormatVersion>
   <HDLName>system</HDLName><ImplementationList>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_timer_0_wrapper.ngc</Path>
+    <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_1_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\system.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\proc_sys_reset_0_wrapper.ngc</Path>
@@ -134,6 +135,30 @@
 <Signal Name="ipic_test_0_ipif_Bus2IP_CS_pin">
        <HDLName>ipic_test_0_ipif_Bus2IP_CS_pin </HDLName>  
        <DataType><Boolean/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_1_GPIO_IO_I_pin">
+       <HDLName>xps_gpio_1_GPIO_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_1_GPIO_IO_O_pin">
+       <HDLName>xps_gpio_1_GPIO_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_1_GPIO2_IO_I_pin">
+       <HDLName>xps_gpio_1_GPIO2_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_1_GPIO2_IO_O_pin">
+       <HDLName>xps_gpio_1_GPIO2_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
        <Direction>FromCLIP</Direction>
         <SignalType>data</SignalType>
 </Signal>

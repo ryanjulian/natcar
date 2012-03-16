@@ -27,7 +27,11 @@ entity system_stub is
     ipic_test_0_ipif_Bus2IP_Data_pin : out std_logic_vector(31 downto 0);
     ipic_test_0_ipif_Bus2IP_RNW_pin : out std_logic;
     ipic_test_0_ipif_Bus2IP_BE_pin : out std_logic_vector(7 downto 0);
-    ipic_test_0_ipif_Bus2IP_CS_pin : out std_logic
+    ipic_test_0_ipif_Bus2IP_CS_pin : out std_logic;
+    xps_gpio_1_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_1_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_1_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_1_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0)
   );
 end system_stub;
 
@@ -53,7 +57,11 @@ architecture STRUCTURE of system_stub is
       ipic_test_0_ipif_Bus2IP_Data_pin : out std_logic_vector(31 downto 0);
       ipic_test_0_ipif_Bus2IP_RNW_pin : out std_logic;
       ipic_test_0_ipif_Bus2IP_BE_pin : out std_logic_vector(7 downto 0);
-      ipic_test_0_ipif_Bus2IP_CS_pin : out std_logic
+      ipic_test_0_ipif_Bus2IP_CS_pin : out std_logic;
+      xps_gpio_1_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_1_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_1_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_1_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0)
     );
   end component;
 
@@ -82,7 +90,11 @@ begin
       ipic_test_0_ipif_Bus2IP_Data_pin => ipic_test_0_ipif_Bus2IP_Data_pin,
       ipic_test_0_ipif_Bus2IP_RNW_pin => ipic_test_0_ipif_Bus2IP_RNW_pin,
       ipic_test_0_ipif_Bus2IP_BE_pin => ipic_test_0_ipif_Bus2IP_BE_pin,
-      ipic_test_0_ipif_Bus2IP_CS_pin => ipic_test_0_ipif_Bus2IP_CS_pin
+      ipic_test_0_ipif_Bus2IP_CS_pin => ipic_test_0_ipif_Bus2IP_CS_pin,
+      xps_gpio_1_GPIO_IO_I_pin => xps_gpio_1_GPIO_IO_I_pin,
+      xps_gpio_1_GPIO_IO_O_pin => xps_gpio_1_GPIO_IO_O_pin,
+      xps_gpio_1_GPIO2_IO_I_pin => xps_gpio_1_GPIO2_IO_I_pin,
+      xps_gpio_1_GPIO2_IO_O_pin => xps_gpio_1_GPIO2_IO_O_pin
     );
 
 end architecture STRUCTURE;

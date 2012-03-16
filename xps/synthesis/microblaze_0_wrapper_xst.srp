@@ -3558,12 +3558,12 @@ DCACHE_FSL_OUT_CLK|    9.004|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 72.00 secs
-Total CPU time to Xst completion: 71.97 secs
+Total REAL time to Xst completion: 185.00 secs
+Total CPU time to Xst completion: 184.84 secs
  
 --> 
 
-Total memory usage is 290544 kilobytes
+Total memory usage is 254308 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  831 (   0 filtered)

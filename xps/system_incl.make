@@ -106,7 +106,8 @@ implementation/mdm_0_wrapper.ngc \
 implementation/proc_sys_reset_0_wrapper.ngc \
 implementation/xps_gpio_0_wrapper.ngc \
 implementation/xps_timer_0_wrapper.ngc \
-implementation/ipic_test_0_wrapper.ngc
+implementation/ipic_test_0_wrapper.ngc \
+implementation/xps_gpio_1_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 

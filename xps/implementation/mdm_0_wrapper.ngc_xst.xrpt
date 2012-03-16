@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Thu Mar 08 23:22:47 2012">
+  <application stringID="Xst" timeStamp="Fri Mar 16 03:01:31 2012">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="C:\Xilinx\12.4\ISE_DS\ISE\\lib\nt;C:\Xilinx\12.4\ISE_DS\EDK\lib\nt;C:\Xilinx\12.4\ISE_DS\ISE\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\cygwin\bin;C:\Xilinx\12.4\ISE_DS\EDK\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\\lib\nt;C:\Xilinx\12.4\ISE_DS\PlanAhead\bin;C:\Xilinx\12.4\ISE_DS\ISE\bin\nt;C:\Xilinx\12.4\ISE_DS\ISE\lib\nt;C:\Xilinx\12.4\ISE_DS\common\bin\nt;C:\Xilinx\12.4\ISE_DS\common\lib\nt;C:\Program Files\Microchip\mplabc30\v3.30c\bin;C:\Program Files\MiKTeX 2.9\miktex\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\SWTOOLS\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2011a\runtime\win32;C:\Program Files\MATLAB\R2011a\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\National Instruments\Shared\System\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\Numerical Innovations\Fab3000V6\bin;C:\Program Files\Git\cmd;C:\Python27\;C:\MinGW\bin\"/>
+          <item stringID="value" value="C:\Xilinx\12.4\ISE_DS\ISE\\lib\nt;C:\Xilinx\12.4\ISE_DS\EDK\lib\nt;C:\Xilinx\12.4\ISE_DS\ISE\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\12.4\ISE_DS\EDK\cygwin\bin;C:\Xilinx\12.4\ISE_DS\EDK\\bin\nt;C:\Xilinx\12.4\ISE_DS\EDK\\lib\nt;C:\Xilinx\12.4\ISE_DS\PlanAhead\bin;C:\Xilinx\12.4\ISE_DS\ISE\bin\nt;C:\Xilinx\12.4\ISE_DS\ISE\lib\nt;C:\Xilinx\12.4\ISE_DS\common\bin\nt;C:\Xilinx\12.4\ISE_DS\common\lib\nt;C:\Program Files\Microchip\mplabc30\v3.30c\bin;C:\Program Files\MiKTeX 2.9\miktex\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\SWTOOLS\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2011a\runtime\win32;C:\Program Files\MATLAB\R2011a\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\National Instruments\Shared\System\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\Numerical Innovations\Fab3000V6\bin;C:\Program Files\Git\cmd;C:\Python27\;C:\Python27\Scripts\;C:\MinGW\bin\"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
