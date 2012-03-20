@@ -29,10 +29,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "proc_sys_reset_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
-Target Device                      : xa6slx45csg324-2
+Target Device                      : xc6slx45csg324-2
 Output File Name                   : "../implementation/proc_sys_reset_0_wrapper.ngc"
 
 ---- Source Options
@@ -68,7 +68,7 @@ Parsing architecture <imp> of entity <sequence>.
 Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd" into library proc_sys_reset_v3_00_a
 Parsing entity <proc_sys_reset>.
 Parsing architecture <imp> of entity <proc_sys_reset>.
-Parsing VHDL file "\Users\Ryan\Desktop\ee192\team10\trunk\mb\mb-ee192\synthesis\../hdl/proc_sys_reset_0_wrapper.vhd" into library work
+Parsing VHDL file "\Users\Ryan\Desktop\ee192\natcar\xps\synthesis\../hdl/proc_sys_reset_0_wrapper.vhd" into library work
 Parsing entity <proc_sys_reset_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <proc_sys_reset_0_wrapper>.
 
@@ -94,7 +94,7 @@ Elaborating entity <upcnt_n> (architecture <imp>) with generics from library <pr
 =========================================================================
 
 Synthesizing Unit <proc_sys_reset_0_wrapper>.
-    Related source file is "/users/ryan/desktop/ee192/team10/trunk/mb/mb-ee192/hdl/proc_sys_reset_0_wrapper.vhd".
+    Related source file is "/users/ryan/desktop/ee192/natcar/xps/hdl/proc_sys_reset_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <proc_sys_reset_0_wrapper> synthesized.
@@ -113,8 +113,8 @@ Synthesizing Unit <proc_sys_reset>.
     Set property "equivalent_register_removal = no" for signal <Peripheral_Reset>.
     Set property "equivalent_register_removal = no" for signal <Interconnect_aresetn>.
     Set property "equivalent_register_removal = no" for signal <Peripheral_aresetn>.
-    Register <RstcPPCresetsys_1> equivalent to <RstcPPCresetsys_0> has been removed
     Register <RstcPPCresetchip_1> equivalent to <RstcPPCresetchip_0> has been removed
+    Register <RstcPPCresetsys_1> equivalent to <RstcPPCresetsys_0> has been removed
     Found 1-bit register for signal <RstcPPCresetchip_0>.
     Found 1-bit register for signal <RstcPPCresetsys_0>.
     Found 1-bit register for signal <RstcPPCresetcore_1>.
@@ -328,7 +328,7 @@ Primitive and Black Box Usage:
 Device utilization summary:
 ---------------------------
 
-Selected Device : xa6slx45csg324-2 
+Selected Device : 6slx45csg324-2 
 
 
 Slice Logic Utilization: 
@@ -469,12 +469,12 @@ Slowest_sync_clk|    3.696|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.62 secs
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.20 secs
  
 --> 
 
-Total memory usage is 205104 kilobytes
+Total memory usage is 185636 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

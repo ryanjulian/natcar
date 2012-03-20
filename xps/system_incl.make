@@ -81,7 +81,18 @@ LIBSCLEAN_TARGETS = microblaze_0_libsclean
 
 PROGRAMCLEAN_TARGETS = TestApp_Memory_microblaze_0_programclean TestApp_Peripheral_microblaze_0_programclean 
 
-CORE_STATE_DEVELOPMENT_FILES = 
+CORE_STATE_DEVELOPMENT_FILES = /cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd \
+/cygdrive/c/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd \
+pcores/ipic_test_v1_00_a/hdl/vhdl/user_logic.vhd \
+pcores/ipic_test_v1_00_a/hdl/vhdl/ipic_test.vhd
 
 WRAPPER_NGC_FILES = implementation/microblaze_0_wrapper.ngc \
 implementation/mb_plb_wrapper.ngc \
@@ -94,7 +105,9 @@ implementation/clock_generator_0_wrapper.ngc \
 implementation/mdm_0_wrapper.ngc \
 implementation/proc_sys_reset_0_wrapper.ngc \
 implementation/xps_gpio_0_wrapper.ngc \
-implementation/xps_timer_0_wrapper.ngc
+implementation/xps_timer_0_wrapper.ngc \
+implementation/ipic_test_0_wrapper.ngc \
+implementation/xps_gpio_1_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 
@@ -127,7 +140,7 @@ SYSTEM_HW_HANDOFF_BIT = $(SDK_EXPORT_DIR)/$(SYSTEM).bit
 CYG_SYSTEM_HW_HANDOFF_BIT = $(CYG_SDK_EXPORT_DIR)/$(SYSTEM).bit
 SYSTEM_HW_HANDOFF_BMM = $(SDK_EXPORT_DIR)/$(SYSTEM)_bd.bmm
 CYG_SYSTEM_HW_HANDOFF_BMM = $(CYG_SDK_EXPORT_DIR)/$(SYSTEM)_bd.bmm
-SYSTEM_HW_HANDOFF_DEP = $(CYG_SYSTEM_HW_HANDOFF) $(CYG_SYSTEM_HW_HANDOFF_BIT) $(CYG_SYSTEM_HW_HANDOFF_BMM)
+SYSTEM_HW_HANDOFF_DEP = $(CYG_SYSTEM_HW_HANDOFF)
 
 #################################################################
 # SOFTWARE APPLICATION TESTAPP_MEMORY_MICROBLAZE_0

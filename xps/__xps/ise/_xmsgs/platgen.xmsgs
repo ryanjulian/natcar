@@ -8,7 +8,7 @@
 <msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">plb_v46</arg> INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 69</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_PLBV46_NUM_MASTERS</arg> value to <arg fmt="%s" index="7">2</arg>
 </msg>
 
-<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">plb_v46</arg> INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 70</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_PLBV46_NUM_SLAVES</arg> value to <arg fmt="%s" index="7">3</arg>
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">plb_v46</arg> INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 70</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_PLBV46_NUM_SLAVES</arg> value to <arg fmt="%s" index="7">5</arg>
 </msg>
 
 <msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">plb_v46</arg> INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 71</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_PLBV46_MID_WIDTH</arg> value to <arg fmt="%s" index="7">1</arg>
@@ -39,6 +39,18 @@
 </msg>
 
 <msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">xps_timer</arg> INSTANCE:<arg fmt="%s" index="2">xps_timer_0</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_timer_v1_02_a\data\xps_timer_v2_1_0.mpd line 78</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_SPLB_NUM_MASTERS</arg> value to <arg fmt="%s" index="7">2</arg>
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">ipic_test</arg> INSTANCE:<arg fmt="%s" index="2">ipic_test_0</arg> - <arg fmt="%s" index="3">C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\ipic_test_v1_00_a\data\ipic_test_v2_1_0.mpd line 25</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_SPLB_DWIDTH</arg> value to <arg fmt="%s" index="7">32</arg>
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">ipic_test</arg> INSTANCE:<arg fmt="%s" index="2">ipic_test_0</arg> - <arg fmt="%s" index="3">C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\ipic_test_v1_00_a\data\ipic_test_v2_1_0.mpd line 26</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_SPLB_NUM_MASTERS</arg> value to <arg fmt="%s" index="7">2</arg>
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">ipic_test</arg> INSTANCE:<arg fmt="%s" index="2">ipic_test_0</arg> - <arg fmt="%s" index="3">C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\ipic_test_v1_00_a\data\ipic_test_v2_1_0.mpd line 27</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_SPLB_MID_WIDTH</arg> value to <arg fmt="%s" index="7">1</arg>
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">xps_gpio</arg> INSTANCE:<arg fmt="%s" index="2">xps_gpio_1</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_gpio_v2_00_a\data\xps_gpio_v2_1_0.mpd line 72</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_SPLB_NUM_MASTERS</arg> value to <arg fmt="%s" index="7">2</arg>
 </msg>
 
 <msg type="warning" file="EDK" num="2098" delta="new" >PORT:<arg fmt="%s" index="1">IWAIT</arg> CONNECTOR:<arg fmt="%s" index="2">ilmb_LMB_Wait</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\data\microblaze_v2_1_0.mpd line 386</arg> - No driver found. Port will be driven to <arg fmt="%s" index="4">GND</arg>!
@@ -83,7 +95,7 @@
 <msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">bscan_drck1</arg> CONNECTOR:<arg fmt="%s" index="2">bscan_drck1</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm_v2_1_0.mpd line 229</arg> - floating connection!
 </msg>
 
-<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">Peripheral_Reset</arg> CONNECTOR:<arg fmt="%s" index="2">sys_periph_reset</arg> - <arg fmt="%s" index="3">C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 130</arg> - floating connection!
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">Peripheral_Reset</arg> CONNECTOR:<arg fmt="%s" index="2">sys_periph_reset</arg> - <arg fmt="%s" index="3">C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 145</arg> - floating connection!
 </msg>
 
 <msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">microblaze</arg> INSTANCE:<arg fmt="%s" index="2">microblaze_0</arg> - <arg fmt="%s" index="3">C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\data\microblaze_v2_1_0.mpd line 217</arg> - <arg fmt="%s" index="4">tcl</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_D_PLB</arg> value to <arg fmt="%s" index="7">1</arg>

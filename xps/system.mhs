@@ -23,6 +23,21 @@
  PORT mdm_0_extTDI_pin = mdm_0_extTDI, DIR = I
  PORT mdm_0_extTDO_pin = mdm_0_extTDO, DIR = O
  PORT xps_gpio_0_GPIO_IO_O_pin = xps_gpio_0_GPIO_IO_O, DIR = O, VEC = [31:0]
+ PORT ipic_test_0_ipif_Bus2IP_Clk_pin = ipic_test_0_ipif_Bus2IP_Clk, DIR = O
+ PORT ipic_test_0_ipif_Bus2IP_Reset_pin = ipic_test_0_ipif_Bus2IP_Reset, DIR = O
+ PORT ipic_test_0_ipif_IP2Bus_Data_pin = ipic_test_0_ipif_IP2Bus_Data, DIR = I, VEC = [31:0]
+ PORT ipic_test_0_ipif_IP2Bus_WrAck_pin = ipic_test_0_ipif_IP2Bus_WrAck, DIR = I
+ PORT ipic_test_0_ipif_IP2Bus_RdAck_pin = ipic_test_0_ipif_IP2Bus_RdAck, DIR = I
+ PORT ipic_test_0_ipif_IP2Bus_Error_pin = ipic_test_0_ipif_IP2Bus_Error, DIR = I
+ PORT ipic_test_0_ipif_Bus2IP_Addr_pin = ipic_test_0_ipif_Bus2IP_Addr, DIR = O, VEC = [31:0]
+ PORT ipic_test_0_ipif_Bus2IP_Data_pin = ipic_test_0_ipif_Bus2IP_Data, DIR = O, VEC = [31:0]
+ PORT ipic_test_0_ipif_Bus2IP_RNW_pin = ipic_test_0_ipif_Bus2IP_RNW, DIR = O
+ PORT ipic_test_0_ipif_Bus2IP_BE_pin = ipic_test_0_ipif_Bus2IP_BE, DIR = O, VEC = [7:0]
+ PORT ipic_test_0_ipif_Bus2IP_CS_pin = ipic_test_0_ipif_Bus2IP_CS, DIR = O
+ PORT xps_gpio_1_GPIO_IO_I_pin = xps_gpio_1_GPIO_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_1_GPIO_IO_O_pin = xps_gpio_1_GPIO_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_1_GPIO2_IO_I_pin = xps_gpio_1_GPIO2_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_1_GPIO2_IO_O_pin = xps_gpio_1_GPIO2_IO_O, DIR = O, VEC = [31:0]
 
 
 BEGIN microblaze
@@ -133,8 +148,8 @@ END
 BEGIN xps_gpio
  PARAMETER INSTANCE = xps_gpio_0
  PARAMETER HW_VER = 2.00.a
- PARAMETER C_BASEADDR = 0x81400000
- PARAMETER C_HIGHADDR = 0x8140ffff
+ PARAMETER C_BASEADDR = 0x81420000
+ PARAMETER C_HIGHADDR = 0x8142ffff
  BUS_INTERFACE SPLB = mb_plb
  PORT GPIO_IO_O = xps_gpio_0_GPIO_IO_O
 END
@@ -146,5 +161,37 @@ BEGIN xps_timer
  PARAMETER C_HIGHADDR = 0x83c0ffff
  BUS_INTERFACE SPLB = mb_plb
  PORT PWM0 = xps_timer_0_PWM0
+END
+
+BEGIN ipic_test
+ PARAMETER INSTANCE = ipic_test_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_MEM0_BASEADDR = 0xc0400000
+ PARAMETER C_MEM0_HIGHADDR = 0xc040ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT ipif_Bus2IP_Clk = ipic_test_0_ipif_Bus2IP_Clk
+ PORT ipif_Bus2IP_Reset = ipic_test_0_ipif_Bus2IP_Reset
+ PORT ipif_IP2Bus_Data = ipic_test_0_ipif_IP2Bus_Data
+ PORT ipif_IP2Bus_WrAck = ipic_test_0_ipif_IP2Bus_WrAck
+ PORT ipif_IP2Bus_RdAck = ipic_test_0_ipif_IP2Bus_RdAck
+ PORT ipif_IP2Bus_Error = ipic_test_0_ipif_IP2Bus_Error
+ PORT ipif_Bus2IP_Addr = ipic_test_0_ipif_Bus2IP_Addr
+ PORT ipif_Bus2IP_Data = ipic_test_0_ipif_Bus2IP_Data
+ PORT ipif_Bus2IP_RNW = ipic_test_0_ipif_Bus2IP_RNW
+ PORT ipif_Bus2IP_BE = ipic_test_0_ipif_Bus2IP_BE
+ PORT ipif_Bus2IP_CS = ipic_test_0_ipif_Bus2IP_CS
+END
+
+BEGIN xps_gpio
+ PARAMETER INSTANCE = xps_gpio_1
+ PARAMETER HW_VER = 2.00.a
+ PARAMETER C_IS_DUAL = 1
+ PARAMETER C_BASEADDR = 0x81400000
+ PARAMETER C_HIGHADDR = 0x8140ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT GPIO_IO_I = xps_gpio_1_GPIO_IO_I
+ PORT GPIO_IO_O = xps_gpio_1_GPIO_IO_O
+ PORT GPIO2_IO_I = xps_gpio_1_GPIO2_IO_I
+ PORT GPIO2_IO_O = xps_gpio_1_GPIO2_IO_O
 END
 

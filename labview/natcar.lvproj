@@ -81,7 +81,186 @@
 			<Property Name="crio.Type" Type="Str">sbRIO-9606</Property>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{15EBB2E8-694E-4DD5-A584-ADBC2C827843}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{17DED467-1C30-4E6A-9A91-FC6093255ADF}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{17EAB0C9-7A44-4FD6-BF5C-234E873F2E08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=bool{1F8797BD-99E3-4E9C-AC14-5E6EE94853EA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=bool{2868BEE0-D9D6-49E9-B96B-3CB18E2CE9E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=bool{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{33BC443C-3BE0-4D90-87D2-C5E9848583EC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{3622792B-CF32-4943-B11B-3D73BE0A4CD7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=bool{3DF90D19-49A6-450E-961A-308AB5A19CB3}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32{41EE7D14-9FBA-4CA4-9C6F-F45C44A653A4}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{4269C7EB-A94F-47D3-9ED1-18FE96F3AA17}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=bool{551B7E82-8652-4DC0-AF18-4A1BFA2687C2}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{55C6705B-DD32-4E3C-A949-D63EF3AB4565}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=bool{64BFBE0D-FBC0-4590-AEC5-3200F8B38EDE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=bool{6A131468-955D-42E1-80C5-7C8EA684745F}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{7F4BDBF4-4A2D-4394-98C3-680C2CCCA388}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{8792B59D-4180-4FDF-B3A1-75DC6202AB71}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=bool{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{9D8C4761-2799-40D1-A55F-1264ACB4DBE6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{A05E98F6-BECB-418E-B9E7-B652B507B250}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{A83927E6-A1C6-46B7-BA2D-469CABE47C53}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool{AECF18E6-5CB0-419D-AFED-6156863EDB35}resource=/Chassis Temperature;0;ReadMethodType=i16{B79870B5-194C-445D-861C-0E3DEBF2AD0B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{C854FF8F-12F0-4120-B550-EFBEBD1B1316}0f923dcca88717218a02d44f5920efca56c3809fe518c3e9c5990db4b63bda74673dfb3654c02a2c89fe705b72a4ce217111fd6b533ff690844b9cb1938545e28505655ca0f04f0bc93b8845b43b165487cbf2dd1ae26049a3e30b377f06d6458b976fc3290d4af2ad466152dba9c655a27b2e74f37f1a9e16363dff6bf71a57b0e320f5e2053f723e7afaebf22eacb9c396f2a30c85c088d99dc553dde298a2c82d6ccefb1ef0a2fc0446225d98d4eed3580ddc4e46ac01502c53f93030aab1d890940550aab9c9eb2c031123859943da52a9a439c4156e0d312766142ba302&lt;Array&gt;
+				<Property Name="configString.guid" Type="Str">{04B4A6F8-BA41-491F-BE31-1DC239A8B71D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO34;0;ReadMethodType=bool;WriteMethodType=bool{1071BABB-4DAE-43BE-892E-37EAE7A8E7A2}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataready;0;ReadMethodType=bool{17DED467-1C30-4E6A-9A91-FC6093255ADF}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{17EAB0C9-7A44-4FD6-BF5C-234E873F2E08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=bool{1BEC19EF-59F0-4E5A-9F8D-DFD8CF43D4DF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/xps_gpio_1_GPIO2_IO_I_pin;0;WriteMethodType=I32{1E340E59-ADBE-4106-809F-9D4785A6FC07}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caicurrentchannel;0;ReadMethodType=
+&lt;Type&gt;
+   &lt;FXP&gt;
+      &lt;IntegerWordLength&gt;4&lt;/IntegerWordLength&gt;
+      &lt;Unsigned&gt;true&lt;/Unsigned&gt;
+      &lt;WordLength&gt;4&lt;/WordLength&gt;
+   &lt;/FXP&gt;
+&lt;/Type&gt;{2868BEE0-D9D6-49E9-B96B-3CB18E2CE9E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=bool{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3622792B-CF32-4943-B11B-3D73BE0A4CD7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=bool{38B96427-9FCC-4935-BBA5-01EB2626C80B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=bool{3F82519A-0DBE-4E7F-A9BC-B9A3F42A1E57}Multiplier=5.000000;Divisor=4.000000{3F85EE01-46E6-4070-B271-65041F0803DB}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/acheckchannel;0;ReadMethodType=bool{4269C7EB-A94F-47D3-9ED1-18FE96F3AA17}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=bool{48C07554-EC3A-4EE9-9D92-893CED236534}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidone;0;ReadMethodType=bool{4E595514-A153-45EA-89A5-6415CBC16A2B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO33;0;ReadMethodType=bool;WriteMethodType=bool{4EC7CA78-5607-428D-ADC9-BA169FC1A213}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool{50E138A5-33AC-4251-B9D1-3C31D245C129}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin;0;WriteMethodType=bool{57EE6464-A678-49D6-AFF1-E872B49599C1}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin;0;ReadMethodType=I32{5A500449-B834-44F5-8B72-CAF0CBB4E692}114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae0368662e2c5ffb0fb19c5536419c4fbbb1487ac52cc98c1de44567a6699e8bef605a88a85b9fa54b45f2a6272df90f8a7b56bf0ba08108dfa2a4d547c89a69da1261cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;7&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kClkMultiplier&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiLowCost&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;boolean&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;true&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;true&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiNumChannels&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiPortWidth&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiRawPortWidth&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiMinTimeBetweenConversions&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiCalEnable&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;boolean&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;false&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;false&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+{6A131468-955D-42E1-80C5-7C8EA684745F}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{6DCA92D9-C665-44D8-BB16-47898E9F605A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=bool{7372CBE0-D2A2-4B04-BFB2-F271E97920F3}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin;0;ReadMethodType=bool{7A010C88-7C5D-425D-83A2-8913D0F13785}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/caichannellist;0;WriteMethodType=U16{7EC68FB3-A0F8-4035-92FB-2902D02A9731}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin;0;ReadMethodType=bool{86BC589F-9FBD-40D2-A7E9-913114967236}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=bool{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{8CC928D7-858E-493C-8B62-5E03ECC48F93}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispimosi;0;ReadMethodType=bool{91CBF16B-85A9-465A-8F2A-4AC5675A1BE5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=bool{93034B0F-126F-4438-B8AF-02EE177C1483}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin;0;ReadMethodType=I32{9331A13B-BD93-42A3-9ED2-261290CB839D}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispiclk;0;ReadMethodType=bool{9754ECDB-3479-4C57-9A27-004DDE8BE778}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/cairun;0;WriteMethodType=bool{A05E98F6-BECB-418E-B9E7-B652B507B250}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{AECF18E6-5CB0-419D-AFED-6156863EDB35}resource=/Chassis Temperature;0;ReadMethodType=i16{AF20A322-60A0-4731-BC3C-A307BFC03BD4}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataout;0;ReadMethodType=U16{B3A00C9A-DCE3-4382-BAC2-49266F4F994C}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin;0;ReadMethodType=bool{BA62DFD3-0222-4CA1-808F-43C0C0556530}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/aaispimiso;0;WriteMethodType=bool{BFEA2C4A-6E09-4DAF-A3E9-A0B776084134}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin;0;WriteMethodType=bool{C23987C9-404F-4460-8D66-7259E6F96992}0f5ba10a61aa0c74ff0709745378dd3a2c1b533d4f2f070c8d1feb610f7ee2222f733fdab93661bbc13bcc583f10f52f36e38e2af24328b9d76b6aced63062bd41cedd0b7ce48925c166f242c3a63ed4549338a7c20a9272d0511b537e3f5d6e7171fb9a421a0bb78518e67446423bb072f07b2a8c1573cea5f097d4d4925745747678dd69396953c1e995359316c1d879c9af5f1b39abccbaed50236801ba11b20f81f1bd60ded69ba6950a668297dcb6efcea1cbab7e9b0336802d7d8bbd5bb879cc9811723189b81794396a467f82cbbad18d605f6ea8452a8d70e1306a99d3bfd26294d699885d1a699ff0dcda48d94fb9bc59d071fb2650a4f6d124ab0e&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -109,8 +288,187 @@
 &lt;/String&gt;
 &lt;/Cluster&gt;
 &lt;/Array&gt;
-{D43BF588-4F0E-4885-A8E1-9171A6C13040}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{D7532765-79A7-43F2-A791-515C70577DCC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{DDC8CD1E-74B0-4917-8E26-E90467B0AA96}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{DF226E99-8EE3-4A41-B10F-DA3B2B08441A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{EA8153E5-BAA7-489F-9FAF-D9EB80650CF4}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=bool{EFF580F7-DD4D-4C9F-8320-48E2AA2F3928}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO1;0;ReadMethodType=bool;WriteMethodType=boolsbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EBRAKEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16DIO10ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO10;0;ReadMethodType=bool;WriteMethodType=boolDIO11ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO11;0;ReadMethodType=bool;WriteMethodType=boolDIO12ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO12;0;ReadMethodType=bool;WriteMethodType=boolDIO13ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO13;0;ReadMethodType=bool;WriteMethodType=boolDIO14ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO14;0;ReadMethodType=bool;WriteMethodType=boolDIO15ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO15;0;ReadMethodType=bool;WriteMethodType=boolDIO8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO8;0;ReadMethodType=bool;WriteMethodType=boolDIO9ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO9;0;ReadMethodType=bool;WriteMethodType=boolENABLEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolGOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolmdm_0_extTDI_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=boolmdm_0_extTDO_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=boolmdm_0_TCK_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=boolmdm_0_TMS_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=boolmicroblaze0f923dcca88717218a02d44f5920efca56c3809fe518c3e9c5990db4b63bda74673dfb3654c02a2c89fe705b72a4ce217111fd6b533ff690844b9cb1938545e28505655ca0f04f0bc93b8845b43b165487cbf2dd1ae26049a3e30b377f06d6458b976fc3290d4af2ad466152dba9c655a27b2e74f37f1a9e16363dff6bf71a57b0e320f5e2053f723e7afaebf22eacb9c396f2a30c85c088d99dc553dde298a2c82d6ccefb1ef0a2fc0446225d98d4eed3580ddc4e46ac01502c53f93030aab1d890940550aab9c9eb2c031123859943da52a9a439c4156e0d312766142ba302&lt;Array&gt;
+{C535F3F3-CB09-4815-800F-A304E3F63219}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=bool{CBA6F7F2-96CF-4B29-B365-68477A298513}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/areset;0;WriteMethodType=bool{CDDC65BA-8F28-4858-A53A-AE5B2CAF5CE5}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32{CF12E8B2-1D25-446D-89FE-EA132AF51E15}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin;0;WriteMethodType=bool{D1C5A0A9-D33D-4C35-A2EF-212367B9D9C2}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_1_GPIO2_IO_O_pin;0;ReadMethodType=I32{D560CEAB-EDF6-45E3-AB2C-82B59944A8B0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO32;0;ReadMethodType=bool;WriteMethodType=bool{D7532765-79A7-43F2-A791-515C70577DCC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{D9EC22A5-3C3D-450E-874A-051BA4BFBB35}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin;0;ReadMethodType=bool{DDC8CD1E-74B0-4917-8E26-E90467B0AA96}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{DF226E99-8EE3-4A41-B10F-DA3B2B08441A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{E5D9B775-6B45-46C1-8D2C-F88D826A2A18}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO35;0;ReadMethodType=bool;WriteMethodType=bool{EFF580F7-DD4D-4C9F-8320-48E2AA2F3928}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{F0F54117-8D93-411D-829F-E7128B85CD1E}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_1_GPIO_IO_O_pin;0;ReadMethodType=I32{F5F9567F-D86D-4B44-A945-8A593F79DBFF}NumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispics_n;0;ReadMethodType=bool{F95424FE-801D-48E1-BC4E-EF31634BD5BC}NumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin;0;ReadMethodType=I8{F9AB7810-1EA3-431A-8F7D-9132F7E12B68}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/xps_gpio_1_GPIO_IO_I_pin;0;WriteMethodType=I32{FBFB1BB1-0917-4D1E-8FC2-5425BFC96E75}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin;0;WriteMethodType=I32sbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E50MHzMultiplier=5.000000;Divisor=4.000000aaispiclkNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispiclk;0;ReadMethodType=boolaaispics_nNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispics_n;0;ReadMethodType=boolaaispimisoArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/aaispimiso;0;WriteMethodType=boolaaispimosiNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/aaispimosi;0;ReadMethodType=boolacheckchannelNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/acheckchannel;0;ReadMethodType=boolADC114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae0368662e2c5ffb0fb19c5536419c4fbbb1487ac52cc98c1de44567a6699e8bef605a88a85b9fa54b45f2a6272df90f8a7b56bf0ba08108dfa2a4d547c89a69da1261cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;7&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kClkMultiplier&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiLowCost&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;boolean&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;true&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;true&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiNumChannels&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiPortWidth&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiRawPortWidth&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiMinTimeBetweenConversions&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiCalEnable&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;boolean&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;false&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;false&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+aresetArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/areset;0;WriteMethodType=boolBRAKEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO6;0;ReadMethodType=bool;WriteMethodType=boolcaichannellistArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/caichannellist;0;WriteMethodType=U16caicurrentchannelNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caicurrentchannel;0;ReadMethodType=
+&lt;Type&gt;
+   &lt;FXP&gt;
+      &lt;IntegerWordLength&gt;4&lt;/IntegerWordLength&gt;
+      &lt;Unsigned&gt;true&lt;/Unsigned&gt;
+      &lt;WordLength&gt;4&lt;/WordLength&gt;
+   &lt;/FXP&gt;
+&lt;/Type&gt;caidataoutNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataout;0;ReadMethodType=U16caidatareadyNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidataready;0;ReadMethodType=boolcaidoneNumberOfSyncRegistersForReadInProject=0;resource=/ADC/SignalList/caidone;0;ReadMethodType=boolcairunArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/ADC/SignalList/cairun;0;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16CSArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO32;0;ReadMethodType=bool;WriteMethodType=boolENABLEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolGOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolipic_test_0_ipif_Bus2IP_Addr_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin;0;ReadMethodType=I32ipic_test_0_ipif_Bus2IP_BE_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin;0;ReadMethodType=I8ipic_test_0_ipif_Bus2IP_Clk_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_CS_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_Data_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin;0;ReadMethodType=I32ipic_test_0_ipif_Bus2IP_Reset_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin;0;ReadMethodType=boolipic_test_0_ipif_Bus2IP_RNW_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin;0;ReadMethodType=boolipic_test_0_ipif_IP2Bus_Data_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin;0;WriteMethodType=I32ipic_test_0_ipif_IP2Bus_Error_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin;0;WriteMethodType=boolipic_test_0_ipif_IP2Bus_RdAck_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin;0;WriteMethodType=boolipic_test_0_ipif_IP2Bus_WrAck_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin;0;WriteMethodType=boolmdm_0_extTDI_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_extTDI_pin;0;WriteMethodType=boolmdm_0_extTDO_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/mdm_0_extTDO_pin;0;ReadMethodType=boolmdm_0_TCK_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TCK_pin;0;WriteMethodType=boolmdm_0_TMS_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/mdm_0_TMS_pin;0;WriteMethodType=boolmicroblaze0f5ba10a61aa0c74ff0709745378dd3a2c1b533d4f2f070c8d1feb610f7ee2222f733fdab93661bbc13bcc583f10f52f36e38e2af24328b9d76b6aced63062bd41cedd0b7ce48925c166f242c3a63ed4549338a7c20a9272d0511b537e3f5d6e7171fb9a421a0bb78518e67446423bb072f07b2a8c1573cea5f097d4d4925745747678dd69396953c1e995359316c1d879c9af5f1b39abccbaed50236801ba11b20f81f1bd60ded69ba6950a668297dcb6efcea1cbab7e9b0336802d7d8bbd5bb879cc9811723189b81794396a467f82cbbad18d605f6ea8452a8d70e1306a99d3bfd26294d699885d1a699ff0dcda48d94fb9bc59d071fb2650a4f6d124ab0e&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -138,116 +496,469 @@
 &lt;/String&gt;
 &lt;/Cluster&gt;
 &lt;/Array&gt;
-PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO0;0;ReadMethodType=bool;WriteMethodType=boolPWM1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO1;0;ReadMethodType=bool;WriteMethodType=boolPWM2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO2;0;ReadMethodType=bool;WriteMethodType=boolresetArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=boolREVERSEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=boolsbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGASystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolTCKArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=boolTDIArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=boolTDOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=boolTMSArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=boolxps_gpio_0_GPIO_IO_O_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32xps_timer_0_PWM0_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool</Property>
+PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO0;0;ReadMethodType=bool;WriteMethodType=boolPWM1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO1;0;ReadMethodType=bool;WriteMethodType=boolPWM2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO2;0;ReadMethodType=bool;WriteMethodType=boolresetArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/reset;0;WriteMethodType=boolREVERSEArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO5;0;ReadMethodType=bool;WriteMethodType=boolsbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGASCLKArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO33;0;ReadMethodType=bool;WriteMethodType=boolSDIArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO34;0;ReadMethodType=bool;WriteMethodType=boolSDOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO35;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolTCKArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO41;0;ReadMethodType=bool;WriteMethodType=boolTDIArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO42;0;ReadMethodType=bool;WriteMethodType=boolTDOArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO43;0;ReadMethodType=bool;WriteMethodType=boolTMSArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO40;0;ReadMethodType=bool;WriteMethodType=boolxps_gpio_0_GPIO_IO_O_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_0_GPIO_IO_O_pin;0;ReadMethodType=I32xps_gpio_1_GPIO_IO_I_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/xps_gpio_1_GPIO_IO_I_pin;0;WriteMethodType=I32xps_gpio_1_GPIO_IO_O_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_1_GPIO_IO_O_pin;0;ReadMethodType=I32xps_gpio_1_GPIO2_IO_I_pinArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/microblaze/SignalList/xps_gpio_1_GPIO2_IO_I_pin;0;WriteMethodType=I32xps_gpio_1_GPIO2_IO_O_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_gpio_1_GPIO2_IO_O_pin;0;ReadMethodType=I32xps_timer_0_PWM0_pinNumberOfSyncRegistersForReadInProject=Auto;resource=/microblaze/SignalList/xps_timer_0_PWM0_pin;0;ReadMethodType=bool</Property>
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Category" Type="Str">User Defined</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].InvalidPath" Type="Str"></Property>
-				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Name" Type="Str">MicroBlaze</Property>
-				<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">1</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Name" Type="Str">BlueMoonAiResourceCore_encrypted</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Category" Type="Str">User Defined</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarations[1].InvalidPath" Type="Str"></Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Name" Type="Str">MicroBlaze</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">2</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml">
 <CLIPDeclarationSet>
    <CLIPDeclarationCategory name="User Defined">
+      <CLIPDeclaration name="BlueMoonAiResourceCore_encrypted">
+         <DeclarationPaths>
+            <Absolute>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\non-MicroBlazeADC\BlueMoonAiResourceCore_encryptedVHDL.xml</Absolute>
+            <MD5>662e2c5ffb0fb19c5536419c4fbbb148</MD5>
+            <RelativeToLabVIEW>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\non-MicroBlazeADC\BlueMoonAiResourceCore_encryptedVHDL.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\non-MicroBlazeADC\BlueMoonAiResourceCore_encryptedVHDL.xml</RelativeToNiPubDocs>
+            <RelativeToNiSharedDir>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\non-MicroBlazeADC\BlueMoonAiResourceCore_encryptedVHDL.xml</RelativeToNiSharedDir>
+            <RelativeToProject>CLIP\non-MicroBlazeADC\BlueMoonAiResourceCore_encryptedVHDL.xml</RelativeToProject>
+            <Valid>true</Valid>
+         </DeclarationPaths>
+         <Description></Description>
+         <FormatVersion>4.0</FormatVersion>
+         <GenericList>
+            <Generic name="kClkMultiplier">
+               <DefaultValue>1</DefaultValue>
+               <Description></Description>
+               <GenericType>integer</GenericType>
+            </Generic>
+            <Generic name="kAiLowCost">
+               <DefaultValue>true</DefaultValue>
+               <Description></Description>
+               <GenericType>boolean</GenericType>
+            </Generic>
+            <Generic name="kAiNumChannels">
+               <DefaultValue>16</DefaultValue>
+               <Description></Description>
+               <GenericType>integer</GenericType>
+            </Generic>
+            <Generic name="kAiPortWidth">
+               <DefaultValue>16</DefaultValue>
+               <Description></Description>
+               <GenericType>integer</GenericType>
+            </Generic>
+            <Generic name="kAiRawPortWidth">
+               <DefaultValue>16</DefaultValue>
+               <Description></Description>
+               <GenericType>integer</GenericType>
+            </Generic>
+            <Generic name="kAiMinTimeBetweenConversions">
+               <DefaultValue>200</DefaultValue>
+               <Description></Description>
+               <GenericType>integer</GenericType>
+            </Generic>
+            <Generic name="kAiCalEnable">
+               <DefaultValue>false</DefaultValue>
+               <Description></Description>
+               <GenericType>boolean</GenericType>
+            </Generic>
+         </GenericList>
+         <ImplementationList>
+            <Path name="BlueMoonAiResourceCore.vhd">
+               <MD5>fc4c0bf57d094f69c45aa6fdb3c2906f</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+               <TopLevel></TopLevel>
+            </Path>
+            <Path name="BlueMoonAiConvertStateMachine.vhe">
+               <MD5>0bbb2122334f05d772ac93197eaa5000</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+            </Path>
+            <Path name="BlueMoonAiFrontEndLogic.vhe">
+               <MD5>98004d211bff5353b5d1cbe94ab6a910</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+            </Path>
+            <Path name="BlueMoonAiLowCostConvertStateMachine.vhe">
+               <MD5>ff78c9bfa1686b9425076587b16c5aa7</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+            </Path>
+            <Path name="BlueMoonAiSpiMaster.vhe">
+               <MD5>b74864a51638e6c4f6a589b0466fbd0c</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+            </Path>
+            <Path name="BlueMoonCreateLogicEnable.vhe">
+               <MD5>fb88c9d144d2d01643ae78fa124ca130</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+            </Path>
+            <Path name="BlueMoonCycleThroughChanList.vhe">
+               <MD5>40aec77308a1f1801981f5f6a89c9f52</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+            </Path>
+            <Path name="BlueMoonSpiMaster.vhe">
+               <MD5>aac97e87efd6440e06d4347ea1540668</MD5>
+               <SimulationFileList>
+                  <SimulationModelType>Same as synthesis</SimulationModelType>
+               </SimulationFileList>
+            </Path>
+            <VerifiedImplementationList>
+               <Path name="BlueMoonAiResourceCore.vhd">
+                  <MD5>bf0ba08108dfa2a4d547c89a69da1261</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+                  <TopLevel></TopLevel>
+               </Path>
+               <Path name="BlueMoonAiConvertStateMachine.vhe">
+                  <MD5>7ac52cc98c1de44567a6699e8bef605a</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="BlueMoonAiFrontEndLogic.vhe">
+                  <MD5>114b6e6f9dfc79ebcc6d672804b996f8</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="BlueMoonAiLowCostConvertStateMachine.vhe">
+                  <MD5>3f3ccac551898fd62f526637aaae0368</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="BlueMoonAiSpiMaster.vhe">
+                  <MD5>e1cb74eb7dc0fc820b5a1ba9d1525665</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="BlueMoonCreateLogicEnable.vhe">
+                  <MD5>88a85b9fa54b45f2a6272df90f8a7b56</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="BlueMoonCycleThroughChanList.vhe">
+                  <MD5>cc3a7ea7feaf5b33260e7f9eaef7e4b1</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="BlueMoonSpiMaster.vhe">
+                  <MD5>290c410c78e5e144fc77393129c712db</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+            </VerifiedImplementationList>
+         </ImplementationList>
+         <InterfaceList>
+            <Interface name="LabVIEW">
+               <InterfaceType>LabVIEW</InterfaceType>
+               <SignalList>
+                  <Signal name="clk">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>ToCLIP</Direction>
+                     <FreqInHertz>
+                        <Max>200.000000M</Max>
+                        <Min>1.000000M</Min>
+                     </FreqInHertz>
+                     <HDLName>clk</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <SignalType>clock</SignalType>
+                  </Signal>
+                  <Signal name="areset">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>areset</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain></RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="cairun">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>cairun</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain>clk</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="caidone">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>caidone</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain>clk</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="caichannellist">
+                     <DataType>
+                        <U16></U16>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>caichannellist</HDLName>
+                     <HDLType>std_logic_vector(15 downto 0)</HDLType>
+                     <RequiredClockDomain>clk</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="caicurrentchannel">
+                     <DataType>
+                        <FXP>
+                           <IntegerWordLength>4</IntegerWordLength>
+                           <Unsigned></Unsigned>
+                           <WordLength>4</WordLength>
+                        </FXP>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>caicurrentchannel</HDLName>
+                     <HDLType>std_logic_vector(3 downto 0)</HDLType>
+                     <RequiredClockDomain>clk</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="caidataready">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>caidataready</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain>clk</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="caidataout">
+                     <DataType>
+                        <U16></U16>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>caidataout</HDLName>
+                     <HDLType>std_logic_vector(15 downto 0)</HDLType>
+                     <LeaveUndrivenIfNotUsedInLabVIEW></LeaveUndrivenIfNotUsedInLabVIEW>
+                     <RequiredClockDomain>clk</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="aaispics_n">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aaispics_n</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain></RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="aaispiclk">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aaispiclk</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain></RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="aaispimosi">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aaispimosi</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain></RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="aaispimiso">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aaispimiso</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain></RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+                  <Signal name="acheckchannel">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Description></Description>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>acheckchannel</HDLName>
+                     <HDLType>std_logic</HDLType>
+                     <RequiredClockDomain>clk</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                     <UseInLabVIEWSingleCycleTimedLoop>Allowed</UseInLabVIEWSingleCycleTimedLoop>
+                  </Signal>
+               </SignalList>
+            </Interface>
+         </InterfaceList>
+         <NumberOfBufGsNeeded>0</NumberOfBufGsNeeded>
+         <NumberOfDCMsNeeded>0</NumberOfDCMsNeeded>
+         <NumberOfMMCMsNeeded>0</NumberOfMMCMsNeeded>
+         <SupportedDeviceFamilies>Unlimited</SupportedDeviceFamilies>
+         <TopLevelEntityAndArchitecture>
+            <SimulationModel>
+               <Architecture>rtl</Architecture>
+               <Entity>BlueMoonAiResourceCore</Entity>
+            </SimulationModel>
+            <SynthesisModel>
+               <Architecture>rtl</Architecture>
+               <Entity>BlueMoonAiResourceCore</Entity>
+            </SynthesisModel>
+         </TopLevelEntityAndArchitecture>
+      </CLIPDeclaration>
       <CLIPDeclaration name="MicroBlaze">
          <DeclarationPaths>
-            <Absolute>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</Absolute>
-            <MD5>d3580ddc4e46ac01502c53f93030aab1</MD5>
-            <RelativeToLabVIEW>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToNiPubDocs>
-            <RelativeToNiSharedDir>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\labview\CLIP\ublaze.xml</RelativeToNiSharedDir>
-            <RelativeToProject>CLIP\ublaze.xml</RelativeToProject>
+            <Absolute>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\uBlaze.xml</Absolute>
+            <MD5>549338a7c20a9272d0511b537e3f5d6e</MD5>
+            <RelativeToLabVIEW>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\uBlaze.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\uBlaze.xml</RelativeToNiPubDocs>
+            <RelativeToNiSharedDir>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\labview\CLIP\uBlaze.xml</RelativeToNiSharedDir>
+            <RelativeToProject>CLIP\uBlaze.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <FormatVersion>1.0</FormatVersion>
          <HDLName>system</HDLName>
          <ImplementationList>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_timer_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\system.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\proc_sys_reset_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\microblaze_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mdm_0_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mb_plb_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\lmb_bram_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_cntlr_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_cntlr_wrapper.ngc</Path>
-            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\clock_generator_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\xps_timer_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\xps_gpio_1_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\system.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\proc_sys_reset_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\microblaze_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\mdm_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\mb_plb_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\lmb_bram_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\ipic_test_0_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\ilmb_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\ilmb_cntlr_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\dlmb_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\dlmb_cntlr_wrapper.ngc</Path>
+            <Path>D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\clock_generator_0_wrapper.ngc</Path>
             <VerifiedImplementationList>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\clock_generator_0_wrapper.ngc">
-                  <MD5>0f923dcca88717218a02d44f5920efca</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\clock_generator_0_wrapper.ngc">
+                  <MD5>2f733fdab93661bbc13bcc583f10f52f</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_timer_0_wrapper.ngc">
-                  <MD5>da52a9a439c4156e0d312766142ba302</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\xps_timer_0_wrapper.ngc">
+                  <MD5>747678dd69396953c1e995359316c1d8</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\xps_gpio_0_wrapper.ngc">
-                  <MD5>87cbf2dd1ae26049a3e30b377f06d645</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\xps_gpio_1_wrapper.ngc">
+                  <MD5>79c9af5f1b39abccbaed50236801ba11</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\system.ngc">
-                  <MD5>673dfb3654c02a2c89fe705b72a4ce21</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\xps_gpio_0_wrapper.ngc">
+                  <MD5>b879cc9811723189b81794396a467f82</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\proc_sys_reset_0_wrapper.ngc">
-                  <MD5>a27b2e74f37f1a9e16363dff6bf71a57</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\system.ngc">
+                  <MD5>b6efcea1cbab7e9b0336802d7d8bbd5b</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\microblaze_0_wrapper.ngc">
-                  <MD5>d890940550aab9c9eb2c031123859943</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\proc_sys_reset_0_wrapper.ngc">
+                  <MD5>b20f81f1bd60ded69ba6950a668297dc</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mdm_0_wrapper.ngc">
-                  <MD5>8b976fc3290d4af2ad466152dba9c655</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\microblaze_0_wrapper.ngc">
+                  <MD5>d3bfd26294d699885d1a699ff0dcda48</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\mb_plb_wrapper.ngc">
-                  <MD5>c396f2a30c85c088d99dc553dde298a2</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\mdm_0_wrapper.ngc">
+                  <MD5>36e38e2af24328b9d76b6aced63062bd</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\lmb_bram_wrapper.ngc">
-                  <MD5>c82d6ccefb1ef0a2fc0446225d98d4ee</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\mb_plb_wrapper.ngc">
+                  <MD5>72f07b2a8c1573cea5f097d4d4925745</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_wrapper.ngc">
-                  <MD5>b0e320f5e2053f723e7afaebf22eacb9</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\lmb_bram_wrapper.ngc">
+                  <MD5>d94fb9bc59d071fb2650a4f6d124ab0e</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\ilmb_cntlr_wrapper.ngc">
-                  <MD5>8505655ca0f04f0bc93b8845b43b1654</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\ipic_test_0_wrapper.ngc">
+                  <MD5>41cedd0b7ce48925c166f242c3a63ed4</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_wrapper.ngc">
-                  <MD5>7111fd6b533ff690844b9cb1938545e2</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\ilmb_wrapper.ngc">
+                  <MD5>7171fb9a421a0bb78518e67446423bb0</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
                </Path>
-               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\xps\implementation\dlmb_cntlr_wrapper.ngc">
-                  <MD5>56c3809fe518c3e9c5990db4b63bda74</MD5>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\ilmb_cntlr_wrapper.ngc">
+                  <MD5>0f5ba10a61aa0c74ff0709745378dd3a</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Exclude from simulation model</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\dlmb_wrapper.ngc">
+                  <MD5>cbbad18d605f6ea8452a8d70e1306a99</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Exclude from simulation model</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="D:\Documents\Berkeley\Dropbox\Berkeley_Spring_2012\EE_192\NatCARonGit\checkpoint_8\xps\implementation\dlmb_cntlr_wrapper.ngc">
+                  <MD5>2c1b533d4f2f070c8d1feb610f7ee222</MD5>
                   <SimulationFileList>
                      <SimulationModelType>Exclude from simulation model</SimulationModelType>
                   </SimulationFileList>
@@ -324,6 +1035,126 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
                      </DataType>
                      <Direction>FromCLIP</Direction>
                      <HDLName>xps_gpio_0_GPIO_IO_O_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_Clk_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_Clk_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_Reset_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_Reset_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_IP2Bus_Data_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_IP2Bus_Data_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_IP2Bus_WrAck_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_IP2Bus_WrAck_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_IP2Bus_RdAck_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_IP2Bus_RdAck_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_IP2Bus_Error_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_IP2Bus_Error_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_Addr_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_Addr_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_Data_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_Data_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_RNW_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_RNW_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_BE_pin">
+                     <DataType>
+                        <I8></I8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_BE_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="ipic_test_0_ipif_Bus2IP_CS_pin">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>ipic_test_0_ipif_Bus2IP_CS_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="xps_gpio_1_GPIO_IO_I_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>xps_gpio_1_GPIO_IO_I_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="xps_gpio_1_GPIO_IO_O_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>xps_gpio_1_GPIO_IO_O_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="xps_gpio_1_GPIO2_IO_I_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>xps_gpio_1_GPIO2_IO_I_pin</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="xps_gpio_1_GPIO2_IO_O_pin">
+                     <DataType>
+                        <I32></I32>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>xps_gpio_1_GPIO2_IO_O_pin</HDLName>
                      <SignalType>data</SignalType>
                   </Signal>
                </SignalList>
@@ -447,104 +1278,6 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 						<Property Name="FPGA.PersistentID" Type="Str">{DF226E99-8EE3-4A41-B10F-DA3B2B08441A}</Property>
 					</Item>
 				</Item>
-				<Item Name="H-Bridge" Type="Folder">
-					<Item Name="ENABLE" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="ArbitrationForOutputEnable">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputEnable">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/MezzanineIO/DIO4</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{DDC8CD1E-74B0-4917-8E26-E90467B0AA96}</Property>
-					</Item>
-					<Item Name="GO" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="ArbitrationForOutputEnable">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputEnable">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/MezzanineIO/DIO3</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}</Property>
-					</Item>
-					<Item Name="REVERSE" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="ArbitrationForOutputEnable">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputEnable">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/MezzanineIO/DIO5</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}</Property>
-					</Item>
-					<Item Name="BRAKE" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="ArbitrationForOutputEnable">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputData">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForOutputEnable">
-   <Value>1</Value>
-   </Attribute>
-   <Attribute name="NumberOfSyncRegistersForReadInProject">
-   <Value>Auto</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/MezzanineIO/DIO6</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}</Property>
-					</Item>
-				</Item>
 				<Item Name="uBlaze Debug" Type="Folder">
 					<Item Name="TCK" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -643,8 +1376,8 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 						<Property Name="FPGA.PersistentID" Type="Str">{17EAB0C9-7A44-4FD6-BF5C-234E873F2E08}</Property>
 					</Item>
 				</Item>
-				<Item Name="test logic" Type="Folder">
-					<Item Name="DIO8" Type="Elemental IO">
+				<Item Name="H-Bridge" Type="Folder">
+					<Item Name="ENABLE" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -662,13 +1395,13 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO8</Value>
+   <Value>/MezzanineIO/DIO4</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{15EBB2E8-694E-4DD5-A584-ADBC2C827843}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DDC8CD1E-74B0-4917-8E26-E90467B0AA96}</Property>
 					</Item>
-					<Item Name="DIO9" Type="Elemental IO">
+					<Item Name="GO" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -686,13 +1419,13 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO9</Value>
+   <Value>/MezzanineIO/DIO3</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{B79870B5-194C-445D-861C-0E3DEBF2AD0B}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{290F9F07-2DB6-46E8-AD03-FA80352DE0E0}</Property>
 					</Item>
-					<Item Name="DIO10" Type="Elemental IO">
+					<Item Name="REVERSE" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -710,13 +1443,13 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO10</Value>
+   <Value>/MezzanineIO/DIO5</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{7F4BDBF4-4A2D-4394-98C3-680C2CCCA388}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{6CDF5E0C-A2C3-4075-BD9D-D403D8AEA246}</Property>
 					</Item>
-					<Item Name="DIO11" Type="Elemental IO">
+					<Item Name="BRAKE" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -734,13 +1467,15 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO11</Value>
+   <Value>/MezzanineIO/DIO6</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{551B7E82-8652-4DC0-AF18-4A1BFA2687C2}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{87FDA4AC-E9C1-4173-83BC-1C4F7F4744C0}</Property>
 					</Item>
-					<Item Name="DIO12" Type="Elemental IO">
+				</Item>
+				<Item Name="ADC SPI" Type="Folder">
+					<Item Name="SCLK" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -758,13 +1493,13 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO12</Value>
+   <Value>/MezzanineIO/DIO33</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9D8C4761-2799-40D1-A55F-1264ACB4DBE6}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4E595514-A153-45EA-89A5-6415CBC16A2B}</Property>
 					</Item>
-					<Item Name="DIO13" Type="Elemental IO">
+					<Item Name="SDO" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -782,13 +1517,13 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO13</Value>
+   <Value>/MezzanineIO/DIO35</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{33BC443C-3BE0-4D90-87D2-C5E9848583EC}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E5D9B775-6B45-46C1-8D2C-F88D826A2A18}</Property>
 					</Item>
-					<Item Name="DIO14" Type="Elemental IO">
+					<Item Name="SDI" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -806,13 +1541,13 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO14</Value>
+   <Value>/MezzanineIO/DIO34</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{41EE7D14-9FBA-4CA4-9C6F-F45C44A653A4}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{04B4A6F8-BA41-491F-BE31-1DC239A8B71D}</Property>
 					</Item>
-					<Item Name="DIO15" Type="Elemental IO">
+					<Item Name="CS" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -830,11 +1565,11 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/MezzanineIO/DIO15</Value>
+   <Value>/MezzanineIO/DIO32</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{D43BF588-4F0E-4885-A8E1-9171A6C13040}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D560CEAB-EDF6-45E3-AB2C-82B59944A8B0}</Property>
 					</Item>
 				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
@@ -854,12 +1589,22 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+					<Item Name="50MHz" Type="FPGA Derived Clock">
+						<Property Name="FPGA.PersistentID" Type="Str">{3F82519A-0DBE-4E7F-A9BC-B9A3F42A1E57}</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig" Type="Str">Multiplier=5.000000;Divisor=4.000000</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.Divisor" Type="Dbl">4</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.FromExternalClock" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.Multiplier" Type="Dbl">5</Property>
+						<Property Name="NI.LV.FPGA.DerivedConfig.ParentFrequencyInHertz" Type="Dbl">40000000</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+					</Item>
 				</Item>
 				<Item Name="MezzanineCard" Type="RIO Mezzanine Card">
 					<Property Name="crio.Type" Type="Str">Digital</Property>
 				</Item>
 				<Item Name="microblaze" Type="FPGA Component Level IP">
-					<Property Name="FPGA.PersistentID" Type="Str">{C854FF8F-12F0-4120-B550-EFBEBD1B1316}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{C23987C9-404F-4460-8D66-7259E6F96992}</Property>
 					<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
 <CLIPConnections>
    <CLIPSignal name="clk">
@@ -878,7 +1623,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str"></Property>
 					<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
 					<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
-					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">0f923dcca88717218a02d44f5920efca56c3809fe518c3e9c5990db4b63bda74673dfb3654c02a2c89fe705b72a4ce217111fd6b533ff690844b9cb1938545e28505655ca0f04f0bc93b8845b43b165487cbf2dd1ae26049a3e30b377f06d6458b976fc3290d4af2ad466152dba9c655a27b2e74f37f1a9e16363dff6bf71a57b0e320f5e2053f723e7afaebf22eacb9c396f2a30c85c088d99dc553dde298a2c82d6ccefb1ef0a2fc0446225d98d4eed3580ddc4e46ac01502c53f93030aab1d890940550aab9c9eb2c031123859943da52a9a439c4156e0d312766142ba302&lt;Array&gt;
+					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">0f5ba10a61aa0c74ff0709745378dd3a2c1b533d4f2f070c8d1feb610f7ee2222f733fdab93661bbc13bcc583f10f52f36e38e2af24328b9d76b6aced63062bd41cedd0b7ce48925c166f242c3a63ed4549338a7c20a9272d0511b537e3f5d6e7171fb9a421a0bb78518e67446423bb072f07b2a8c1573cea5f097d4d4925745747678dd69396953c1e995359316c1d879c9af5f1b39abccbaed50236801ba11b20f81f1bd60ded69ba6950a668297dcb6efcea1cbab7e9b0336802d7d8bbd5bb879cc9811723189b81794396a467f82cbbad18d605f6ea8452a8d70e1306a99d3bfd26294d699885d1a699ff0dcda48d94fb9bc59d071fb2650a4f6d124ab0e&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -922,7 +1667,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1F8797BD-99E3-4E9C-AC14-5E6EE94853EA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{91CBF16B-85A9-465A-8F2A-4AC5675A1BE5}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="xps_timer_0_PWM0_pin" Type="Elemental IO">
@@ -935,7 +1680,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{A83927E6-A1C6-46B7-BA2D-469CABE47C53}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4EC7CA78-5607-428D-ADC9-BA169FC1A213}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="mdm_0_TCK_pin" Type="Elemental IO">
@@ -951,7 +1696,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{EA8153E5-BAA7-489F-9FAF-D9EB80650CF4}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{6DCA92D9-C665-44D8-BB16-47898E9F605A}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="mdm_0_TMS_pin" Type="Elemental IO">
@@ -967,7 +1712,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{55C6705B-DD32-4E3C-A949-D63EF3AB4565}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{38B96427-9FCC-4935-BBA5-01EB2626C80B}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="mdm_0_extTDI_pin" Type="Elemental IO">
@@ -983,7 +1728,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{64BFBE0D-FBC0-4590-AEC5-3200F8B38EDE}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C535F3F3-CB09-4815-800F-A304E3F63219}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="mdm_0_extTDO_pin" Type="Elemental IO">
@@ -996,7 +1741,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{8792B59D-4180-4FDF-B3A1-75DC6202AB71}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{86BC589F-9FBD-40D2-A7E9-913114967236}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 					<Item Name="xps_gpio_0_GPIO_IO_O_pin" Type="Elemental IO">
@@ -1009,21 +1754,612 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3DF90D19-49A6-450E-961A-308AB5A19CB3}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{CDDC65BA-8F28-4858-A53A-AE5B2CAF5CE5}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Clk_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Clk_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D9EC22A5-3C3D-450E-874A-051BA4BFBB35}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Reset_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Reset_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7EC68FB3-A0F8-4035-92FB-2902D02A9731}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_Data_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Data_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FBFB1BB1-0917-4D1E-8FC2-5425BFC96E75}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_WrAck_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_WrAck_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{CF12E8B2-1D25-446D-89FE-EA132AF51E15}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_RdAck_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_RdAck_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{BFEA2C4A-6E09-4DAF-A3E9-A0B776084134}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_IP2Bus_Error_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_IP2Bus_Error_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{50E138A5-33AC-4251-B9D1-3C31D245C129}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Addr_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Addr_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{93034B0F-126F-4438-B8AF-02EE177C1483}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_Data_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_Data_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{57EE6464-A678-49D6-AFF1-E872B49599C1}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_RNW_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_RNW_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B3A00C9A-DCE3-4382-BAC2-49266F4F994C}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_BE_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_BE_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F95424FE-801D-48E1-BC4E-EF31634BD5BC}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="ipic_test_0_ipif_Bus2IP_CS_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/ipic_test_0_ipif_Bus2IP_CS_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7372CBE0-D2A2-4B04-BFB2-F271E97920F3}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="xps_gpio_1_GPIO_IO_I_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/xps_gpio_1_GPIO_IO_I_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F9AB7810-1EA3-431A-8F7D-9132F7E12B68}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="xps_gpio_1_GPIO_IO_O_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/xps_gpio_1_GPIO_IO_O_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F0F54117-8D93-411D-829F-E7128B85CD1E}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="xps_gpio_1_GPIO2_IO_I_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/xps_gpio_1_GPIO2_IO_I_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1BEC19EF-59F0-4E5A-9F8D-DFD8CF43D4DF}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="xps_gpio_1_GPIO2_IO_O_pin" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/microblaze/SignalList/xps_gpio_1_GPIO2_IO_O_pin</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D1C5A0A9-D33D-4C35-A2EF-212367B9D9C2}</Property>
 						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
 					</Item>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
-					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-					<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
-					<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-					<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-					<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-					<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
-					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+				<Item Name="ADC" Type="FPGA Component Level IP">
+					<Property Name="FPGA.PersistentID" Type="Str">{5A500449-B834-44F5-8B72-CAF0CBB4E692}</Property>
+					<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
+<CLIPConnections>
+   <CLIPSignal name="clk">
+      <ClockFromCLIP>false</ClockFromCLIP>
+      <Direction>ToCLIP</Direction>
+      <HDLName>clk</HDLName>
+      <LinkToFPGAClock>50MHz</LinkToFPGAClock>
+      <MaxFreq>200000000.0000</MaxFreq>
+      <MinFreq>1000000.000000</MinFreq>
+      <UseTopClock>false</UseTopClock>
+   </CLIPSignal>
+</CLIPConnections></Property>
+					<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str">User Defined</Property>
+					<Property Name="NI.LV.CLIP.DeclarationName" Type="Str">BlueMoonAiResourceCore_encrypted</Property>
+					<Property Name="NI.LV.CLIP.Generics" Type="Xml">
+<GenericList>
+   <Generic name="kClkMultiplier">
+      <Value>1</Value>
+   </Generic>
+   <Generic name="kAiLowCost">
+      <Value>true</Value>
+   </Generic>
+   <Generic name="kAiNumChannels">
+      <Value>16</Value>
+   </Generic>
+   <Generic name="kAiPortWidth">
+      <Value>16</Value>
+   </Generic>
+   <Generic name="kAiRawPortWidth">
+      <Value>16</Value>
+   </Generic>
+   <Generic name="kAiMinTimeBetweenConversions">
+      <Value>200</Value>
+   </Generic>
+   <Generic name="kAiCalEnable">
+      <Value>false</Value>
+   </Generic>
+</GenericList></Property>
+					<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">false</Property>
+					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str"></Property>
+					<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
+					<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
+					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">114b6e6f9dfc79ebcc6d672804b996f8290c410c78e5e144fc77393129c712db3f3ccac551898fd62f526637aaae0368662e2c5ffb0fb19c5536419c4fbbb1487ac52cc98c1de44567a6699e8bef605a88a85b9fa54b45f2a6272df90f8a7b56bf0ba08108dfa2a4d547c89a69da1261cc3a7ea7feaf5b33260e7f9eaef7e4b1e1cb74eb7dc0fc820b5a1ba9d1525665&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;7&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kClkMultiplier&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiLowCost&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;boolean&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;true&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;true&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiNumChannels&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiPortWidth&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiRawPortWidth&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;16&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiMinTimeBetweenConversions&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kAiCalEnable&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;boolean&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;false&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;false&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="areset" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/areset</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{CBA6F7F2-96CF-4B29-B365-68477A298513}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="cairun" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/cairun</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9754ECDB-3479-4C57-9A27-004DDE8BE778}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="caidone" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/caidone</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{48C07554-EC3A-4EE9-9D92-893CED236534}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="caichannellist" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/caichannellist</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7A010C88-7C5D-425D-83A2-8913D0F13785}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="caicurrentchannel" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/caicurrentchannel</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1E340E59-ADBE-4106-809F-9D4785A6FC07}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="caidataready" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/caidataready</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1071BABB-4DAE-43BE-892E-37EAE7A8E7A2}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="caidataout" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/caidataout</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AF20A322-60A0-4731-BC3C-A307BFC03BD4}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="aaispics_n" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/aaispics_n</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F5F9567F-D86D-4B44-A945-8A593F79DBFF}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="aaispiclk" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/aaispiclk</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9331A13B-BD93-42A3-9ED2-261290CB839D}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="aaispimosi" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/aaispimosi</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8CC928D7-858E-493C-8B62-5E03ECC48F93}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="aaispimiso" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/aaispimiso</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{BA62DFD3-0222-4CA1-808F-43C0C0556530}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
+					<Item Name="acheckchannel" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/ADC/SignalList/acheckchannel</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3F85EE01-46E6-4070-B271-65041F0803DB}</Property>
+						<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+					</Item>
 				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Top-Level" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
