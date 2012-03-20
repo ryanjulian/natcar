@@ -1,0 +1,155 @@
+!SESSION 2012-03-08 16:36:06.200 -----------------------------------------------
+eclipse.buildId=Release 12.4 Build SDK_MS4.81d
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\Ryan\Desktop\ee192\natcar\ublaze -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2012-03-08 16:36:17.459
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:3865)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.SWT.error(SWT.java:3770)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:274)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:146)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:105)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:128)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:547)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:122)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1287)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-08 16:36:42.826
+!MESSAGE Indexed 'microblaze_bsp' (0 sources, 7 headers) in 0.22 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-08 16:37:11.970
+!MESSAGE Indexed 'hello_world_0' (2 sources, 30 headers) in 0.36 sec: 833 declarations; 728 references; 3 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-08 16:37:40.022
+!MESSAGE Indexed 'natcar' (2 sources, 30 headers) in 0.34 sec: 833 declarations; 728 references; 3 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-08 17:50:13.654
+!MESSAGE Indexed 'natcar' (3 sources, 40 headers) in 0.30 sec: 1,127 declarations; 1,184 references; 3 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.34%)
+!SESSION 2012-03-08 23:54:54.214 -----------------------------------------------
+eclipse.buildId=Release 12.4 Build SDK_MS4.81d
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-08 23:57:09.519
+!MESSAGE Indexed 'microblaze_bsp' (0 sources, 7 headers) in 0.05 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-03-16 11:20:45.065 -----------------------------------------------
+eclipse.buildId=Release 12.4 Build SDK_MS4.81d
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-16 11:24:06.808
+!MESSAGE Indexed 'standalone_bsp_0' (0 sources, 7 headers) in 0.06 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-16 11:36:55.931
+!MESSAGE Indexed 'microblaze_bsp' (0 sources, 7 headers) in 0.01 sec: 0 declarations; 0 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-03-16 13:49:49.551 -----------------------------------------------
+eclipse.buildId=Release 12.4 Build SDK_MS4.81d
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.jobs 4 2 2012-03-16 15:07:30.050
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+java.lang.RuntimeException: Error while closing JTAG UART server:  can not find channel named "-1"$
+	at com.xilinx.sdk.targetmanager.internal.TM.closeJTAGUARTServer(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.close(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminated(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2012-03-16 15:16:48.569
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+java.lang.RuntimeException: Error while closing JTAG UART server:  can not find channel named "-1"$
+	at com.xilinx.sdk.targetmanager.internal.TM.closeJTAGUARTServer(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.close(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminated(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 2 0 2012-03-16 15:41:08.250
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-03-16 15:41:08.250
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Find Declaration,
+		Find Declaration,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.cdt.internal.ui.search.actions.FindDeclarationsAction@81fe1c)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.command.gotoaddress,Go to Address,
+		Go to Address,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memory.abstractasynctablerendering,,,system)
+!SESSION 2012-03-20 13:24:22.400 -----------------------------------------------
+eclipse.buildId=Release 12.4 Build SDK_MS4.81d
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-03-20 13:44:26.534
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-20 13:45:11.360
+!MESSAGE Indexed 'microblaze_bsp' (45 sources, 40 headers) in 3.44 sec: 1,042 declarations; 4,860 references; 20 unresolved inclusions; 0 syntax errors; 22 unresolved names (0.37%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-03-20 13:45:13.893
+!MESSAGE Indexed 'natcar' (3 sources, 40 headers) in 2.38 sec: 1,140 declarations; 1,207 references; 3 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.34%)

@@ -1,0 +1,274 @@
+% This template from http://www.vel.co.nz, originally from http://www.tedpavlic.com
+
+\documentclass{article}
+% Change "article" to "report" to get rid of page number on title page
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{extramarks}
+\usepackage{chngpage}
+\usepackage{soul}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx,float,wrapfig}
+\usepackage{ifthen}
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{placeins}
+\usepackage{algorithm}
+
+% Homework Specific Information
+\newcommand{\hmwkTitle}{Mechatronic Design Laboratory}
+\newcommand{\hmwkSubTitle}{Project Proposal}
+\newcommand{\hmwkSubSubTitle}{Group 10}
+\newcommand{\hmwkDueDate}{\today}
+\newcommand{\hmwkClass}{EE 192}
+\newcommand{\hmwkClassTime}{17:00}
+\newcommand{\hmwkClassInstructor}{Prof. Ron Fearing}
+\newcommand{\hmwkAuthorName}{S. Lin, T. Vo, R. Julian}
+
+% In case you need to adjust margins:
+\topmargin=-0.45in      %
+\evensidemargin=0in     %
+\oddsidemargin=0in      %
+\textwidth=6.5in        %
+\textheight=9.0in       %
+\headsep=0.25in         %
+
+% This is the color used for Perl comments below
+\definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0}
+
+% For faster processing, load Perl syntax for listings
+\lstloadlanguages{Perl}%
+\lstset{language=Perl,                        % Use Perl
+        frame=single,                           % Single frame around code
+        basicstyle=\small\ttfamily,             % Use small true type font
+        keywordstyle=[1]\color{Blue}\bf,        % Perl functions bold and blue
+        keywordstyle=[2]\color{Purple},         % Perl function arguments purple
+        keywordstyle=[3]\color{Blue}\underbar,  % User functions underlined and blue
+        identifierstyle=,                       % Nothing special about identifiers
+                                                % Comments small dark green courier
+        commentstyle=\usefont{T1}{pcr}{m}{sl}\color{MyDarkGreen}\small,
+        stringstyle=\color{Purple},             % Strings are purple
+        showstringspaces=false,                 % Don't put marks in string spaces
+        tabsize=5,                              % 5 spaces per tab
+        %
+        %%% Put standard Perl functions not included in the default
+        %%% language here
+         morekeywords={rand},
+        %
+        %%% Put Perl function parameters here
+        morekeywords=[2]{on, off, interp},
+        %
+        %%% Put user defined functions here
+        morekeywords=[3]{test},
+        %
+        morecomment=[l][\color{Blue}]{...},     % Line continuation (...) like blue comment
+        numbers=left,                           % Line numbers on left
+        firstnumber=1,                          % Line numbers start with line 1
+        numberstyle=\tiny\color{Blue},          % Line numbers are blue
+        stepnumber=5                            % Line numbers go in steps of 5
+        }
+
+% Setup the header and footer
+\pagestyle{fancy}                                                       %
+\lhead{\hmwkAuthorName}                                                 %
+\chead{\hmwkClass:\ \hmwkTitle}  %
+\rhead{\firstxmark}                                                     %
+\lfoot{\lastxmark}                                                      %
+\cfoot{}                                                                %
+\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}}                  %
+\renewcommand\headrulewidth{0.4pt}                                      %
+\renewcommand\footrulewidth{0.4pt}                                      %
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Make title
+\title{\vspace{2in}\textmd{\textbf{\hmwkClass:\ \hmwkTitle\ifthenelse{\equal{\hmwkSubTitle}{}}{}{\\\hmwkSubTitle\\\hmwkSubSubTitle}}}\\\normalsize\vspace{0.2in}\large{ \hmwkDueDate}\\\vspace{0.2in}\large{\textit{\hmwkAuthorName}}\vspace{3in}}
+\date{}
+%\author{\textbf{\hmwkAuthorName}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% This is used to trace down (pin point) problems
+% in latexing a document:
+%\tracingall
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some tools
+
+% Use these to play with the headers and footers
+\newcommand{\enterProblemHeader}[1]{\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak%
+                                    \nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak}%
+\newcommand{\exitProblemHeader}[1]{\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak%
+                                   \nobreak\extramarks{#1}{}\nobreak}%
+
+\setcounter{secnumdepth}{0}
+\newcommand{\homeworkProblem}[3]
+ {\enterProblemHeader{#1}
+   \ifthenelse{\equal{#2}{}}%
+        {\subsection{#1}}%
+        {\subsection{#1 -- #2}}%
+               #3
+   \FloatBarrier
+   \exitProblemHeader{#1}}
+
+\newcommand{\homeworkSubproblem}[3]
+ { \enterProblemHeader{#1}
+   \ifthenelse{\equal{#2}{}}%
+        {\subsubsection{#1}}%
+        {\subsubsection{#1 #2}}%
+               #3
+   \FloatBarrier
+   \exitProblemHeader{#1}}
+
+%%% I think \captionwidth (commented out below) can go away
+%%%
+%% Edits the caption width
+%\newcommand{\captionwidth}[1]{%
+%  \dimen0=\columnwidth   \advance\dimen0 by-#1\relax
+%  \divide\dimen0 by2
+%  \advance\leftskip by\dimen0
+%  \advance\rightskip by\dimen0
+%}
+
+% Includes a figure
+% The first parameter is the label, which is also the name of the figure
+%   with or without the extension (e.g., .eps, .fig, .png, .gif, etc.)
+%   IF NO EXTENSION IS GIVEN, LaTeX will look for the most appropriate one.
+%   This means that if a DVI (or PS) is being produced, it will look for
+%   an eps. If a PDF is being produced, it will look for nearly anything
+%   else (gif, jpg, png, et cetera). Because of this, when I generate figures
+%   I typically generate an eps and a png to allow me the most flexibility
+%   when rendering my document.
+% The second parameter is the width of the figure normalized to column width
+%   (e.g. 0.5 for half a column, 0.75 for 75% of the column)
+% The third parameter is the caption.
+\newcommand{\scalefig}[4]{
+  \begin{figure}[ht!]
+    % Requires \usepackage{graphicx}
+    \centering
+    \includegraphics[width=#2\columnwidth,trim=#4,clip=true]{#1}
+    %%% I think \captionwidth (see above) can go away as long as
+    %%% \centering is above
+    %\captionwidth{#2\columnwidth}%
+    \caption{#3}
+    \label{#1}
+  \end{figure}}
+
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\sign}{\operatorname{sign}}
+
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% The main document content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{spacing}{1.1}
+\maketitle
+% Uncomment the \tableofcontents line to get a Contents on front page
+\newpage
+\tableofcontents
+\newpage
+
+% ########## Overall Strategy ##########
+\homeworkProblem{Overall Strategy}{} {
+The overall strategy will incorporate at least two runs.  The first run will be a slow run in which the wheels will likely not slip in a turn of the tightest radius, and the second run will be more aggressive.  With our first run, the primary goal will be to have a robust and consistent execution of track following.  Subsequent runs will explore handling at increased speeds, which will likely result in a loss of consistency, but might result in a better overall score.  The position and orientation of the car with respect to the track will be deduced from measurements from inductive sensors on a boom approximately one car length ahead, as well as an array of reflectance sensors beneath the car.  The speed of the car will be deduced from optical quadrature encoders which measure the rotation of the wheels.  The control algorithm has not decided, but will likely be a PID controller.  The preliminary controller will only consider position error of a single point, and not the yaw error of the car.  We will need approximately 21 I/O lines: 4 for the SPI to ADC (which will connect to the inductance sensors on the boom), 8 for reflectance sensors under the car, 4 for quadrature encoders on the wheels, 1 for the steering servo, and 4 for the motor drive.
+\\
+\\
+Should time allow, we will also explore a rudimentary implementation of electronic stability control for use on the aggressive run, possibly incorporating an IMU.  The electronic stability control will be implemented through the actuation of servos which apply braking pressure to slow either the left or right rear wheel.  This would help reduce yaw error on tight turns in which the car has a large understeer.
+}
+
+% ########## Hardware Design ##########
+\homeworkProblem{Hardware Design}{}
+{
+
+\homeworkSubproblem{Attachments to Vehicle}{} {
+
+\begin{itemize}
+
+\item DC Motor
+\item NiMH Battery pack and mount
+\item Steering servo
+\item ESC braking (2 braking servos and braking pads) and mount
+\item DC-DC converter
+\item Front boom
+\item Inductive sensors and light sensors (for line sensing)
+\item Reflective quadrature encoder breakouts (for measuring wheel speed) (Avago AEDR-8300K)
+\item 75 LPI encoder code strips (on face of inner wheel hubs)
+\item Electronics mount
+\item NI Single-Board RIO (embedded controller CPU+FPGA)
+\item 2 break-out boards (one for power and motor control, the other for control logic)
+\item Mode select switch (6+ position rotary switch)
+\item Main breaker switch
+\item Flag (attached to breaker)
+
+\end{itemize}
+
+}
+
+\homeworkSubproblem{Detailed Mechanical Drawings of Vehicle}{} {
+See attached Figures 3, 4, 5, and 6.
+}
+
+\homeworkSubproblem{List of Special Materials}{} {
+
+
+\paragraph{Electronics} {
+\begin{itemize}
+\item 4x Allegro AEDR-8300K 75LPI reflective quadrature encoders (see attached)
+\item 4x 7" 75LPI reflective encoder code strips
+\item 2x High slew-rate servomotors (for back wheel braking)
+\item 4x IRLB3034PBF HEXFET MOSFET (195A max, 0.0016 $\Omega$ $R_{DS on}$)
+\item 1x Quad 4-to-1 MUX (74HC453, exact device TBD)
+\item 1x Dual inverter (74HC2G04, exact device TBD)
+\item 1x TI ADS7953 16ch 12-bit 1 MS/s SPI ADC
+\item 1x Samtec High Density Connector SEAM-40-03.0-S-06-2-A-K-TR (provided by NI)
+\end{itemize}
+}
+
+\paragraph{Mechanical} {
+\begin{itemize}
+\item 1/16" 6061 aluminum sheet
+\item 1/2" thick Ultra-soft Polyurethane Rubber
+\end{itemize}
+}
+
+}
+
+\newpage
+\homeworkSubproblem{Motor Drive Circuitry}{} {
+
+\scalefig{figures/circuit}{0.9}{
+Motor control schematic.
+}{0 0 0 0}
+
+}
+
+}
+
+% ########## Software Strategy ##########
+
+\homeworkProblem{Software Strategy}{}
+{
+A good software strategy will allow for the ability to have a conservative and robust strategy, as well more aggressive strategies for subsequent runs.  We will focus first on filtering of sensor data and ignoring of data points which suggest situations which are not possible, either because of violation of the rules or because of an unlikely discontinuity in behavior.  In order to do this, we will need to know the distribution of noise in the signal from our sensors.  In addition, our conservative strategy will focus on precise steering, which will require careful consideration of the sensitivity of the position error to the signal from the inductance sensors, and the degree to which we will be able to discern real position error from perceived position error, which will be subject to unmeasured mechanical disturbances in the boom as well as sensor noise.  The conservative strategy will focus only on minimizing the error between a fixed point on the car and the distance to the track.  Only short-circuit braking will be used, if needed.The aggressive strategy will focus on handling at high speeds.  Both position error and yaw error will be accounted for.  Furthermore, we will not necessarily follow the center of the track, but instead follow larger radius turns that can be taken without the car losing “sight” of the track.  
+\\
+\\
+If time allows, we can explore more sophisticated AI and optimal control techniques, such as probabilistic state estimation and track learning.
+
+\scalefig{figures/software_diagram}{0.95}{
+Software block diagram for the car.
+}{0 0 0 0}
+
+}
+
+
+\end{spacing}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
