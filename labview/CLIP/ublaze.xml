@@ -17,6 +17,7 @@
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\dlmb_cntlr_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\clock_generator_0_wrapper.ngc</Path>
+    <Path>toplevel_gen.bmm</Path>
 </ImplementationList>
 <InterfaceList>
     <Interface Name="myprocessor_interfaces">
