@@ -36,6 +36,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -2443,7 +2444,7 @@ PWM0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbi
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="natcar_FPGATarget_Top-Level_0A526227.lvbitx" Type="Document" URL="../../../../../Dropbox/EE192/NatCARonGit/checkpoint_8/labview/FPGA Bitfiles/natcar_FPGATarget_Top-Level_0A526227.lvbitx"/>
+			<Item Name="natcar_FPGATarget_Top-Level_0A526227.lvbitx" Type="Document" URL="../../../../../Downloads/natcar_FPGATarget_Top-Level_0A526227.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
