@@ -6,9 +6,9 @@
 
 /* BSP */
 #include "platform.h"
-#include "xgpio.h"
 #include "xparameters.h"
-#include "xtmrctr.h"
+#include "xgpio.h"			// GPIO
+#include "xtmrctr.h"		// Timer
 
 /* Local */
 #include "lvfpga/lvfpga.h"
@@ -24,7 +24,7 @@
 #define INITIAL_DELAY       10
 #define SWITCH_TIME         5
 #define END_TIME            20
-#define STEERING_CENTER     8
+#define STEERING_CENTER     15000 // 1e-7s
 #define TURNING             2
 
 #define ENABLE_STARTBIT     1
@@ -34,13 +34,36 @@
 #define GODUTY_STARTBIT     8
 #define SERVOPWM_STARBIT    15
 
+#define STEERING_INPUT_MIN	10240.0 //e-7s (right)
+#define STEERING_INPUT_MAX	19650.0 //e-7s (left)
+
+#define STEERING_KI			1000.0
+#define STEERING_KP			50000.0
+
 /**************************************
  * Static allocations
  **************************************/
 static XGpio     GpioOutput;
 static XGpio     GpioInput;
 static XTmrCtr   Xtimer;
-static LvFpgaVi  Top_Level;
+
+/**************************************
+ * Global variables
+ **************************************/
+u32 encoded_enable		= 1 				<< (ENABLE_STARTBIT-1);
+u32 encoded_reverse		= 0 				<< (REVERSE_STARTBIT-1);
+u32 encoded_brake		= 0 				<< (BRAKE_STARTBIT-1);
+u32 encoded_gofreq		= 2 				<< (GOFREQ_STARTBIT-1); //times 100 hz
+u32 encoded_goduty		= 0 				<< (GODUTY_STARTBIT-1);
+u32 encoded_steering	= STEERING_CENTER	<< (SERVOPWM_STARBIT-1); //represents "on" time in 1e-7s
+u32 encoded_controls 	= encoded_enable|encoded_reverse|encoded_brake|encoded_gofreq|encoded_goduty|encoded_steering;
+
+u32 R = 0; // Right Sensor
+u32 L = 0; // Left Sensor
+u16 tentative_steering_input = STEERING_CENTER; // should this be double?
+u16 steering_input = STEERING_CENTER;
+double current_error = 0;
+double error_sum = 0;
 
 /**************************************
  * main()
@@ -67,8 +90,7 @@ int main()
     	print("gpio success!\n\r");
     } else if(gpio_status == XST_FAILURE){
     	print("gpio failed!\n\r");
-    } else{
-    	print("wtf gpio\n\r");
+    } else{print("wtf gpio\n\r");
     }
     XGpio_SetDataDirection(&GpioInput, 1, 0x00000000);
     XGpio_SetDataDirection(&GpioInput, 2, 0x00000000);
@@ -87,92 +109,40 @@ int main()
     }
     XTmrCtr_SetResetValue(&Xtimer,TMR_NUM_0,TIMER_RESET_TO_TIME);
 
-	// Test LVFPGA
-    int i = 0;
-	u32 A = -1;
-	u32 B = -1;
-	u32 C = -1;
-	u32 D = -1;
-	u32 ch1 = 0;
-	u32 ch2 = 0;
-
-	xil_printf("Start LVFPGA test.\n");
-	LvFpga_OpenVi( &Top_Level );
-
+	/**************************************
+	 * WHILE LOOP
+	 **************************************/
 	while( 1 ) {
 
-		A = LvFpga_ReadControl_U32( &Top_Level, AI0 );
-		B = LvFpga_ReadControl_U32( &Top_Level, AI1 );
-		C = LvFpga_ReadControl_U32( &Top_Level, AI2 );
-		D = LvFpga_ReadControl_U32( &Top_Level, AI3 );
+		R = XGpio_DiscreteRead(&GpioInput, 1);	// Read GPIO channel 1
+		L = XGpio_DiscreteRead(&GpioInput, 2);	// Read GPIO channel 2
 
-		xil_printf("AI0: %d\n", A);
-		xil_printf("AI1: %d\n", B);
-		xil_printf("AI2: %d\n", C);
-		xil_printf("AI3: %d\n", D);
+		current_error = 1/((double) (R+1)) - 1/((double) (L+1));
+		// PI Control:
+		tentative_steering_input = STEERING_KP*current_error + STEERING_KI*(error_sum + current_error) + STEERING_CENTER;
+		// Anti-Windup and Saturations on Commanded Input
+		if(tentative_steering_input >= STEERING_INPUT_MAX){
+			steering_input = STEERING_INPUT_MAX;
+		} else if(tentative_steering_input <= STEERING_INPUT_MIN){
+			steering_input = STEERING_INPUT_MIN;
+		} else {
+			error_sum = error_sum + current_error;
+			steering_input = tentative_steering_input;
+		}
+		encoded_steering = steering_input << (SERVOPWM_STARBIT-1);
 
-		xil_printf("Indicator A: %d\n", 1);
-		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_A, 1 );
-
-		xil_printf("Indicator B: %d\n", 2);
-		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_B, 2 );
-
-		xil_printf("Indicator C: %d\n", 3);
-		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_C, 3 );
-
-		xil_printf("Indicator D: %d\n", 4);
-		LvFpga_WriteIndicator_U32( &Top_Level, Indicator_D, 4 );
-
-		// Read GPIO channel 1
-		ch1 = XGpio_DiscreteRead(&GpioInput, 1);
-		// Read GPIO channel 2
-		ch2 = XGpio_DiscreteRead(&GpioInput, 2);
-
-		for( i = 0; i < 10000000; i++ ) { }
+		encoded_controls = encoded_enable|encoded_reverse|encoded_brake|encoded_gofreq|encoded_goduty|encoded_steering;
+		XGpio_DiscreteWrite(&GpioOutput, 1, encoded_controls);
 	}
-    // Close LVFPGA interface
-    LvFpga_CloseVi(&Top_Level);
-    // End test LVFPGA
+	// End things
 
-    u32 gofreq = 10 << (GOFREQ_STARTBIT-1); //hz
-    u32 enable = 1 << (ENABLE_STARTBIT-1);
-    u32 reverse = 0 << (REVERSE_STARTBIT-1);
-    u32 brake = 0 << (BRAKE_STARTBIT-1);
-    u32 goduty = 0;
-    u32 servopwm = 0;
-    u32 current_time = 0;
-    u32 encoded_number;
+	encoded_enable		= 0					<< (ENABLE_STARTBIT-1);
+	encoded_goduty		= 0					<< (GODUTY_STARTBIT-1);  //%
+	encoded_steering	= STEERING_CENTER	<< (SERVOPWM_STARBIT-1);  //%
 
-//-----------------------------------
-    XTmrCtr_Start(&Xtimer,TMR_NUM_0);
+	encoded_controls = encoded_enable|encoded_reverse|encoded_brake|encoded_gofreq|encoded_goduty|encoded_steering;
+	XGpio_DiscreteWrite(&GpioOutput, 1, encoded_controls);
 
-//    while(current_time <= INITIAL_DELAY){
-//    	current_time = XTmrCtr_GetValue(&Xtimer,TMR_NUM_0);
-//    }
-    while(current_time <= END_TIME){
-//    	if(current_time <= SWITCH_TIME){
-    		//do first half
-//			goduty = 10 << (GODUTY_STARTBIT-1);  //%
-//			servopwm = (STEERING_CENTER + TURNING) << (SERVOPWM_STARBIT-1);  //%
-//			encoded_number = enable|reverse|brake|gofreq|goduty|servopwm;
-//			XGpio_DiscreteWrite(&GpioOutput, 1, encoded_number);
-//    	}
-//    	else{
-    		//do second half
-			goduty = 10 << (GODUTY_STARTBIT-1);  //%
-			servopwm = (STEERING_CENTER - TURNING) << (SERVOPWM_STARBIT-1);  //%
-			encoded_number = enable|reverse|brake|gofreq|goduty|servopwm;
-			XGpio_DiscreteWrite(&GpioOutput, 1, encoded_number);
-//    	}
-//*    	current_time = XTmrCtr_GetValue(&Xtimer,TMR_NUM_0);
-//*    	printf("%u\n\r",(unsigned int)current_time);
-    }
-
-    // End things
-    enable = 0 << (ENABLE_STARTBIT-1);
-    goduty = 0 << (GODUTY_STARTBIT-1);  //%
-    servopwm = STEERING_CENTER << (SERVOPWM_STARBIT-1);  //%
-
-    cleanup_platform();
-    return 0;
+	cleanup_platform();
+	return 0;
 }

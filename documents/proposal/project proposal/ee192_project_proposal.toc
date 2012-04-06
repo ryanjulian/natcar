@@ -1,0 +1,9 @@
+\contentsline {subsection}{Overall Strategy}{3}
+\contentsline {subsection}{Hardware Design}{3}
+\contentsline {subsubsection}{Attachments to Vehicle}{3}
+\contentsline {subsubsection}{Detailed Mechanical Drawings of Vehicle}{3}
+\contentsline {subsubsection}{List of Special Materials}{4}
+\contentsline {paragraph}{Electronics}{4}
+\contentsline {paragraph}{Mechanical}{4}
+\contentsline {subsubsection}{Motor Drive Circuitry}{5}
+\contentsline {subsection}{Software Strategy}{6}
