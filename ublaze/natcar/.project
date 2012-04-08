@@ -3,7 +3,8 @@
 	<name>natcar</name>
 	<comment>microblaze_bsp - microblaze_0</comment>
 	<projects>
-		<project>microblaze_bsp</project>
+		<project>standalone_bsp_0</project>
+		<project>xps_hw_platform</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

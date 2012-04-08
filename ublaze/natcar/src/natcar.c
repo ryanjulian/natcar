@@ -38,8 +38,8 @@
 #define STEERING_INPUT_MAX	19650.0 //e-7s (left)
 
 #define STEERING_KI			1000.0
-#define STEERING_KP			50000.0
-
+#define STEERING_KP			80000.0
+#define VELOCITY_KP			1.0
 /**************************************
  * Static allocations
  **************************************/
@@ -58,8 +58,8 @@ u32 encoded_goduty		= 0 				<< (GODUTY_STARTBIT-1);
 u32 encoded_steering	= STEERING_CENTER	<< (SERVOPWM_STARBIT-1); //represents "on" time in 1e-7s
 u32 encoded_controls 	= encoded_enable|encoded_reverse|encoded_brake|encoded_gofreq|encoded_goduty|encoded_steering;
 
-u32 R = 0; // Right Sensor
-u32 L = 0; // Left Sensor
+u32 R = 1; // Right Sensor
+u32 L = 1; // Left Sensor
 u16 tentative_steering_input = STEERING_CENTER; // should this be double?
 u16 steering_input = STEERING_CENTER;
 double current_error = 0;
