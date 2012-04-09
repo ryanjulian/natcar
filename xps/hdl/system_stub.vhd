@@ -31,7 +31,23 @@ entity system_stub is
     xps_gpio_1_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
     xps_gpio_1_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
     xps_gpio_1_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
-    xps_gpio_1_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0)
+    xps_gpio_1_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_2_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_2_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_2_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_2_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_3_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_3_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_3_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_3_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_4_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_4_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_4_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_4_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_5_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_5_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+    xps_gpio_5_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+    xps_gpio_5_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0)
   );
 end system_stub;
 
@@ -61,7 +77,23 @@ architecture STRUCTURE of system_stub is
       xps_gpio_1_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
       xps_gpio_1_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
       xps_gpio_1_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
-      xps_gpio_1_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0)
+      xps_gpio_1_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_2_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_2_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_2_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_2_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_3_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_3_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_3_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_3_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_4_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_4_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_4_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_4_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_5_GPIO_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_5_GPIO_IO_O_pin : out std_logic_vector(31 downto 0);
+      xps_gpio_5_GPIO2_IO_I_pin : in std_logic_vector(31 downto 0);
+      xps_gpio_5_GPIO2_IO_O_pin : out std_logic_vector(31 downto 0)
     );
   end component;
 
@@ -94,7 +126,23 @@ begin
       xps_gpio_1_GPIO_IO_I_pin => xps_gpio_1_GPIO_IO_I_pin,
       xps_gpio_1_GPIO_IO_O_pin => xps_gpio_1_GPIO_IO_O_pin,
       xps_gpio_1_GPIO2_IO_I_pin => xps_gpio_1_GPIO2_IO_I_pin,
-      xps_gpio_1_GPIO2_IO_O_pin => xps_gpio_1_GPIO2_IO_O_pin
+      xps_gpio_1_GPIO2_IO_O_pin => xps_gpio_1_GPIO2_IO_O_pin,
+      xps_gpio_2_GPIO_IO_I_pin => xps_gpio_2_GPIO_IO_I_pin,
+      xps_gpio_2_GPIO_IO_O_pin => xps_gpio_2_GPIO_IO_O_pin,
+      xps_gpio_2_GPIO2_IO_I_pin => xps_gpio_2_GPIO2_IO_I_pin,
+      xps_gpio_2_GPIO2_IO_O_pin => xps_gpio_2_GPIO2_IO_O_pin,
+      xps_gpio_3_GPIO_IO_I_pin => xps_gpio_3_GPIO_IO_I_pin,
+      xps_gpio_3_GPIO_IO_O_pin => xps_gpio_3_GPIO_IO_O_pin,
+      xps_gpio_3_GPIO2_IO_I_pin => xps_gpio_3_GPIO2_IO_I_pin,
+      xps_gpio_3_GPIO2_IO_O_pin => xps_gpio_3_GPIO2_IO_O_pin,
+      xps_gpio_4_GPIO_IO_I_pin => xps_gpio_4_GPIO_IO_I_pin,
+      xps_gpio_4_GPIO_IO_O_pin => xps_gpio_4_GPIO_IO_O_pin,
+      xps_gpio_4_GPIO2_IO_I_pin => xps_gpio_4_GPIO2_IO_I_pin,
+      xps_gpio_4_GPIO2_IO_O_pin => xps_gpio_4_GPIO2_IO_O_pin,
+      xps_gpio_5_GPIO_IO_I_pin => xps_gpio_5_GPIO_IO_I_pin,
+      xps_gpio_5_GPIO_IO_O_pin => xps_gpio_5_GPIO_IO_O_pin,
+      xps_gpio_5_GPIO2_IO_I_pin => xps_gpio_5_GPIO2_IO_I_pin,
+      xps_gpio_5_GPIO2_IO_O_pin => xps_gpio_5_GPIO2_IO_O_pin
     );
 
 end architecture STRUCTURE;

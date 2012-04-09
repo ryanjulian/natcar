@@ -1471,7 +1471,7 @@ begin
       C_MMU_ITLB_SIZE => 2,
       C_MMU_TLB_ACCESS => 3,
       C_MMU_ZONES => 16,
-      C_USE_INTERRUPT => 0,
+      C_USE_INTERRUPT => 1,
       C_USE_EXT_BRK => 1,
       C_USE_EXT_NM_BRK => 1,
       C_USE_BRANCH_TARGET_CACHE => 0,

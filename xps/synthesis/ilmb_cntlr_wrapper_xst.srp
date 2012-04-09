@@ -90,7 +90,7 @@ Synthesizing Unit <lmb_bram_if_cntlr>.
     Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/lmb_bram_if_cntlr_v2_10_b/hdl/vhdl/lmb_bram_if_cntlr.vhd".
         C_HIGHADDR = "00000000000000001111111111111111"
         C_BASEADDR = "00000000000000000000000000000000"
-        C_MASK = "00000000010000000000000000000000"
+        C_MASK = "10000000000000000000000000000000"
         C_LMB_AWIDTH = 32
         C_LMB_DWIDTH = 32
 WARNING:Xst:647 - Input <LMB_ReadStrobe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -104,9 +104,8 @@ Synthesizing Unit <pselect_mask>.
     Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/lmb_bram_if_cntlr_v2_10_b/hdl/vhdl/pselect_mask.vhd".
         C_AW = 32
         C_BAR = "00000000000000000000000000000000"
-        C_MASK = "00000000010000000000000000000000"
-WARNING:Xst:647 - Input <A<0:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <A<10:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+        C_MASK = "10000000000000000000000000000000"
+WARNING:Xst:647 - Input <A<1:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
 Unit <pselect_mask> synthesized.
@@ -255,15 +254,15 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_A'
   Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
 Offset:              1.197ns (Levels of Logic = 1)
-  Source:            LMB_ABus<9> (PAD)
+  Source:            LMB_ABus<0> (PAD)
   Destination:       ilmb_cntlr/Sl_Ready_i (FF)
   Destination Clock: BRAM_Clk_A rising
 
-  Data Path: LMB_ABus<9> to ilmb_cntlr/Sl_Ready_i
+  Data Path: LMB_ABus<0> to ilmb_cntlr/Sl_Ready_i
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     INV:I->O              1   0.374   0.681  ilmb_cntlr/pselect_mask_lmb/CS<9>1_INV_0 (ilmb_cntlr/lmb_select)
+     INV:I->O              1   0.374   0.681  ilmb_cntlr/pselect_mask_lmb/CS<0>1_INV_0 (ilmb_cntlr/lmb_select)
      FDR:D                     0.142          ilmb_cntlr/Sl_Ready_i
     ----------------------------------------
     Total                      1.197ns (0.516ns logic, 0.681ns route)
@@ -313,14 +312,14 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 12.24 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.02 secs
  
 --> 
 
-Total memory usage is 199396 kilobytes
+Total memory usage is 188848 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 
