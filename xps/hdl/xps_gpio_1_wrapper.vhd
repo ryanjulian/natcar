@@ -150,8 +150,8 @@ begin
 
   xps_gpio_1 : xps_gpio
     generic map (
-      C_BASEADDR => X"81400000",
-      C_HIGHADDR => X"8140ffff",
+      C_BASEADDR => X"81480000",
+      C_HIGHADDR => X"8148ffff",
       C_SPLB_AWIDTH => 32,
       C_SPLB_DWIDTH => 32,
       C_SPLB_P2P => 0,

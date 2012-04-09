@@ -524,7 +524,7 @@ Synthesizing Unit <MicroBlaze>.
         C_DIV_ZERO_EXCEPTION = 0
         C_FPU_EXCEPTION = 0
         C_FSL_EXCEPTION = 0
-        C_USE_INTERRUPT = 0
+        C_USE_INTERRUPT = 1
         C_USE_EXT_BRK = 1
         C_USE_EXT_NM_BRK = 1
         C_USE_MMU = 0
@@ -890,7 +890,7 @@ Synthesizing Unit <Decode_gti>.
         C_TARGET = spartan6
         C_ALLOW_LUT6 = true
         C_FAULT_TOLERANT = 0
-        C_USE_INTERRUPT = false
+        C_USE_INTERRUPT = true
         C_USE_EXT_BRK = true
         C_USE_EXT_NM_BRK = true
         C_PVR = 0
@@ -926,7 +926,8 @@ Synthesizing Unit <Decode_gti>.
         C_BTC_SIZE = 0
         C_BTC_PARITY = false
     Set property "KEEP = TRUE" for signal <ex_valid_jump>.
-WARNING:Xst:647 - Input <OF_MSR<31:29>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <OF_MSR<31:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <OF_MSR<29:29>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <OF_MSR<27:23>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <OF_MSR<21:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_MSR<0:22>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -934,7 +935,6 @@ WARNING:Xst:647 - Input <EX_MSR<24:31>> is never used. This port will be preserv
 WARNING:Xst:647 - Input <MEM_MSR<0:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <WB_MSR<0:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_Addr_Low_Bits<0:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <Internal_interrupt> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_DataBus_Exception> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_DataBus_ECC_Exception> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_DataBus_Exclusive_Failed> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -955,6 +955,7 @@ INFO:Xst:3010 - "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/microb
     Found 1-bit register for signal <dbg_Stop_Instr_Fetch_delay>.
     Found 1-bit register for signal <if_missed_fetch>.
     Found 1-bit register for signal <if_missed_fetch_already_tested>.
+    Found 1-bit register for signal <of_Take_Interrupt_hold>.
     Found 1-bit register for signal <of_Take_Ext_BRK_hold>.
     Found 1-bit register for signal <ex_mfsmsr_i>.
     Found 1-bit register for signal <ex_MSR_set_decode>.
@@ -967,6 +968,7 @@ INFO:Xst:3010 - "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/microb
     Found 1-bit register for signal <ex_Sel_SPR_BTR>.
     Found 4-bit register for signal <ex_PVR_Select>.
     Found 1-bit register for signal <of_read_imm_reg_ii>.
+    Found 1-bit register for signal <ex_Interrupt_i>.
     Found 1-bit register for signal <ex_Ext_NM_BRK_i>.
     Found 1-bit register for signal <ex_Ext_BRK_i>.
     Found 1-bit register for signal <ex_exception_no_load_store_unmask>.
@@ -1105,7 +1107,7 @@ INFO:Xst:3010 - "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/microb
     Found 1-bit register for signal <WB_SW_Instr>.
     Found 1-bit register for signal <WB_Word_Access>.
     Found 1-bit register for signal <ext_nm_brk_hold>.
-    Found 8x2-bit Read Only RAM for signal <_n2059>
+    Found 8x2-bit Read Only RAM for signal <_n2270>
     Found 2-bit 4-to-1 multiplexer for signal <PWR_10_o_PWR_10_o_mux_66_OUT> created at line 2959.
     Found 5-bit comparator equal for signal <of_op1_read_addr[0]_ex_gpr_write_addr[0]_equal_22_o> created at line 1967
     Found 5-bit comparator equal for signal <of_op2_read_addr[0]_ex_gpr_write_addr[0]_equal_23_o> created at line 1969
@@ -1121,9 +1123,9 @@ INFO:Xst:2840 - Register <ex_start_div_i<0:0>> in unit <Decode_gti> has a consta
     WARNING:Xst:2404 -  FFs/Latches <WB_Div_Overflow<0:0>> (without init value) have a constant value of 0 in block <Decode_gti>.
     Summary:
 	inferred   1 RAM(s).
-	inferred 315 D-type flip-flop(s).
+	inferred 317 D-type flip-flop(s).
 	inferred   9 Comparator(s).
-	inferred  39 Multiplexer(s).
+	inferred  41 Multiplexer(s).
 Unit <Decode_gti> synthesized.
 
 Synthesizing Unit <PC_Module_gti>.
@@ -2405,8 +2407,8 @@ Macro Statistics
  25-bit addsub                                         : 1
  28-bit addsub                                         : 1
  8-bit adder                                           : 1
-# Registers                                            : 416
- 1-bit register                                        : 314
+# Registers                                            : 418
+ 1-bit register                                        : 316
  10-bit register                                       : 4
  13-bit register                                       : 2
  15-bit register                                       : 1
@@ -2430,7 +2432,7 @@ Macro Statistics
 # Comparators                                          : 10
  23-bit comparator greater                             : 1
  5-bit comparator equal                                : 9
-# Multiplexers                                         : 371
+# Multiplexers                                         : 373
  1-bit 14-to-1 multiplexer                             : 1
  1-bit 2-to-1 multiplexer                              : 229
  1-bit 24-to-1 multiplexer                             : 1
@@ -2452,7 +2454,7 @@ Macro Statistics
  33-bit 2-to-1 multiplexer                             : 4
  4-bit 2-to-1 multiplexer                              : 3
  43-bit 4-to-1 multiplexer                             : 1
- 5-bit 2-to-1 multiplexer                              : 8
+ 5-bit 2-to-1 multiplexer                              : 10
  8-bit 2-to-1 multiplexer                              : 14
  8-bit 4-to-1 multiplexer                              : 2
 # Xors                                                 : 85
@@ -2477,7 +2479,7 @@ The following registers are absorbed into counter <single_step_count>: 1 registe
 Unit <Debug> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Decode_gti>.
-INFO:Xst:3031 - HDL ADVISOR - The RAM <Mram__n2059> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3031 - HDL ADVISOR - The RAM <Mram__n2270> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -2647,14 +2649,14 @@ Macro Statistics
 # Counters                                             : 2
  2-bit down counter                                    : 1
  8-bit up counter                                      : 1
-# Registers                                            : 2100
- Flip-Flops                                            : 2100
+# Registers                                            : 2102
+ Flip-Flops                                            : 2102
 # Shift Registers                                      : 75
  4-bit dynamic shift register                          : 75
 # Comparators                                          : 10
  23-bit comparator greater                             : 1
  5-bit comparator equal                                : 9
-# Multiplexers                                         : 370
+# Multiplexers                                         : 372
  1-bit 14-to-1 multiplexer                             : 1
  1-bit 2-to-1 multiplexer                              : 232
  1-bit 24-to-1 multiplexer                             : 1
@@ -2675,7 +2677,7 @@ Macro Statistics
  32-bit 4-to-1 multiplexer                             : 3
  33-bit 2-to-1 multiplexer                             : 4
  4-bit 2-to-1 multiplexer                              : 3
- 5-bit 2-to-1 multiplexer                              : 8
+ 5-bit 2-to-1 multiplexer                              : 10
  8-bit 2-to-1 multiplexer                              : 13
  8-bit 4-to-1 multiplexer                              : 2
 # Xors                                                 : 84
@@ -2737,23 +2739,22 @@ WARNING:Xst:1293 - FF/Latch <ex_Write_DCache_decode> has a constant value of 0 i
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Write_ICache_i> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_potential_exception> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <EX_Div_Unsigned> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_BTR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_PVR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ex_PVR_Select_0> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ex_PVR_Select_1> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ex_PVR_Select_2> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ex_PVR_Select_3> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FSL_Will_Dbg_Break> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <of_set_MSR_IE_hold> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_ESR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_EAR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_EDR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_BTR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wb_clr_ESR_l> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_DataBus_Exclusive> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_ESR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_EAR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_BTR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_PVR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_EDR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_EAR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_Sel_SPR_ESR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_DataBus_Exclusive> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wb_clr_ESR_l> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_BTR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_EDR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_EAR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_ESR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FSL_Will_Dbg_Break> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mem_potential_exception_i> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_PVR_Select_0> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_PVR_Select_1> (without init value) has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
@@ -2765,7 +2766,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mem_Sel_SPR_EDR_I> 
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mem_Sel_SPR_EAR_I> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mem_Sel_SPR_ESR_I> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mem_Write_DCache> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ex_set_MSR_IE_instr> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <wb_Write_DCache_i> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <WB_Sel_SPR_PVR> has a constant value of 0 in block <Decode_gti>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <ex_write_icache_done> of sequential type is unconnected in block <Decode_gti>.
@@ -2890,8 +2890,8 @@ WARNING:Xst:2677 - Node <microblaze_0/Performance.Use_IBUS.Using_IPLB.Iplb_Inter
 WARNING:Xst:2677 - Node <microblaze_0/Performance.Use_DBUS.Using_D_PLB.DPLB_Interface_I2/MEM_DPLB_Exception> of sequential type is unconnected in block <microblaze_0_wrapper>.
 WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/WB_Sel_SPR_FSR> of sequential type is unconnected in block <microblaze_0_wrapper>.
 WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/wb_is_fpu_instr> of sequential type is unconnected in block <microblaze_0_wrapper>.
-WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/WB_Sel_DataBus_Read_Data> of sequential type is unconnected in block <microblaze_0_wrapper>.
 WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/wb_is_mul_instr> of sequential type is unconnected in block <microblaze_0_wrapper>.
+WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/WB_Sel_DataBus_Read_Data> of sequential type is unconnected in block <microblaze_0_wrapper>.
 WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/mem_is_load_instr> of sequential type is unconnected in block <microblaze_0_wrapper>.
 WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/mem_is_fpu_instr> of sequential type is unconnected in block <microblaze_0_wrapper>.
 WARNING:Xst:2677 - Node <microblaze_0/Performance.Decode_I/mem_is_mul_instr> of sequential type is unconnected in block <microblaze_0_wrapper>.
@@ -3170,13 +3170,10 @@ Building and optimizing final netlist ...
 INFO:Xst:2261 - The FF/Latch <microblaze_0/Performance.Decode_I/mem_byte_access> in Unit <microblaze_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <microblaze_0/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/mem_Byte_Access> 
 INFO:Xst:2261 - The FF/Latch <microblaze_0/Performance.Decode_I/mem_doublet_access> in Unit <microblaze_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <microblaze_0/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/mem_Doublet_Access> 
 Found area constraint ratio of 100 (+ 0) on block microblaze_0_wrapper, actual ratio is 11.
-FlipFlop microblaze_0/Performance.Data_Flow_I/FPU_I/Use_FPU.FPU_ADDSUB_I/mem_add_mant_3 has been replicated 2 time(s)
-FlipFlop microblaze_0/Performance.Data_Flow_I/FPU_I/Use_FPU.mem_absAgtB_2 has been replicated 1 time(s)
+FlipFlop microblaze_0/Performance.Data_Flow_I/FPU_I/Use_FPU.FPU_ADDSUB_I/mem_add_mant_3 has been replicated 1 time(s)
 FlipFlop microblaze_0/Performance.Decode_I/dbg_Stop_Instr_Fetch_delay has been replicated 1 time(s)
 FlipFlop microblaze_0/Performance.Decode_I/ex_Take_Intr_or_Exc has been replicated 1 time(s)
-FlipFlop microblaze_0/Performance.Decode_I/ex_valid has been replicated 1 time(s)
 FlipFlop microblaze_0/Performance.Decode_I/wb_exception_i has been replicated 1 time(s)
-FlipFlop microblaze_0/Performance.Use_Debug_Logic.Debug_Perf/Performace_Debug_Control.ex_dbg_pc_hit_i has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -3234,27 +3231,27 @@ Top Level Output File Name         : microblaze_0_wrapper.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2767
+# BELS                             : 2760
 #      GND                         : 1
 #      INV                         : 17
 #      LUT1                        : 63
-#      LUT2                        : 113
-#      LUT3                        : 559
-#      LUT4                        : 198
-#      LUT5                        : 384
-#      LUT6                        : 735
+#      LUT2                        : 112
+#      LUT3                        : 561
+#      LUT4                        : 184
+#      LUT5                        : 377
+#      LUT6                        : 766
 #      MULT_AND                    : 12
 #      MUXCY                       : 127
 #      MUXCY_L                     : 180
-#      MUXF7                       : 160
+#      MUXF7                       : 142
 #      VCC                         : 1
 #      XORCY                       : 217
 # FlipFlops/Latches                : 1704
 #      FD                          : 183
 #      FDCE                        : 6
 #      FDE                         : 354
-#      FDR                         : 342
-#      FDRE                        : 785
+#      FDR                         : 343
+#      FDRE                        : 784
 #      FDS                         : 2
 #      FDSE                        : 32
 # RAMS                             : 16
@@ -3276,17 +3273,17 @@ Selected Device : 6slx45csg324-2
 
 Slice Logic Utilization: 
  Number of Slice Registers:            1704  out of  54576     3%  
- Number of Slice LUTs:                 2318  out of  27288     8%  
-    Number used as Logic:              2148  out of  27288     7%  
+ Number of Slice LUTs:                 2329  out of  27288     8%  
+    Number used as Logic:              2159  out of  27288     7%  
     Number used as Memory:              170  out of   6408     2%  
        Number used as RAM:               64
        Number used as SRL:              106
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2995
-   Number with an unused Flip Flop:    1291  out of   2995    43%  
-   Number with an unused LUT:           677  out of   2995    22%  
-   Number of fully used LUT-FF pairs:  1027  out of   2995    34%  
+ Number of LUT Flip Flop pairs used:   3006
+   Number with an unused Flip Flop:    1302  out of   3006    43%  
+   Number with an unused LUT:           677  out of   3006    22%  
+   Number of fully used LUT-FF pairs:  1027  out of   3006    34%  
    Number of unique control sets:        55
 
 IO Utilization: 
@@ -3331,7 +3328,7 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 9.004ns (Maximum Frequency: 111.059MHz)
+   Minimum period: 9.676ns (Maximum Frequency: 103.348MHz)
    Minimum input arrival time before clock: 5.950ns
    Maximum output required time after clock: 7.161ns
    Maximum combinational path delay: 5.390ns
@@ -3342,29 +3339,31 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'DCACHE_FSL_OUT_CLK'
-  Clock period: 9.004ns (frequency: 111.059MHz)
-  Total number of paths / destination ports: 191776 / 4421
+  Clock period: 9.676ns (frequency: 103.348MHz)
+  Total number of paths / destination ports: 192506 / 4420
 -------------------------------------------------------------------------
-Delay:               9.004ns (Levels of Logic = 5)
-  Source:            microblaze_0/Performance.Decode_I/wb_exception_kind_i_31 (FF)
-  Destination:       microblaze_0/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_0_0 (FF)
+Delay:               9.676ns (Levels of Logic = 7)
+  Source:            microblaze_0/Performance.Decode_I/wb_gpr_write_addr_4 (FF)
+  Destination:       microblaze_0/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_2 (FF)
   Source Clock:      DCACHE_FSL_OUT_CLK rising
   Destination Clock: DCACHE_FSL_OUT_CLK rising
 
-  Data Path: microblaze_0/Performance.Decode_I/wb_exception_kind_i_31 to microblaze_0/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_0_0
+  Data Path: microblaze_0/Performance.Decode_I/wb_gpr_write_addr_4 to microblaze_0/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             6   0.633   1.493  microblaze_0/Performance.Decode_I/wb_exception_kind_i_31 (microblaze_0/Performance.Decode_I/wb_exception_kind_i_31)
-     LUT6:I0->O            2   0.373   0.726  microblaze_0/Performance.Decode_I/wb_dbg_exception1_1 (microblaze_0/Performance.Decode_I/wb_dbg_exception1)
-     LUT2:I1->O            1   0.373   0.000  microblaze_0/Performance.Using_Debug.dbg_freeze_n1 (microblaze_0/Performance.Using_Debug.dbg_freeze_n)
-     MUXCY_L:S->LO         1   0.330   0.000  microblaze_0/Performance.Using_Debug.combined_carry_and_I2/Using_FPGA.MUXCY_I (microblaze_0/Performance.Using_Debug.iside_data_strobe_combined2)
-     MUXCY_L:CI->LO       83   0.332   2.077  microblaze_0/Performance.Using_Debug.debug_combinded_carry_or_I/Using_FPGA.MUXCY_I (microblaze_0/Performance.ib_ready)
-     LUT2:I1->O           65   0.373   1.936  microblaze_0/Performance.Decode_I/if_ready1 (microblaze_0/Performance.Decode_I/if_ready)
-     SRLC16E:CE                0.358          microblaze_0/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_41_0
+     FDRE:C->Q             4   0.633   1.421  microblaze_0/Performance.Decode_I/wb_gpr_write_addr_4 (microblaze_0/Performance.Decode_I/wb_gpr_write_addr_4)
+     LUT6:I0->O            1   0.373   0.682  microblaze_0/Performance.Decode_I/of_op2_read_addr[0]_wb_gpr_write_addr[0]_equal_29_o5_SW0 (N20)
+     LUT5:I4->O            2   0.373   1.014  microblaze_0/Performance.Decode_I/of_op2_read_addr[0]_wb_gpr_write_addr[0]_equal_29_o5 (microblaze_0/Performance.Decode_I/of_op2_read_addr[0]_wb_gpr_write_addr[0]_equal_29_o)
+     LUT6:I3->O            2   0.373   0.726  microblaze_0/Performance.Decode_I/OF_Op2_Sel<1>_SW0 (N10)
+     LUT5:I4->O            2   0.373   0.726  microblaze_0/Performance.Decode_I/OF_Op2_Sel<1>_1 (microblaze_0/Performance.Decode_I/OF_Op2_Sel<1>)
+     LUT5:I4->O           11   0.373   1.039  microblaze_0/Performance.Data_Flow_I/Operand_Select_I/Mmux_of_op21511 (microblaze_0/Performance.Data_Flow_I/Operand_Select_I/N20)
+     LUT6:I5->O            1   0.373   0.682  microblaze_0/Performance.Data_Flow_I/Operand_Select_I/Mmux_of_op28_SW0 (N48)
+     LUT6:I5->O            1   0.373   0.000  microblaze_0/Performance.Data_Flow_I/Operand_Select_I/Mmux_of_op28 (microblaze_0/Performance.Data_Flow_I/Operand_Select_I/of_op2<12>)
+     FDRE:D                    0.142          microblaze_0/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_12
     ----------------------------------------
-    Total                      9.004ns (2.772ns logic, 6.232ns route)
-                                       (30.8% logic, 69.2% route)
+    Total                      9.676ns (3.386ns logic, 6.290ns route)
+                                       (35.0% logic, 65.0% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'DBG_CLK'
@@ -3459,26 +3458,26 @@ Offset:              3.387ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'DCACHE_FSL_OUT_CLK'
-  Total number of paths / destination ports: 5966 / 399
+  Total number of paths / destination ports: 6001 / 399
 -------------------------------------------------------------------------
-Offset:              6.710ns (Levels of Logic = 5)
-  Source:            microblaze_0/Performance.Decode_I/wb_exception_kind_i_31 (FF)
+Offset:              6.842ns (Levels of Logic = 5)
+  Source:            microblaze_0/Performance.Decode_I/wb_exception_kind_i_29 (FF)
   Destination:       I_AS (PAD)
   Source Clock:      DCACHE_FSL_OUT_CLK rising
 
-  Data Path: microblaze_0/Performance.Decode_I/wb_exception_kind_i_31 to I_AS
+  Data Path: microblaze_0/Performance.Decode_I/wb_exception_kind_i_29 to I_AS
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             6   0.633   1.493  microblaze_0/Performance.Decode_I/wb_exception_kind_i_31 (microblaze_0/Performance.Decode_I/wb_exception_kind_i_31)
+     FDRE:C->Q            10   0.633   1.625  microblaze_0/Performance.Decode_I/wb_exception_kind_i_29 (microblaze_0/Performance.Decode_I/wb_exception_kind_i_29)
      LUT6:I0->O            2   0.373   0.726  microblaze_0/Performance.Decode_I/wb_dbg_exception1_1 (microblaze_0/Performance.Decode_I/wb_dbg_exception1)
      LUT2:I1->O            1   0.373   0.000  microblaze_0/Performance.Using_Debug.dbg_freeze_n1 (microblaze_0/Performance.Using_Debug.dbg_freeze_n)
      MUXCY_L:S->LO         1   0.330   0.000  microblaze_0/Performance.Using_Debug.combined_carry_and_I2/Using_FPGA.MUXCY_I (microblaze_0/Performance.Using_Debug.iside_data_strobe_combined2)
      MUXCY_L:CI->LO       83   0.332   2.077  microblaze_0/Performance.Using_Debug.debug_combinded_carry_or_I/Using_FPGA.MUXCY_I (microblaze_0/Performance.ib_ready)
      LUT6:I5->O            3   0.373   0.000  microblaze_0/Performance.Decode_I/ib_addr_strobe_i1 (I_AS)
     ----------------------------------------
-    Total                      6.710ns (2.414ns logic, 4.296ns route)
-                                       (36.0% logic, 64.0% route)
+    Total                      6.842ns (2.414ns logic, 4.428ns route)
+                                       (35.3% logic, 64.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'DBG_CLK'
@@ -3552,20 +3551,20 @@ Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------+---------+---------+---------+---------+
 DBG_CLK           |    6.391|         |         |         |
 DBG_UPDATE        |    4.825|         |         |         |
-DCACHE_FSL_OUT_CLK|    9.004|         |         |         |
+DCACHE_FSL_OUT_CLK|    9.676|         |         |         |
 ------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 185.00 secs
-Total CPU time to Xst completion: 184.84 secs
+Total REAL time to Xst completion: 55.00 secs
+Total CPU time to Xst completion: 55.53 secs
  
 --> 
 
-Total memory usage is 254308 kilobytes
+Total memory usage is 290224 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  831 (   0 filtered)
+Number of warnings :  829 (   0 filtered)
 Number of infos    :  127 (   0 filtered)
 

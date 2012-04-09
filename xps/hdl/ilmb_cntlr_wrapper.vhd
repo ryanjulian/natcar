@@ -73,7 +73,7 @@ begin
     generic map (
       C_BASEADDR => X"00000000",
       C_HIGHADDR => X"0000ffff",
-      C_MASK => X"00400000",
+      C_MASK => X"80000000",
       C_LMB_AWIDTH => 32,
       C_LMB_DWIDTH => 32
     )

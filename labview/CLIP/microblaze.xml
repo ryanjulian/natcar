@@ -3,6 +3,11 @@
   <FormatVersion>1.0</FormatVersion>
   <HDLName>system</HDLName><ImplementationList>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_timer_0_wrapper.ngc</Path>
+    <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_intc_0_wrapper.ngc</Path>
+    <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_5_wrapper.ngc</Path>
+    <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_4_wrapper.ngc</Path>
+    <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_3_wrapper.ngc</Path>
+    <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_2_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_1_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\xps_gpio_0_wrapper.ngc</Path>
     <Path>C:\Users\Ryan\Desktop\ee192\natcar\xps\implementation\system.ngc</Path>
@@ -159,6 +164,102 @@
 </Signal>
 <Signal Name="xps_gpio_1_GPIO2_IO_O_pin">
        <HDLName>xps_gpio_1_GPIO2_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_2_GPIO_IO_I_pin">
+       <HDLName>xps_gpio_2_GPIO_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_2_GPIO_IO_O_pin">
+       <HDLName>xps_gpio_2_GPIO_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_2_GPIO2_IO_I_pin">
+       <HDLName>xps_gpio_2_GPIO2_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_2_GPIO2_IO_O_pin">
+       <HDLName>xps_gpio_2_GPIO2_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_3_GPIO_IO_I_pin">
+       <HDLName>xps_gpio_3_GPIO_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_3_GPIO_IO_O_pin">
+       <HDLName>xps_gpio_3_GPIO_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_3_GPIO2_IO_I_pin">
+       <HDLName>xps_gpio_3_GPIO2_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_3_GPIO2_IO_O_pin">
+       <HDLName>xps_gpio_3_GPIO2_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_4_GPIO_IO_I_pin">
+       <HDLName>xps_gpio_4_GPIO_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_4_GPIO_IO_O_pin">
+       <HDLName>xps_gpio_4_GPIO_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_4_GPIO2_IO_I_pin">
+       <HDLName>xps_gpio_4_GPIO2_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_4_GPIO2_IO_O_pin">
+       <HDLName>xps_gpio_4_GPIO2_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_5_GPIO_IO_I_pin">
+       <HDLName>xps_gpio_5_GPIO_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_5_GPIO_IO_O_pin">
+       <HDLName>xps_gpio_5_GPIO_IO_O_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>FromCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_5_GPIO2_IO_I_pin">
+       <HDLName>xps_gpio_5_GPIO2_IO_I_pin </HDLName>  
+       <DataType><I32/></DataType>
+       <Direction>ToCLIP</Direction>
+        <SignalType>data</SignalType>
+</Signal>
+<Signal Name="xps_gpio_5_GPIO2_IO_O_pin">
+       <HDLName>xps_gpio_5_GPIO2_IO_O_pin </HDLName>  
        <DataType><I32/></DataType>
        <Direction>FromCLIP</Direction>
         <SignalType>data</SignalType>

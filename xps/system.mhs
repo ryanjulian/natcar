@@ -38,6 +38,22 @@
  PORT xps_gpio_1_GPIO_IO_O_pin = xps_gpio_1_GPIO_IO_O, DIR = O, VEC = [31:0]
  PORT xps_gpio_1_GPIO2_IO_I_pin = xps_gpio_1_GPIO2_IO_I, DIR = I, VEC = [31:0]
  PORT xps_gpio_1_GPIO2_IO_O_pin = xps_gpio_1_GPIO2_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_2_GPIO_IO_I_pin = xps_gpio_2_GPIO_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_2_GPIO_IO_O_pin = xps_gpio_2_GPIO_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_2_GPIO2_IO_I_pin = xps_gpio_2_GPIO2_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_2_GPIO2_IO_O_pin = xps_gpio_2_GPIO2_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_3_GPIO_IO_I_pin = xps_gpio_3_GPIO_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_3_GPIO_IO_O_pin = xps_gpio_3_GPIO_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_3_GPIO2_IO_I_pin = xps_gpio_3_GPIO2_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_3_GPIO2_IO_O_pin = xps_gpio_3_GPIO2_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_4_GPIO_IO_I_pin = xps_gpio_4_GPIO_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_4_GPIO_IO_O_pin = xps_gpio_4_GPIO_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_4_GPIO2_IO_I_pin = xps_gpio_4_GPIO2_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_4_GPIO2_IO_O_pin = xps_gpio_4_GPIO2_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_5_GPIO_IO_I_pin = xps_gpio_5_GPIO_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_5_GPIO_IO_O_pin = xps_gpio_5_GPIO_IO_O, DIR = O, VEC = [31:0]
+ PORT xps_gpio_5_GPIO2_IO_I_pin = xps_gpio_5_GPIO2_IO_I, DIR = I, VEC = [31:0]
+ PORT xps_gpio_5_GPIO2_IO_O_pin = xps_gpio_5_GPIO2_IO_O, DIR = O, VEC = [31:0]
 
 
 BEGIN microblaze
@@ -46,12 +62,13 @@ BEGIN microblaze
  PARAMETER C_USE_FPU = 1
  PARAMETER C_DEBUG_ENABLED = 1
  PARAMETER HW_VER = 8.00.b
- BUS_INTERFACE DLMB = dlmb
- BUS_INTERFACE ILMB = ilmb
  BUS_INTERFACE DPLB = mb_plb
  BUS_INTERFACE IPLB = mb_plb
  BUS_INTERFACE DEBUG = microblaze_0_mdm_bus
+ BUS_INTERFACE DLMB = dlmb
+ BUS_INTERFACE ILMB = ilmb
  PORT MB_RESET = mb_reset
+ PORT INTERRUPT = xps_intc_0_Irq
 END
 
 BEGIN plb_v46
@@ -148,8 +165,8 @@ END
 BEGIN xps_gpio
  PARAMETER INSTANCE = xps_gpio_0
  PARAMETER HW_VER = 2.00.a
- PARAMETER C_BASEADDR = 0x81420000
- PARAMETER C_HIGHADDR = 0x8142ffff
+ PARAMETER C_BASEADDR = 0x814a0000
+ PARAMETER C_HIGHADDR = 0x814affff
  BUS_INTERFACE SPLB = mb_plb
  PORT GPIO_IO_O = xps_gpio_0_GPIO_IO_O
 END
@@ -161,6 +178,7 @@ BEGIN xps_timer
  PARAMETER C_HIGHADDR = 0x83c0ffff
  BUS_INTERFACE SPLB = mb_plb
  PORT PWM0 = xps_timer_0_PWM0
+ PORT Interrupt = xps_timer_0_Interrupt
 END
 
 BEGIN ipic_test
@@ -186,12 +204,74 @@ BEGIN xps_gpio
  PARAMETER INSTANCE = xps_gpio_1
  PARAMETER HW_VER = 2.00.a
  PARAMETER C_IS_DUAL = 1
- PARAMETER C_BASEADDR = 0x81400000
- PARAMETER C_HIGHADDR = 0x8140ffff
+ PARAMETER C_BASEADDR = 0x81480000
+ PARAMETER C_HIGHADDR = 0x8148ffff
  BUS_INTERFACE SPLB = mb_plb
  PORT GPIO_IO_I = xps_gpio_1_GPIO_IO_I
  PORT GPIO_IO_O = xps_gpio_1_GPIO_IO_O
  PORT GPIO2_IO_I = xps_gpio_1_GPIO2_IO_I
  PORT GPIO2_IO_O = xps_gpio_1_GPIO2_IO_O
+END
+
+BEGIN xps_gpio
+ PARAMETER INSTANCE = xps_gpio_2
+ PARAMETER HW_VER = 2.00.a
+ PARAMETER C_IS_DUAL = 1
+ PARAMETER C_BASEADDR = 0x81460000
+ PARAMETER C_HIGHADDR = 0x8146ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT GPIO_IO_I = xps_gpio_2_GPIO_IO_I
+ PORT GPIO_IO_O = xps_gpio_2_GPIO_IO_O
+ PORT GPIO2_IO_I = xps_gpio_2_GPIO2_IO_I
+ PORT GPIO2_IO_O = xps_gpio_2_GPIO2_IO_O
+END
+
+BEGIN xps_gpio
+ PARAMETER INSTANCE = xps_gpio_3
+ PARAMETER HW_VER = 2.00.a
+ PARAMETER C_IS_DUAL = 1
+ PARAMETER C_BASEADDR = 0x81440000
+ PARAMETER C_HIGHADDR = 0x8144ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT GPIO_IO_I = xps_gpio_3_GPIO_IO_I
+ PORT GPIO_IO_O = xps_gpio_3_GPIO_IO_O
+ PORT GPIO2_IO_I = xps_gpio_3_GPIO2_IO_I
+ PORT GPIO2_IO_O = xps_gpio_3_GPIO2_IO_O
+END
+
+BEGIN xps_gpio
+ PARAMETER INSTANCE = xps_gpio_4
+ PARAMETER HW_VER = 2.00.a
+ PARAMETER C_IS_DUAL = 1
+ PARAMETER C_BASEADDR = 0x81420000
+ PARAMETER C_HIGHADDR = 0x8142ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT GPIO_IO_I = xps_gpio_4_GPIO_IO_I
+ PORT GPIO_IO_O = xps_gpio_4_GPIO_IO_O
+ PORT GPIO2_IO_I = xps_gpio_4_GPIO2_IO_I
+ PORT GPIO2_IO_O = xps_gpio_4_GPIO2_IO_O
+END
+
+BEGIN xps_intc
+ PARAMETER INSTANCE = xps_intc_0
+ PARAMETER HW_VER = 2.01.a
+ PARAMETER C_BASEADDR = 0x81800000
+ PARAMETER C_HIGHADDR = 0x8180ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT Intr = xps_timer_0_Interrupt
+ PORT Irq = xps_intc_0_Irq
+END
+
+BEGIN xps_gpio
+ PARAMETER INSTANCE = xps_gpio_5
+ PARAMETER HW_VER = 2.00.a
+ PARAMETER C_IS_DUAL = 1
+ PARAMETER C_BASEADDR = 0x81400000
+ PARAMETER C_HIGHADDR = 0x8140ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT GPIO_IO_I = xps_gpio_5_GPIO_IO_I
+ PORT GPIO_IO_O = xps_gpio_5_GPIO_IO_O
+ PORT GPIO2_IO_I = xps_gpio_5_GPIO2_IO_I
+ PORT GPIO2_IO_O = xps_gpio_5_GPIO2_IO_O
 END
 
