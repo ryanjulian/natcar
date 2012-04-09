@@ -1,6 +1,6 @@
 [My Computer]
-My Computer = "192.168.1.4"
+My Computer = "10.10.64.80"
 
 [rapunzel]
-rapunzel = "169.254.192.10"
+rapunzel = "192.168.1.102"
 
