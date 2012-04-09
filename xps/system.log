@@ -11707,3 +11707,133 @@ Done writing filter settings to:
 	C:\Users\Ryan\Desktop\ee192\natcar\xps\etc\system.filters
 Done writing Tab View settings to:
 	C:\Users\Ryan\Desktop\ee192\natcar\xps\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Generated Block Diagram.
+Diagram Controls
+Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
+Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+
+********************************************************************************
+At Local date and time: Sun Apr 08 21:29:25 2012
+ make -f system.make exporttosdk started...
+mkdir -p SDK/SDK_Export/hw
+psf2Edward.exe -inp system.xmp -edwver 1.2 -xml SDK/SDK_Export/hw/system.xml 
+Release 12.4 - psf2Edward EDK_MS4.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb -
+C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 74 - 2 master(s) : 10
+slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 81 - 1 master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb - C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs
+line 88 - 1 master(s) : 1 slave(s)
+
+Checking port drivers...
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 386 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:ICE CONNECTOR:ilmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 387 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:IUE CONNECTOR:ilmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 388 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 424 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DCE CONNECTOR:dlmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 425 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DUE CONNECTOR:dlmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 426 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 229 - floating connection!
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   C:\Users\Ryan\Desktop\ee192\natcar\xps\system.mhs line 162 - floating
+   connection!
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Conversion to XML complete.
+xdsgen.exe -inp system.xmp -report SDK/SDK_Export/hw/system.html  -make_docs_local
+Release 12.4 - xdsgen EDK_MS4.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Generated Block Diagram.
+Rasterizing microblaze_0.jpg.....
+Rasterizing mb_plb.jpg.....
+Rasterizing ilmb.jpg.....
+Rasterizing dlmb.jpg.....
+Rasterizing dlmb_cntlr.jpg.....
+Rasterizing ilmb_cntlr.jpg.....
+Rasterizing lmb_bram.jpg.....
+Rasterizing clock_generator_0.jpg.....
+Rasterizing mdm_0.jpg.....
+Rasterizing proc_sys_reset_0.jpg.....
+Rasterizing xps_gpio_0.jpg.....
+Rasterizing xps_timer_0.jpg.....
+Rasterizing ipic_test_0.jpg.....
+Rasterizing xps_gpio_1.jpg.....
+Rasterizing xps_gpio_2.jpg.....
+Rasterizing xps_gpio_3.jpg.....
+Rasterizing xps_gpio_4.jpg.....
+Rasterizing xps_intc_0.jpg.....
+Rasterizing xps_gpio_5.jpg.....
+Rasterizing system_blkd.jpg.....
+Report generated.
+Report generation completed.
+
+WARNING: The option to export bit and bmm files to SDK is set to false. Existing bit and bmm files in the SDK/SDK_Export/hw directory (if any) will be deleted.
+
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	C:\Users\Ryan\Desktop\ee192\natcar\xps\etc\system.filters
+Done writing Tab View settings to:
+	C:\Users\Ryan\Desktop\ee192\natcar\xps\etc\system.gui
