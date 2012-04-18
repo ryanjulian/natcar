@@ -1,0 +1,11 @@
+-p
+xc6slx45csg324-2
+-lang
+vhdl
+-toplevel
+no
+-ti
+system_i
+-msg
+__xps/ise/xmsgprops.lst
+system.mhs

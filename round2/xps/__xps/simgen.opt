@@ -1,0 +1,1 @@
+ -p spartan6 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT)   TestApp_Memory_microblaze_0/executable.elf -msg __xps/ise/xmsgprops.lst -s mti -X C:/Users/Ryan/Desktop/ee192/natcar/xps/

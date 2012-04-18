@@ -1,0 +1,12 @@
+elfcheck
+Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../microblaze/system.xml -pe microblaze_0
+natcar.elf 
+
+ELF file	: natcar.elf
+elfcheck passed.
+Warning: VC++ 2005 runtime libraries are not installed.
+Please install the runtime libraries by running the redistributable C:\Xilinx\12.4\ISE_DS\common\bin\nt\vcredist_x86.exe from the installed area.
+You will need to have adminstrative privilege to run VC++ 2005 Redistributable.

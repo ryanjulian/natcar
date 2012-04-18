@@ -1,0 +1,576 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "ipic_test_0_wrapper_xst.prj"
+Verilog Include Directory          : {"C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc6slx45csg324-2
+Output File Name                   : "../implementation/ipic_test_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : ipic_test_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/ipic_test_0_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" into library proc_common_v3_00_a
+Parsing package <proc_common_pkg>.
+Parsing package body <proc_common_pkg>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" into library proc_common_v3_00_a
+Parsing package <ipif_pkg>.
+Parsing package body <ipif_pkg>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" into library proc_common_v3_00_a
+Parsing entity <or_muxcy>.
+Parsing architecture <implementation> of entity <or_muxcy>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd" into library proc_common_v3_00_a
+Parsing entity <or_gate128>.
+Parsing architecture <imp> of entity <or_gate128>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" into library proc_common_v3_00_a
+Parsing package <family_support>.
+Parsing package body <family_support>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" into library proc_common_v3_00_a
+Parsing entity <pselect_f>.
+Parsing architecture <imp> of entity <pselect_f>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" into library proc_common_v3_00_a
+Parsing entity <counter_f>.
+Parsing architecture <imp> of entity <counter_f>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" into library plbv46_slave_single_v1_01_a
+Parsing entity <plb_address_decoder>.
+Parsing architecture <IMP> of entity <plb_address_decoder>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" into library plbv46_slave_single_v1_01_a
+Parsing entity <plb_slave_attachment>.
+Parsing architecture <implementation> of entity <plb_slave_attachment>.
+Parsing VHDL file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd" into library plbv46_slave_single_v1_01_a
+Parsing entity <plbv46_slave_single>.
+Parsing architecture <implementation> of entity <plbv46_slave_single>.
+Parsing VHDL file "C:/Users/Ryan/Desktop/ee192/natcar/xps/pcores/ipic_test_v1_00_a/hdl/vhdl/user_logic.vhd" into library ipic_test_v1_00_a
+Parsing entity <user_logic>.
+Parsing architecture <IMP> of entity <user_logic>.
+Parsing VHDL file "C:/Users/Ryan/Desktop/ee192/natcar/xps/pcores/ipic_test_v1_00_a/hdl/vhdl/ipic_test.vhd" into library ipic_test_v1_00_a
+Parsing entity <ipic_test>.
+Parsing architecture <IMP> of entity <ipic_test>.
+Parsing VHDL file "\Users\Ryan\Desktop\ee192\natcar\xps\synthesis\../hdl/ipic_test_0_wrapper.vhd" into library work
+Parsing entity <ipic_test_0_wrapper>.
+Parsing architecture <STRUCTURE> of entity <ipic_test_0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <ipic_test_0_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <ipic_test> (architecture <IMP>) with generics from library <ipic_test_v1_00_a>.
+
+Elaborating entity <plbv46_slave_single> (architecture <implementation>) with generics from library <plbv46_slave_single_v1_01_a>.
+
+Elaborating entity <plb_slave_attachment> (architecture <implementation>) with generics from library <plbv46_slave_single_v1_01_a>.
+
+Elaborating entity <plb_address_decoder> (architecture <IMP>) with generics from library <plbv46_slave_single_v1_01_a>.
+WARNING:HDLCompiler:1127 - "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" Line 319: Assignment to cs_s_h_clr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" Line 323: Assignment to addr_match_clr ignored, since the identifier is never used
+
+Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
+
+Elaborating entity <or_gate128> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
+
+Elaborating entity <or_muxcy> (architecture <implementation>) with generics from library <proc_common_v3_00_a>.
+INFO:HDLCompiler:679 - "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" Line 711. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:1127 - "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" Line 1025: Assignment to start_data_phase ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ipic_test_0_wrapper>.
+    Related source file is "/users/ryan/desktop/ee192/natcar/xps/hdl/ipic_test_0_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <ipic_test_0_wrapper> synthesized.
+
+Synthesizing Unit <ipic_test>.
+    Related source file is "c:/users/ryan/desktop/ee192/natcar/xps/pcores/ipic_test_v1_00_a/hdl/vhdl/ipic_test.vhd".
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+        C_SPLB_AWIDTH = 32
+        C_SPLB_DWIDTH = 32
+        C_SPLB_NUM_MASTERS = 2
+        C_SPLB_MID_WIDTH = 1
+        C_SPLB_NATIVE_DWIDTH = 32
+        C_SPLB_P2P = 0
+        C_SPLB_SUPPORT_BURSTS = 0
+        C_SPLB_SMALLEST_MASTER = 32
+        C_SPLB_CLK_PERIOD_PS = 25000
+        C_INCLUDE_DPHASE_TIMER = 0
+        C_FAMILY = "spartan6"
+        C_MEM0_BASEADDR = "11000000010000000000000000000000"
+        C_MEM0_HIGHADDR = "11000000010000001111111111111111"
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/pcores/ipic_test_v1_00_a/hdl/vhdl/ipic_test.vhd" line 313: Output port <Bus2IP_RdCE> of the instance <PLBV46_SLAVE_SINGLE_I> is unconnected or connected to loadless signal.
+INFO:Xst:3010 - "c:/users/ryan/desktop/ee192/natcar/xps/pcores/ipic_test_v1_00_a/hdl/vhdl/ipic_test.vhd" line 313: Output port <Bus2IP_WrCE> of the instance <PLBV46_SLAVE_SINGLE_I> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <ipic_test> synthesized.
+
+Synthesizing Unit <plbv46_slave_single>.
+    Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd".
+        C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011000000010000000000000000000000","0000000000000000000000000000000011000000010000001111111111111111")
+        C_ARD_NUM_CE_ARRAY = (1)
+        C_SPLB_P2P = 0
+        C_BUS2CORE_CLK_RATIO = 1
+        C_INCLUDE_DPHASE_TIMER = 0
+        C_SPLB_MID_WIDTH = 1
+        C_SPLB_NUM_MASTERS = 2
+        C_SPLB_AWIDTH = 32
+        C_SPLB_DWIDTH = 32
+        C_SIPIF_DWIDTH = 32
+        C_FAMILY = "spartan6"
+WARNING:Xst:647 - Input <PLB_MSize<0:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrPendPri<0:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdPendPri<0:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_reqPri<0:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_TAttribute<0:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_SAValid> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdPrim> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrPrim> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_abort> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_busLock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_lockErr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrBurst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdBurst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrPendReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdPendReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <plbv46_slave_single> synthesized.
+
+Synthesizing Unit <plb_slave_attachment>.
+    Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd".
+        C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011000000010000000000000000000000","0000000000000000000000000000000011000000010000001111111111111111")
+        C_ARD_NUM_CE_ARRAY = (1)
+        C_PLB_NUM_MASTERS = 2
+        C_PLB_MID_WIDTH = 1
+        C_SPLB_P2P = 0
+        C_BUS2CORE_CLK_RATIO = 1
+        C_IPIF_ABUS_WIDTH = 32
+        C_IPIF_DBUS_WIDTH = 32
+        C_DPHASE_TIMEOUT = 128
+        C_INCLUDE_DPHASE_TIMER = 0
+        C_FAMILY = "spartan6"
+WARNING:Xst:647 - Input <PLB_UABus<0:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Register <set_sl_busy> equivalent to <sl_addrack_i> has been removed
+    Register <wr_clear_sl_busy> equivalent to <sl_wrdack_i> has been removed
+    Register <sl_wrcomp_i> equivalent to <sl_wrdack_i> has been removed
+    Register <sl_rdcomp_i> equivalent to <rd_clear_sl_busy> has been removed
+    Register <sl_rddack_i> equivalent to <rd_clear_sl_busy> has been removed
+    Found 32-bit register for signal <plb_wrdbus_reg>.
+    Found 1-bit register for signal <plb_masterid_reg>.
+    Found 1-bit register for signal <plb_rnw_reg>.
+    Found 4-bit register for signal <plb_size_reg>.
+    Found 3-bit register for signal <plb_type_reg>.
+    Found 1-bit register for signal <plb_pavalid_reg>.
+    Found 32-bit register for signal <plb_abus_reg>.
+    Found 1-bit register for signal <GEN_FOR_SHARED.addr_cntl_cs>.
+    Found 1-bit register for signal <sl_addrack_i>.
+    Found 1-bit register for signal <sl_rearbitrate_i>.
+    Found 1-bit register for signal <addr_cycle_flush>.
+    Found 32-bit register for signal <master_id>.
+    Found 1-bit register for signal <sl_busy>.
+    Found 2-bit register for signal <sl_mbusy_i>.
+    Found 2-bit register for signal <sl_mrderr_i>.
+    Found 2-bit register for signal <sl_mwrerr_i>.
+    Found 1-bit register for signal <sl_wrdack_i>.
+    Found 1-bit register for signal <rd_clear_sl_busy>.
+    Found 32-bit register for signal <sl_rddbus_i>.
+    Found 1-bit register for signal <bus2ip_rnw_i>.
+    Found 4-bit register for signal <bus2ip_be_i>.
+    Found 32-bit register for signal <bus2ip_addr_i>.
+    Found 4-bit register for signal <plb_be_reg>.
+    Summary:
+	inferred 192 D-type flip-flop(s).
+	inferred  11 Multiplexer(s).
+Unit <plb_slave_attachment> synthesized.
+
+Synthesizing Unit <plb_address_decoder>.
+    Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd".
+        C_BUS_AWIDTH = 32
+        C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011000000010000000000000000000000","0000000000000000000000000000000011000000010000001111111111111111")
+        C_ARD_NUM_CE_ARRAY = (1)
+        C_SPLB_P2P = 0
+        C_FAMILY = "nofamily"
+WARNING:Xst:647 - Input <Address_In_Erly<0:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Address_Valid_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Bus_RNW_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <MEM_DECODE_GEN[0].GEN_PLB_SHARED.cs_out_s_h>.
+    Found 1-bit register for signal <cs_out_i>.
+    Found 1-bit register for signal <decode_hit_reg>.
+    Found 1-bit register for signal <rdce_out_i>.
+    Found 1-bit register for signal <wrce_out_i>.
+    Found 1-bit register for signal <rnw_s_h>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <plb_address_decoder> synthesized.
+
+Synthesizing Unit <pselect_f>.
+    Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+        C_AB = 16
+        C_AW = 32
+        C_BAR = "11000000010000000000000000000000"
+        C_FAMILY = "nofamily"
+WARNING:Xst:647 - Input <A<16:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <pselect_f> synthesized.
+
+Synthesizing Unit <or_gate128>.
+    Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd".
+        C_OR_WIDTH = 1
+        C_BUS_WIDTH = 1
+        C_USE_LUT_OR = false
+    Summary:
+	no macro.
+Unit <or_gate128> synthesized.
+
+Synthesizing Unit <or_muxcy>.
+    Related source file is "c:/xilinx/12.4/ise_ds/edk/hw/xilinxprocessoriplib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd".
+        C_NUM_BITS = 1
+    Summary:
+	no macro.
+Unit <or_muxcy> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 29
+ 1-bit register                                        : 17
+ 2-bit register                                        : 3
+ 3-bit register                                        : 1
+ 32-bit register                                       : 5
+ 4-bit register                                        : 3
+# Multiplexers                                         : 12
+ 1-bit 2-to-1 multiplexer                              : 11
+ 2-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 198
+ Flip-Flops                                            : 198
+# Multiplexers                                         : 11
+ 1-bit 2-to-1 multiplexer                              : 10
+ 2-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch master_id_31 hinder the constant cleaning in the block plb_slave_attachment.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <master_id_30> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_29> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_28> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_27> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_26> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_25> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_24> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_23> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_22> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_21> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_20> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_19> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_18> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_17> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_16> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_15> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_14> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_13> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_12> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_11> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_10> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_9> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_8> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_7> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_6> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_5> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_4> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_3> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_2> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <master_id_1> has a constant value of 0 in block <plb_slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <GEN_FOR_SHARED.addr_cntl_cs> in Unit <plb_slave_attachment> is equivalent to the following FF/Latch, which will be removed : <addr_cycle_flush> 
+
+Optimizing unit <ipic_test_0_wrapper> ...
+
+Optimizing unit <plb_slave_attachment> ...
+
+Optimizing unit <plb_address_decoder> ...
+WARNING:Xst:2677 - Node <ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0> of sequential type is unconnected in block <ipic_test_0_wrapper>.
+WARNING:Xst:2677 - Node <ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0> of sequential type is unconnected in block <ipic_test_0_wrapper>.
+WARNING:Xst:2677 - Node <ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h> of sequential type is unconnected in block <ipic_test_0_wrapper>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block ipic_test_0_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 164
+ Flip-Flops                                            : 164
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ipic_test_0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 26
+#      GND                         : 1
+#      LUT2                        : 4
+#      LUT3                        : 3
+#      LUT4                        : 5
+#      LUT5                        : 3
+#      LUT6                        : 10
+# FlipFlops/Latches                : 164
+#      FD                          : 3
+#      FDR                         : 123
+#      FDRE                        : 38
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             164  out of  54576     0%  
+ Number of Slice LUTs:                   25  out of  27288     0%  
+    Number used as Logic:                25  out of  27288     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    174
+   Number with an unused Flip Flop:      10  out of    174     5%  
+   Number with an unused LUT:           149  out of    174    85%  
+   Number of fully used LUT-FF pairs:    15  out of    174     8%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                         312
+ Number of bonded IOBs:                   0  out of    218     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                     | Load  |
+-----------------------------------+---------------------------------------------------------------------------+-------+
+ipif_Bus2IP_Clk                    | NONE(ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0)| 164   |
+-----------------------------------+---------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.131ns (Maximum Frequency: 242.072MHz)
+   Minimum input arrival time before clock: 2.822ns
+   Maximum output required time after clock: 0.633ns
+   Maximum combinational path delay: 0.000ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ipif_Bus2IP_Clk'
+  Clock period: 4.131ns (frequency: 242.072MHz)
+  Total number of paths / destination ports: 240 / 97
+-------------------------------------------------------------------------
+Delay:               4.131ns (Levels of Logic = 2)
+  Source:            ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs (FF)
+  Destination:       ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs (FF)
+  Source Clock:      ipif_Bus2IP_Clk rising
+  Destination Clock: ipif_Bus2IP_Clk rising
+
+  Data Path: ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs to ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.633   1.327  ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs (ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs)
+     LUT6:I1->O            1   0.373   1.283  ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.rearbitrate_condition1_SW0 (N8)
+     LUT6:I1->O            1   0.373   0.000  ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/Mmux_GEN_FOR_SHARED.addr_cntl_ns_GND_14_o_MUX_64_o11 (ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_ns_GND_14_o_MUX_64_o)
+     FD:D                      0.142          ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs
+    ----------------------------------------
+    Total                      4.131ns (1.521ns logic, 2.610ns route)
+                                       (36.8% logic, 63.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ipif_Bus2IP_Clk'
+  Total number of paths / destination ports: 394 / 282
+-------------------------------------------------------------------------
+Offset:              2.822ns (Levels of Logic = 1)
+  Source:            SPLB_Rst (PAD)
+  Destination:       ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0 (FF)
+  Destination Clock: ipif_Bus2IP_Clk rising
+
+  Data Path: SPLB_Rst to ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT3:I0->O           38   0.373   1.619  ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/Bus_Reset_data_ack_OR_73_o1 (ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/Bus_Reset_data_ack_OR_73_o)
+     FDRE:R                    0.541          ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i
+    ----------------------------------------
+    Total                      2.822ns (1.203ns logic, 1.619ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ipif_Bus2IP_Clk'
+  Total number of paths / destination ports: 114 / 114
+-------------------------------------------------------------------------
+Offset:              0.633ns (Levels of Logic = 0)
+  Source:            ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0 (FF)
+  Destination:       Sl_rdDBus<0> (PAD)
+  Source Clock:      ipif_Bus2IP_Clk rising
+
+  Data Path: ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0 to Sl_rdDBus<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              0   0.633   0.000  ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0 (ipic_test_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0)
+    ----------------------------------------
+    Total                      0.633ns (0.633ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               0.000ns (Levels of Logic = 0)
+  Source:            SPLB_Clk (PAD)
+  Destination:       ipif_Bus2IP_Clk (PAD)
+
+  Data Path: SPLB_Clk to ipif_Bus2IP_Clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    ----------------------------------------
+    Total                      0.000ns (0.000ns logic, 0.000ns route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock ipif_Bus2IP_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ipif_Bus2IP_Clk|    4.131|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.72 secs
+ 
+--> 
+
+Total memory usage is 194544 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   61 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

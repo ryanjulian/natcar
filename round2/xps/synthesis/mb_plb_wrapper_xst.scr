@@ -1,0 +1,13 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc6slx45csg324-2
+-top mb_plb_wrapper
+-ifmt MIXED
+-ifn mb_plb_wrapper_xst.prj
+-ofn ../implementation/mb_plb_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation/mb_plb_wrapper}
+-vlgincdir {"C:\Users\Ryan\Desktop\ee192\natcar\xps\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
